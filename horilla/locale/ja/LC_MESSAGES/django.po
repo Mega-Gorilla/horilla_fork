@@ -211,7 +211,7 @@ msgstr "従業員"
 #: accessibility/filters.py:47 payroll/models/models.py:761
 #: payroll/models/models.py:1098
 msgid "Exclude Employees"
-msgstr ""
+msgstr "従業員を除外"
 
 #: accessibility/filters.py:51
 #: attendance/templates/attendance/attendance/attendance_filters.html:31
@@ -465,7 +465,7 @@ msgstr "従業員区分"
 #: payroll/templates/payroll/contract/filter_contract.html:78
 #: report/templates/report/employee_report.html:81 templates/settings.html:199
 msgid "Job Role"
-msgstr ""
+msgstr "職務"
 
 #: accessibility/filters.py:56 asset/models.py:30 asset/models.py:60
 #: attendance/forms.py:542 attendance/models.py:827 attendance/models.py:863
@@ -649,11 +649,11 @@ msgstr "権限"
 
 #: accessibility/templates/accessibility/accessibility.html:10
 msgid "Default Accessibility"
-msgstr ""
+msgstr "デフォルトアクセシビリティ"
 
 #: accessibility/templates/accessibility/accessibility.html:11
 msgid "Limit default view access to horilla feature"
-msgstr ""
+msgstr "Horilla機能へのデフォルト表示アクセスを制限"
 
 #: accessibility/templates/accessibility/accessibility.html:31
 #: asset/templates/asset/asset_list.html:31
@@ -881,7 +881,7 @@ msgstr "操作"
 #: accessibility/templates/accessibility/accessibility.html:53
 #: dynamic_fields/templates/dynamic_fields/df.html:31
 msgid "You won't be able to revert this!"
-msgstr ""
+msgstr "この操作は元に戻せません！"
 
 #: accessibility/templates/accessibility/accessibility.html:58
 #: base/methods.py:711 base/templatetags/horillafilters.py:272
@@ -901,15 +901,15 @@ msgstr "はい"
 
 #: accessibility/templates/accessibility/accessibility.html:58
 msgid "Clear it"
-msgstr ""
+msgstr "クリア"
 
 #: accessibility/templates/accessibility/accessibility.html:69
 msgid "Clear Filter"
-msgstr ""
+msgstr "フィルタをクリア"
 
 #: accessibility/templates/accessibility/accessibility.html:81
 msgid "Restrict All"
-msgstr ""
+msgstr "すべて制限"
 
 #: accessibility/templates/accessibility/accessibility.html:109
 msgid ""
@@ -919,7 +919,7 @@ msgstr ""
 
 #: accessibility/templates/accessibility/accessibility.html:109
 msgid "feature"
-msgstr ""
+msgstr "機能"
 
 #: accessibility/templates/accessibility/accessibility.html:111
 msgid ""
@@ -929,24 +929,24 @@ msgstr ""
 
 #: accessibility/views.py:36
 msgid "Accessibility filter saved"
-msgstr ""
+msgstr "アクセシビリティフィルタが保存されました"
 
 #: accessibility/views.py:38
 msgid "All filter cleared"
-msgstr ""
+msgstr "すべてのフィルタをクリアしました"
 
 #: asset/forms.py:80
 msgid "---Choose Batch No.---"
-msgstr ""
+msgstr "---バッチ番号を選択---"
 
 #: asset/forms.py:83
 msgid "Create new batch number"
-msgstr ""
+msgstr "新しいバッチ番号を作成"
 
 #: asset/forms.py:261 asset/models.py:259
 #: asset/templates/asset_history/asset_history_single_view.html:105
 msgid "Assign Condition Images"
-msgstr ""
+msgstr "割り当て条件の画像"
 
 #: asset/forms.py:326
 msgid "on returns the laptop. However, it has suffered minor damage."
@@ -955,11 +955,11 @@ msgstr ""
 #: asset/forms.py:342
 #: asset/templates/asset_history/asset_history_single_view.html:126
 msgid "Return Condition Images"
-msgstr ""
+msgstr "返却条件の画像"
 
 #: asset/forms.py:362
 msgid "Return date cannot be in the future."
-msgstr ""
+msgstr "返却日を未来の日付にすることはできません。"
 
 #: asset/models.py:24 base/forms.py:2705 base/models.py:73 base/models.py:1727
 #: biometric/models.py:64 biometric/templates/biometric/edit_cosec_user.html:26
@@ -1069,28 +1069,28 @@ msgstr "説明"
 #: asset/templates/request_allocation/group_by.html:328
 #: employee/templates/tabs/asset_request_tab.html:13
 msgid "Asset Category"
-msgstr ""
+msgstr "資産カテゴリ"
 
 #: asset/models.py:39
 msgid "Asset Categories"
-msgstr ""
+msgstr "資産カテゴリ"
 
 #: asset/models.py:55 asset/templates/batch/asset_batch_number_list.html:18
 #: asset/templates/category/asset_filter_export.html:50
 msgid "Batch Number"
-msgstr ""
+msgstr "バッチ番号"
 
 #: asset/models.py:69
 msgid "Asset Batch"
-msgstr ""
+msgstr "資産バッチ"
 
 #: asset/models.py:70 asset/sidebar.py:23
 msgid "Asset Batches"
-msgstr ""
+msgstr "資産バッチ"
 
 #: asset/models.py:82
 msgid "In Use"
-msgstr ""
+msgstr "使用中"
 
 #: asset/models.py:83
 #: base/templates/shift_request/htmx/allocation_details.html:77
@@ -1099,11 +1099,11 @@ msgstr ""
 #: base/templates/shift_request/htmx/requests.html:350
 #: base/templates/shift_request/htmx/requests.html:438
 msgid "Available"
-msgstr ""
+msgstr "利用可能"
 
 #: asset/models.py:84
 msgid "Not-Available"
-msgstr ""
+msgstr "利用不可"
 
 #: asset/models.py:86 asset/templates/category/asset_category_view.html:118
 #: asset/templates/category/asset_filter_export.html:24
@@ -1111,11 +1111,11 @@ msgstr ""
 #: asset/templates/request_allocation/individual_own.html:30
 #: report/templates/report/asset_report.html:47
 msgid "Asset Name"
-msgstr ""
+msgstr "資産名"
 
 #: asset/models.py:92
 msgid "Current User"
-msgstr ""
+msgstr "現在のユーザー"
 
 #: asset/models.py:98 asset/templates/asset/asset_information.html:67
 #: asset/templates/asset/asset_list.html:28
@@ -1124,17 +1124,17 @@ msgstr ""
 #: asset/templates/request_allocation/individual_own.html:46
 #: report/templates/report/asset_report.html:51
 msgid "Tracking Id"
-msgstr ""
+msgstr "追跡ID"
 
 #: asset/models.py:100 asset/templates/asset/asset_information.html:73
 #: asset/templates/category/asset_category_view.html:129
 #: report/templates/report/asset_report.html:58
 msgid "Purchase Date"
-msgstr ""
+msgstr "購入日"
 
 #: asset/models.py:102 asset/templates/asset/asset_information.html:80
 msgid "Cost"
-msgstr ""
+msgstr "費用"
 
 #: asset/models.py:105 asset/templates/asset/asset_information.html:105
 #: asset/templates/category/asset_category_view.html:145
@@ -1295,17 +1295,17 @@ msgstr "ステータス"
 #: asset/templates/asset/asset_list.html:29
 #: asset/templates/request_allocation/individual_own.html:78
 msgid "Batch No"
-msgstr ""
+msgstr "バッチ番号"
 
 #: asset/models.py:120
 #: asset/templates/request_allocation/asset_request_allocation_list.html:37
 #: horilla_documents/models.py:97
 msgid "Expiry Date"
-msgstr ""
+msgstr "有効期限"
 
 #: asset/models.py:122 employee/templates/tabs/htmx/document_form.html:49
 msgid "Notify Before (days)"
-msgstr ""
+msgstr "通知日数（日前）"
 
 #: asset/models.py:128 asset/models.py:224
 #: asset/templates/asset/asset_list.html:26
@@ -1348,40 +1348,40 @@ msgstr "資産"
 #: employee/templates/employee/view/individual.html:388
 #: employee/templates/employee/view/individual.html:391
 msgid "Assets"
-msgstr ""
+msgstr "資産"
 
 #: asset/models.py:144
 msgid "An asset with this tracking ID already exists."
-msgstr ""
+msgstr "この追跡IDの資産は既に存在します。"
 
 #: asset/models.py:195
 msgid "Asset Document"
-msgstr ""
+msgstr "資産ドキュメント"
 
 #: asset/models.py:196
 msgid "Asset Documents"
-msgstr ""
+msgstr "資産ドキュメント"
 
 #: asset/models.py:219
 msgid "Minor damage"
-msgstr ""
+msgstr "軽微な損傷"
 
 #: asset/models.py:220
 msgid "Major damage"
-msgstr ""
+msgstr "重大な損傷"
 
 #: asset/models.py:221
 msgid "Healthy"
-msgstr ""
+msgstr "正常"
 
 #: asset/models.py:230
 msgid "Assigned To"
-msgstr ""
+msgstr "割り当て先"
 
 #: asset/models.py:237
 #: asset/templates/request_allocation/individual_own.html:71
 msgid "Assigned By"
-msgstr ""
+msgstr "割り当て者"
 
 #: asset/models.py:239
 #: asset/templates/asset_history/asset_history_filter.html:48
@@ -1391,27 +1391,27 @@ msgstr ""
 #: asset/templates/request_allocation/group_by.html:536
 #: asset/templates/request_allocation/group_by.html:735
 msgid "Return Date"
-msgstr ""
+msgstr "返却日"
 
 #: asset/models.py:241
 msgid "Return Condition"
-msgstr ""
+msgstr "返却状態"
 
 #: asset/models.py:248 asset/templates/asset_history/asset_history_list.html:26
 #: asset/templates/asset_history/group_by.html:51
 msgid "Return Status"
-msgstr ""
+msgstr "返却ステータス"
 
 #: asset/models.py:269
 #: asset/templates/request_allocation/asset_request_allocation_view.html:103
 #: asset/templates/request_allocation/asset_request_allocation_view.html:187
 #: asset/templates/request_allocation/asset_request_allocation_view.html:241
 msgid "Asset Allocation"
-msgstr ""
+msgstr "資産割り当て"
 
 #: asset/models.py:270
 msgid "Asset Allocations"
-msgstr ""
+msgstr "資産割り当て"
 
 #: asset/models.py:282
 #: attendance/templates/attendance/own_attendance/attendances.html:48
@@ -1432,7 +1432,7 @@ msgstr ""
 #: payroll/templates/payroll/reimbursement/reimbursement_list.html:34
 #: payroll/templates/payroll/reimbursement/request_cards.html:34
 msgid "Requested"
-msgstr ""
+msgstr "リクエスト済み"
 
 #: asset/models.py:283
 #: attendance/templates/attendance/attendance/group_by.html:186
@@ -1503,18 +1503,18 @@ msgstr "却下"
 
 #: asset/models.py:292
 msgid "Requesting User"
-msgstr ""
+msgstr "リクエストユーザー"
 
 #: asset/models.py:312
 #: asset/templates/request_allocation/asset_request_allocation_view.html:73
 #: asset/templates/request_allocation/asset_request_allocation_view.html:161
 #: asset/templates/request_allocation/asset_request_allocation_view.html:231
 msgid "Asset Request"
-msgstr ""
+msgstr "資産リクエスト"
 
 #: asset/models.py:313
 msgid "Asset Requests"
-msgstr ""
+msgstr "資産リクエスト"
 
 #: asset/sidebar.py:13 attendance/sidebar.py:19 offboarding/sidebar.py:21
 #: recruitment/sidebar.py:23 templates/sidebar.html:138
@@ -1523,17 +1523,17 @@ msgstr "ダッシュボード"
 
 #: asset/sidebar.py:18
 msgid "Asset View"
-msgstr ""
+msgstr "資産表示"
 
 #: asset/sidebar.py:28
 msgid "Request and Allocation"
-msgstr ""
+msgstr "リクエストと割り当て"
 
 #: asset/sidebar.py:32
 #: asset/templates/asset_history/asset_history_filter.html:4
 #: asset/templates/asset_history/asset_history_nav.html:7
 msgid "Asset History"
-msgstr ""
+msgstr "資産履歴"
 
 #: asset/templates/asset/asset_creation.html:30
 #: asset/templates/batch/asset_batch_empty.html:18
@@ -1817,7 +1817,7 @@ msgstr "保存"
 
 #: asset/templates/asset/asset_import.html:4
 msgid "Import Assets"
-msgstr ""
+msgstr "資産をインポート"
 
 #: asset/templates/asset/asset_import.html:17
 #: attendance/templates/attendance/attendance/attendance_empty.html:42
@@ -1831,7 +1831,7 @@ msgstr ""
 #: project/templates/cbv/projects/projects.html:125
 #: project/templates/project/new/navbar.html:41
 msgid "Upload a File"
-msgstr ""
+msgstr "ファイルをアップロード"
 
 #: asset/templates/asset/asset_import.html:18
 #: attendance/templates/attendance/attendance/attendance_empty.html:43
@@ -1845,7 +1845,7 @@ msgstr ""
 #: project/templates/cbv/projects/projects.html:126
 #: project/templates/project/new/navbar.html:42
 msgid "Drag and drop files here"
-msgstr ""
+msgstr "ここにファイルをドラッグ&ドロップ"
 
 #: asset/templates/asset/asset_import.html:25
 #: attendance/templates/attendance/attendance/attendance_nav.html:99
@@ -1855,7 +1855,7 @@ msgstr ""
 #: leave/templates/leave/holiday/holiday_view.html:244
 #: leave/templates/leave/leave_assign/assign_view.html:39
 msgid "Download Template"
-msgstr ""
+msgstr "テンプレートをダウンロード"
 
 #: asset/templates/asset/asset_import.html:29
 #: attendance/templates/attendance/attendance/attendance_empty.html:48
@@ -2090,7 +2090,7 @@ msgstr "編集"
 #: asset/templates/asset/asset_list.html:145
 #: asset/templates/asset/asset_list.html:162
 msgid "Do you want to delete this asset?"
-msgstr ""
+msgstr "この資産を削除しますか？"
 
 #: asset/templates/asset/asset_information.html:151
 #: asset/templates/asset/asset_list.html:151
@@ -2381,12 +2381,12 @@ msgstr "更新"
 #: recruitment/templates/stage/stage_component.html:155
 #: recruitment/templates/survey/survey_card.html:48
 msgid "Duplicate"
-msgstr ""
+msgstr "複製"
 
 #: asset/templates/asset/asset_list.html:128
 #: asset/templates/asset/asset_list.html:137
 msgid "Asset Report"
-msgstr ""
+msgstr "資産レポート"
 
 #: asset/templates/asset/asset_list.html:200
 #: asset/templates/asset_history/asset_history_list.html:58
@@ -2759,7 +2759,7 @@ msgstr ""
 #: recruitment/templates/survey/templates.html:76
 #: templates/work_info_complete.html:86
 msgid "Page"
-msgstr ""
+msgstr "ページ"
 
 #: asset/templates/asset/asset_list.html:211
 #: asset/templates/asset_history/asset_history_list.html:58
@@ -3140,7 +3140,7 @@ msgstr ""
 #: recruitment/templates/survey/templates.html:88
 #: templates/work_info_complete.html:86
 msgid "of"
-msgstr ""
+msgstr "/"
 
 #: asset/templates/asset/asset_list.html:221
 #: asset/templates/asset_history/asset_history_list.html:77
@@ -3332,7 +3332,7 @@ msgstr ""
 #: recruitment/templates/survey/template_accordion.html:195
 #: recruitment/templates/survey/templates.html:99
 msgid "First"
-msgstr ""
+msgstr "最初"
 
 #: asset/templates/asset/asset_list.html:229
 #: asset/templates/asset_history/asset_history_list.html:80
@@ -3912,11 +3912,11 @@ msgstr "次へ"
 #: recruitment/templates/survey/template_accordion.html:215
 #: recruitment/templates/survey/templates.html:124
 msgid "Last"
-msgstr ""
+msgstr "最後"
 
 #: asset/templates/asset/asset_report_form.html:11 templates/dashboard.html:283
 msgid "Add Asset Report"
-msgstr ""
+msgstr "資産レポートを追加"
 
 #: asset/templates/asset/asset_report_form.html:27 attendance/models.py:109
 #: base/templates/base/action_type/action_type_view.html:6
@@ -3987,31 +3987,31 @@ msgstr "タイトル"
 #: asset/templates/asset/asset_report_form.html:44
 #: project/templates/project/new/project_list_view.html:76
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #: asset/templates/asset/asset_return_form.html:8
 msgid "Asset Return Form"
-msgstr ""
+msgstr "資産返却フォーム"
 
 #: asset/templates/asset/asset_return_form.html:42
 #: asset/templates/asset/asset_update.html:222
 msgid "Add Report"
-msgstr ""
+msgstr "レポートを追加"
 
 #: asset/templates/asset/asset_return_form.html:50
 msgid "Add Fine"
-msgstr ""
+msgstr "罰金を追加"
 
 #: asset/templates/asset/asset_update.html:28
 #: asset/templates/category/asset_category.html:20
 #: asset/templates/request_allocation/asset_request_allocation_view.html:222
 #: asset/views.py:159 employee/templates/employee/view/individual.html:119
 msgid "Report added successfully."
-msgstr ""
+msgstr "レポートが正常に追加されました。"
 
 #: asset/templates/asset/asset_update.html:220
 msgid "Assign asset before adding a report"
-msgstr ""
+msgstr "レポートを追加する前に資産を割り当ててください"
 
 #: asset/templates/asset/dashboard.html:23
 #: leave/templates/leave/accrual_plan_assign_view.html:3
@@ -4024,28 +4024,28 @@ msgstr "戻る"
 
 #: asset/templates/asset/dashboard.html:51
 msgid "Asset request"
-msgstr ""
+msgstr "資産リクエスト"
 
 #: asset/templates/asset/dashboard.html:65
 msgid "Assets in use"
-msgstr ""
+msgstr "使用中の資産"
 
 #: asset/templates/asset/dashboard.html:81
 msgid "Asset Chart"
-msgstr ""
+msgstr "資産チャート"
 
 #: asset/templates/asset/dashboard.html:92
 #: templates/dashboard_tile_container.html:453
 msgid "Asset Requests To Approve"
-msgstr ""
+msgstr "承認待ちの資産リクエスト"
 
 #: asset/templates/asset/dashboard.html:104
 msgid "Assets In Use"
-msgstr ""
+msgstr "使用中の資産"
 
 #: asset/templates/asset/dashboard.html:115
 msgid "Allocated Assets"
-msgstr ""
+msgstr "割り当て済み資産"
 
 #: asset/templates/asset/dashboard_allocated_assets.html:8
 #: asset/templates/asset_history/asset_history_filter.html:12
@@ -4058,7 +4058,7 @@ msgstr ""
 #: asset/templates/request_allocation/group_by.html:819
 #: asset/templates/request_allocation/individual allocation.html:79
 msgid "Allocated User"
-msgstr ""
+msgstr "割り当てユーザー"
 
 #: asset/templates/asset/dashboard_allocated_assets.html:10
 #: asset/templates/asset_history/asset_history_list.html:24
@@ -4081,7 +4081,7 @@ msgstr ""
 #: payroll/templates/payroll/contribution/contribution_deduction_employees.html:25
 #: report/templates/report/leave_report.html:169
 msgid "Assigned Date"
-msgstr ""
+msgstr "割り当て日"
 
 #: asset/templates/asset/dashboard_allocated_assets.html:38
 #: asset/templates/asset/dashboard_asset_requests.html:101
@@ -4155,11 +4155,11 @@ msgstr ""
 #: recruitment/templates/survey/survey_empty_view.html:72
 #: recruitment/templates/survey/template_accordion.html:226
 msgid "No Records found."
-msgstr ""
+msgstr "レコードが見つかりません。"
 
 #: asset/templates/asset/dashboard_allocated_assets.html:39
 msgid "There is no asset allocation at this moment."
-msgstr ""
+msgstr "現在、資産の割り当てはありません。"
 
 #: asset/templates/asset/dashboard_asset_requests.html:11
 #: asset/templates/request_allocation/asset_request_allocation_list.html:170
@@ -4167,7 +4167,7 @@ msgstr ""
 #: asset/templates/request_allocation/group_by.html:327
 #: employee/templates/tabs/asset_request_tab.html:12
 msgid "Request User"
-msgstr ""
+msgstr "リクエストユーザー"
 
 #: asset/templates/asset/dashboard_asset_requests.html:13
 #: asset/templates/request_allocation/asset_request_allocation_list.html:178
@@ -4175,7 +4175,7 @@ msgstr ""
 #: asset/templates/request_allocation/group_by.html:329
 #: employee/templates/tabs/asset_request_tab.html:14
 msgid "Request Date"
-msgstr ""
+msgstr "リクエスト日"
 
 #: asset/templates/asset/dashboard_asset_requests.html:79
 #: asset/templates/request_allocation/individual_request.html:119
@@ -4187,7 +4187,7 @@ msgstr ""
 #: employee/templates/tabs/shift-tab.html:354
 #: employee/templates/tabs/shift-tab.html:1021
 msgid "Do you want to reject this request?"
-msgstr ""
+msgstr "このリクエストを却下しますか？"
 
 #: asset/templates/asset/dashboard_asset_requests.html:102
 #: attendance/views/dashboard.py:357
@@ -4202,17 +4202,17 @@ msgstr ""
 #: pms/views.py:2683 pms/views.py:2703 pms/views.py:2724
 #: recruitment/views/dashboard.py:203 recruitment/views/views.py:3287
 msgid "No records available at the moment."
-msgstr ""
+msgstr "現在、利用可能なレコードはありません。"
 
 #: asset/templates/asset_history/asset_history_filter.html:30
 #: asset/templates/request_allocation/asset_request_allocation_view.html:119
 msgid "Asset Allocated Date"
-msgstr ""
+msgstr "資産割り当て日"
 
 #: asset/templates/asset_history/asset_history_filter.html:58
 #: asset/templates/request_allocation/asset_request_allocation_view.html:135
 msgid "Allocated By"
-msgstr ""
+msgstr "割り当て者"
 
 #: asset/templates/asset_history/asset_history_filter.html:66
 #: attendance/templates/attendance/attendance/attendance_filters.html:88
@@ -4256,23 +4256,23 @@ msgstr ""
 #: recruitment/templates/candidate/filters.html:165
 #: recruitment/templates/recruitment/filters.html:43
 msgid "Advanced"
-msgstr ""
+msgstr "詳細"
 
 #: asset/templates/asset_history/asset_history_filter.html:74
 msgid "Return Date Greater Or Equal"
-msgstr ""
+msgstr "返却日が以上"
 
 #: asset/templates/asset_history/asset_history_filter.html:82
 msgid "Assign Date Greater Or Equal"
-msgstr ""
+msgstr "割り当て日が以上"
 
 #: asset/templates/asset_history/asset_history_filter.html:93
 msgid "Return Date lesser Or Equal"
-msgstr ""
+msgstr "返却日が以下"
 
 #: asset/templates/asset_history/asset_history_filter.html:101
 msgid "Assign Date Lesser Or Equal"
-msgstr ""
+msgstr "割り当て日が以下"
 
 #: asset/templates/asset_history/asset_history_filter.html:112
 #: asset/templates/asset_history/asset_history_nav.html:27
@@ -4420,7 +4420,7 @@ msgstr "フィルター"
 
 #: asset/templates/asset_history/asset_history_list.html:25
 msgid "Returned date"
-msgstr ""
+msgstr "返却日"
 
 #: asset/templates/asset_history/asset_history_list.html:25
 #: asset/templates/asset_history/asset_history_single_view.html:79
@@ -4429,11 +4429,11 @@ msgstr ""
 #: asset/templates/request_allocation/group_by.html:833
 #: asset/templates/request_allocation/individual allocation.html:98
 msgid "Returned Date"
-msgstr ""
+msgstr "返却日"
 
 #: asset/templates/asset_history/asset_history_list.html:100
 msgid "No asset history available."
-msgstr ""
+msgstr "資産履歴がありません。"
 
 #: asset/templates/asset_history/asset_history_nav.html:19
 #: asset/templates/batch/asset_batch_number_view.html:35
@@ -4552,7 +4552,7 @@ msgstr "検索"
 #: recruitment/templates/candidate/candidate_nav.html:97
 #: recruitment/templates/candidate/candidate_nav.html:107
 msgid "Group By"
-msgstr ""
+msgstr "グループ化"
 
 #: asset/templates/asset_history/asset_history_nav.html:46
 #: asset/templates/request_allocation/asset_request_allocation_view.html:167
@@ -4581,77 +4581,77 @@ msgstr ""
 #: pms/templates/okr/objective_list_view.html:201
 #: recruitment/templates/candidate/candidate_nav.html:111
 msgid "Field"
-msgstr ""
+msgstr "フィールド"
 
 #: asset/templates/asset_history/asset_history_single_view.html:4
 msgid "Asset Details"
-msgstr ""
+msgstr "資産詳細"
 
 #: asset/templates/asset_history/asset_history_single_view.html:60
 #: asset/templates/request_allocation/group_by.html:617
 #: asset/templates/request_allocation/group_by.html:813
 #: asset/templates/request_allocation/individual allocation.html:71
 msgid "Returned Status"
-msgstr ""
+msgstr "返却ステータス"
 
 #: asset/templates/asset_history/asset_history_single_view.html:71
 #: asset/templates/request_allocation/group_by.html:630
 #: asset/templates/request_allocation/group_by.html:827
 #: asset/templates/request_allocation/individual allocation.html:90
 msgid "Allocated Date"
-msgstr ""
+msgstr "割り当て日"
 
 #: asset/templates/asset_history/asset_history_single_view.html:95
 #: asset/templates/request_allocation/group_by.html:650
 #: asset/templates/request_allocation/group_by.html:849
 #: asset/templates/request_allocation/individual allocation.html:117
 msgid "Return Description"
-msgstr ""
+msgstr "返却説明"
 
 #: asset/templates/asset_history/asset_history_view.html:6
 msgid "Selected Assets"
-msgstr ""
+msgstr "選択された資産"
 
 #: asset/templates/batch/asset_batch_empty.html:7
 #: asset/templates/batch/asset_batch_number_view.html:22
 #: asset/templates/category/asset_category_view.html:139
 #: report/templates/report/asset_report.html:68
 msgid "Asset Batch Number"
-msgstr ""
+msgstr "資産バッチ番号"
 
 #: asset/templates/batch/asset_batch_empty.html:31
 msgid "No Asset Batches have been created."
-msgstr ""
+msgstr "資産バッチが作成されていません。"
 
 #: asset/templates/batch/asset_batch_number_list.html:52
 msgid "Do you want to delete this batch number ?"
-msgstr ""
+msgstr "このバッチ番号を削除しますか？"
 
 #: asset/templates/category/asset_category.html:81
 msgid "Do you want to delete this category?"
-msgstr ""
+msgstr "このカテゴリを削除しますか？"
 
 #: asset/templates/category/asset_category_view.html:70
 msgid "Search in :Asset"
-msgstr ""
+msgstr "検索対象：資産"
 
 #: asset/templates/category/asset_category_view.html:71
 msgid "Search in :Asset Category"
-msgstr ""
+msgstr "検索対象：資産カテゴリ"
 
 #: asset/templates/category/asset_category_view.html:93
 msgid "Category Name"
-msgstr ""
+msgstr "カテゴリ名"
 
 #: asset/templates/category/asset_category_view.html:133
 #: report/templates/report/asset_report.html:62
 msgid "Purchase Cost"
-msgstr ""
+msgstr "購入費用"
 
 #: asset/templates/category/asset_category_view.html:178
 #: asset/templates/category/asset_empty.html:27
 msgid "Do you want to download template ?"
-msgstr ""
+msgstr "テンプレートをダウンロードしますか？"
 
 #: asset/templates/category/asset_category_view.html:179
 #: asset/templates/category/asset_empty.html:28
@@ -4715,15 +4715,15 @@ msgstr "エクスポート"
 
 #: asset/templates/category/asset_empty.html:57
 msgid "No Asset Categories or Assets have been created."
-msgstr ""
+msgstr "資産カテゴリまたは資産が作成されていません。"
 
 #: asset/templates/category/asset_filter_export.html:8
 msgid "Export Assets"
-msgstr ""
+msgstr "資産をエクスポート"
 
 #: asset/templates/category/asset_filter_export.html:38
 msgid "Purchased Date"
-msgstr ""
+msgstr "購入日"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:69
 #: asset/templates/request_allocation/asset_request_allocation_list.html:401
@@ -4736,30 +4736,30 @@ msgstr ""
 #: asset/templates/request_allocation/individual_own.html:96
 #: employee/templates/tabs/asset-tab.html:57
 msgid "Return"
-msgstr ""
+msgstr "返却"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:75
 #: asset/templates/request_allocation/asset_request_allocation_list.html:385
 #: asset/templates/request_allocation/individual_own.html:62
 #: employee/templates/tabs/profile-asset-tab.html:60
 msgid "Requested to return"
-msgstr ""
+msgstr "返却リクエスト済み"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:78
 #: asset/templates/request_allocation/individual_own.html:101
 #: employee/templates/tabs/profile-asset-tab.html:64
 msgid "Are you sure you want to return this asset?"
-msgstr ""
+msgstr "この資産を返却してもよろしいですか？"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:83
 #: asset/templates/request_allocation/individual_own.html:105
 #: employee/templates/tabs/profile-asset-tab.html:68
 msgid "Return Request"
-msgstr ""
+msgstr "返却リクエスト"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:142
 msgid "No assets have been assigned to you."
-msgstr ""
+msgstr "あなたに割り当てられた資産はありません。"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:184
 #: asset/templates/request_allocation/group_by.html:127
@@ -4787,7 +4787,7 @@ msgstr ""
 #: payroll/templates/payroll/reimbursement/reimbursement_list.html:454
 #: payroll/templates/payroll/reimbursement/reimbursement_list.html:785
 msgid "Confirmation"
-msgstr ""
+msgstr "確認"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:226
 #: asset/templates/request_allocation/asset_request_allocation_list.html:246
@@ -4877,7 +4877,7 @@ msgstr "承認"
 #: asset/templates/request_allocation/group_by.html:372
 #: asset/templates/request_allocation/group_by.html:449
 msgid "Do you want to reject this asset request?"
-msgstr ""
+msgstr "この資産リクエストを却下しますか？"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:234
 #: asset/templates/request_allocation/asset_request_allocation_list.html:250
@@ -4948,21 +4948,21 @@ msgstr "却下"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:311
 msgid "There are no asset request."
-msgstr ""
+msgstr "資産リクエストがありません。"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:391
 msgid "Allocated"
-msgstr ""
+msgstr "割り当て済み"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:408
 #: asset/templates/request_allocation/group_by.html:591
 #: asset/templates/request_allocation/group_by.html:785
 msgid "Returned"
-msgstr ""
+msgstr "返却済み"
 
 #: asset/templates/request_allocation/asset_request_allocation_list.html:467
 msgid "There is no asset allocation has been created."
-msgstr ""
+msgstr "資産の割り当てが作成されていません。"
 
 #: asset/templates/request_allocation/asset_request_allocation_view.html:79
 msgid "Requested Employee"
@@ -5289,7 +5289,7 @@ msgstr ""
 #: report/templates/report/leave_report.html:135
 #: report/templates/report/pms_report.html:75
 msgid "Employees"
-msgstr ""
+msgstr "従業員"
 
 #: attendance/forms.py:363 base/forms.py:887 base/forms.py:897
 #: base/forms.py:1510 base/forms.py:1520 base/models.py:1247
@@ -5299,7 +5299,7 @@ msgstr ""
 #: recruitment/forms.py:586 recruitment/forms.py:588 recruitment/models.py:241
 #: recruitment/models.py:264
 msgid "This field is required"
-msgstr ""
+msgstr "このフィールドは必須です"
 
 #: attendance/forms.py:397 base/forms.py:1307
 msgid "Employee not chosen"
@@ -5313,7 +5313,7 @@ msgstr ""
 #: attendance/templates/attendance/work_record/work_record_view.html:57
 #: employee/templates/tabs/attendance-tab.html:169 leave/models.py:113
 msgid "Month"
-msgstr ""
+msgstr "月"
 
 #: attendance/forms.py:473 attendance/models.py:615
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:107
@@ -5322,7 +5322,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_account/overtime_list.html:41
 #: employee/templates/tabs/attendance-tab.html:170 leave/models.py:113
 msgid "Year"
-msgstr ""
+msgstr "年"
 
 #: attendance/forms.py:474 attendance/models.py:174 attendance/models.py:622
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:92
@@ -5332,7 +5332,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_account/group_by.html:48
 #: attendance/templates/attendance/attendance_account/overtime_list.html:42
 msgid "Worked Hours"
-msgstr ""
+msgstr "勤務時間"
 
 #: attendance/forms.py:475 attendance/models.py:629
 #: attendance/templates/attendance/attendance/group_by.html:87
@@ -5377,7 +5377,7 @@ msgstr ""
 #: employee/templates/tabs/profile-attendance-tab.html:29
 #: payroll/models/models.py:726
 msgid "Overtime"
-msgstr ""
+msgstr "残業"
 
 #: attendance/forms.py:520
 msgid ""
@@ -5472,7 +5472,7 @@ msgstr ""
 
 #: attendance/methods/utils.py:257 project/models.py:47
 msgid "Invalid format"
-msgstr ""
+msgstr "無効な形式"
 
 #: attendance/methods/utils.py:269
 msgid "Check date format."
@@ -5508,7 +5508,7 @@ msgstr ""
 #: attendance/templates/requests/attendance/filter.html:56
 #: report/templates/report/attendance_report.html:76
 msgid "Attendance Date"
-msgstr ""
+msgstr "勤怠日"
 
 #: attendance/models.py:65
 #: attendance/templates/attendance/attendance_activity/activity_filters.html:66
@@ -5561,7 +5561,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_activity/single_attendance_activity.html:69
 #: attendance/templates/attendance/late_come_early_out/single_report.html:67
 msgid "Check In"
-msgstr ""
+msgstr "チェックイン"
 
 #: attendance/models.py:70
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:22
@@ -5607,7 +5607,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_activity/single_attendance_activity.html:80
 #: attendance/templates/attendance/late_come_early_out/single_report.html:79
 msgid "Check Out"
-msgstr ""
+msgstr "チェックアウト"
 
 #: attendance/models.py:124
 msgid "Create Request"
@@ -6042,11 +6042,11 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:20
 msgid "Clock In"
-msgstr ""
+msgstr "出勤"
 
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:21
 msgid "Clock Out"
-msgstr ""
+msgstr "退勤"
 
 #: attendance/templates/attendance/attendance/attendance_add_batch.html:6
 #: attendance/templates/attendance/attendance/attendance_nav.html:232
@@ -6503,7 +6503,7 @@ msgstr ""
 #: project/templates/project/new/project_list_view.html:60
 #: recruitment/templates/candidate/export_filter.html:23
 msgid "Select All"
-msgstr ""
+msgstr "すべて選択"
 
 #: attendance/templates/attendance/attendance/attendance_on_time.html:25
 #: attendance/templates/attendance/attendance/attendance_request_one.html:51
@@ -6734,7 +6734,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance/tab_content.html:672
 #: dynamic_fields/templates/dynamic_fields/df.html:30
 msgid "Are you sure?"
-msgstr ""
+msgstr "本当によろしいですか？"
 
 #: attendance/templates/attendance/attendance/attendance_request_one.html:164
 #: attendance/templates/attendance/attendance/tab_content.html:673
@@ -7457,7 +7457,7 @@ msgstr ""
 #: report/templates/report/leave_report.html:52
 #: report/templates/report/leave_report.html:141
 msgid "Leave Type"
-msgstr ""
+msgstr "休暇タイプ"
 
 #: attendance/templates/attendance/penalty/form.html:58 leave/filters.py:406
 #: leave/models.py:410
@@ -7575,7 +7575,7 @@ msgstr "コメント"
 #: recruitment/templates/pipeline/pipeline_components/view_note.html:165
 #: recruitment/templates/pipeline/pipeline_components/view_note_components.html:5
 msgid "by"
-msgstr ""
+msgstr "作成者"
 
 #: attendance/templates/requests/attendance/attendance_comment.html:78
 msgid "'s attendance request"
@@ -8450,7 +8450,7 @@ msgstr ""
 #: project/templates/project/new/project_list_view.html:42
 #: recruitment/models.py:295 recruitment/templates/dashboard/dashboard.html:287
 msgid "Cancelled"
-msgstr ""
+msgstr "キャンセル"
 
 #: base/methods.py:670
 msgid "Cancelled & Rejected"
@@ -8542,14 +8542,14 @@ msgstr ""
 
 #: base/models.py:116
 msgid "Departments"
-msgstr ""
+msgstr "部署"
 
 #: base/models.py:167
 #: base/templates/base/job_position/job_position_view.html:35
 #: recruitment/models.py:777 recruitment/templates/dashboard/dashboard.html:282
 #: templates/settings.html:189
 msgid "Job Positions"
-msgstr ""
+msgstr "求人ポジション"
 
 #: base/models.py:192 base/templates/base/job_role/job_role_view.html:35
 msgid "Job Roles"
@@ -9116,7 +9116,7 @@ msgstr ""
 
 #: base/models.py:1469 employee/models.py:73
 msgid "User"
-msgstr ""
+msgstr "ユーザー"
 
 #: base/models.py:1530
 msgid "Disable Comments"
@@ -9148,7 +9148,7 @@ msgstr ""
 
 #: base/models.py:1704
 msgid "Enable"
-msgstr ""
+msgstr "有効化"
 
 #: base/models.py:1706
 msgid ""
@@ -9578,7 +9578,7 @@ msgstr ""
 #: recruitment/templates/recruitment/recruitment_component.html:103
 #: recruitment/templates/stage/stage_component.html:83
 msgid "Collapse"
-msgstr ""
+msgstr "折りたたむ"
 
 #: base/templates/base/auth/group_lines.html:18
 #: employee/templates/tabs/group_permissions.html:30
@@ -9774,7 +9774,7 @@ msgstr "住所"
 #: report/templates/report/recruitment_report.html:50
 #: templates/initialize_database/horilla_company.html:41
 msgid "Country"
-msgstr ""
+msgstr "国"
 
 #: base/templates/base/company/company_view.html:10
 #: employee/templates/employee/create_form/personal_info_as_p.html:46
@@ -9791,7 +9791,7 @@ msgstr ""
 #: report/templates/report/recruitment_report.html:87
 #: templates/initialize_database/horilla_company.html:48
 msgid "State"
-msgstr ""
+msgstr "都道府県"
 
 #: base/templates/base/company/company_view.html:11
 #: employee/templates/employee/profile/bank_info.html:70
@@ -9803,7 +9803,7 @@ msgstr ""
 #: recruitment/templates/candidate/application_form.html:176
 #: templates/initialize_database/horilla_company.html:57
 msgid "City"
-msgstr ""
+msgstr "市区町村"
 
 #: base/templates/base/company/company_view.html:12 onboarding/forms.py:332
 #: onboarding/templates/onboarding/employee_creation.html:112
@@ -10284,7 +10284,7 @@ msgstr ""
 #: recruitment/templates/skill_zone/skill_zone_list.html:56
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_card.html:68
 msgid "Archive"
-msgstr ""
+msgstr "アーカイブ"
 
 #: base/templates/base/rotating_shift/htmx/group_by.html:170
 #: base/templates/base/rotating_shift/rotating_shift_assign_view.html:162
@@ -10802,7 +10802,7 @@ msgstr ""
 #: onboarding/templates/onboarding/task_update.html:45
 #: recruitment/templates/candidate/application_form.html:196
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: base/templates/multi_approval_condition/condition_table.html:93
 msgid "There are currently no multiple approvals to consider."
@@ -11049,7 +11049,7 @@ msgstr ""
 #: report/templates/report/employee_report.html:66
 #: report/templates/report/recruitment_report.html:82
 msgid "Gender"
-msgstr ""
+msgstr "性別"
 
 #: base/templates/shift_request/shift_request_export.html:130
 #: base/templates/shift_request/shift_request_nav.html:196
@@ -11312,7 +11312,7 @@ msgstr ""
 #: onboarding/templates/onboarding/candidates_view.html:169
 #: payroll/filters.py:453 payroll/filters.py:475
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 #: base/translator.py:62
 msgid "One time date"
@@ -13104,7 +13104,7 @@ msgstr ""
 #: biometric/forms.py:162
 #: payroll/templates/payroll/payslip/individual_payslip_summery.html:24
 msgid "Employee Name"
-msgstr ""
+msgstr "従業員名"
 
 #: biometric/forms.py:163
 msgid "15 characters max."
@@ -13427,7 +13427,7 @@ msgstr ""
 #: recruitment/templates/survey/filter.html:23
 #: recruitment/templates/survey/view_single_template.html:32
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: biometric/templates/biometric/list_employees_biometric.html:30
 #: biometric/templates/biometric_users/dahua/list_dahua_employees.html:13
@@ -13797,7 +13797,7 @@ msgstr ""
 
 #: dynamic_fields/templates/dynamic_fields/df.html:36
 msgid "Proceed"
-msgstr ""
+msgstr "続行"
 
 #: dynamic_fields/templates/dynamic_fields/df.html:49
 msgid "Success"
@@ -13930,7 +13930,7 @@ msgstr ""
 #: onboarding/templates/onboarding/single_view.html:57
 #: onboarding/templates/onboarding/table.html:12 recruitment/models.py:463
 msgid "Joining Date"
-msgstr ""
+msgstr "入社日"
 
 #: employee/models.py:662 employee/templates/employee/profile/work_info.html:83
 msgid "Contract End Date"
@@ -13942,7 +13942,7 @@ msgstr ""
 #: payroll/templates/payroll/contract/contract_list.html:63
 #: payroll/templates/payroll/contract/group_by.html:53
 msgid "Basic Salary"
-msgstr ""
+msgstr "基本給"
 
 #: employee/models.py:668 employee/templates/employee/profile/work_info.html:97
 msgid "Salary Per Hour"
@@ -14180,19 +14180,19 @@ msgstr ""
 
 #: employee/templates/employee/create_form/personal_info.html:73
 msgid "Show"
-msgstr ""
+msgstr "表示"
 
 #: employee/templates/employee/dashboard/dashboard_employee.html:104
 #: employee/views.py:2800 pms/templates/feedback/feedback_list_view.html:107
 #: pms/templates/okr/objective_list_view.html:133
 #: templates/dashboard_tile_container.html:57
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: employee/templates/employee/dashboard/dashboard_employee.html:106
 #: employee/views.py:2803
 msgid "Tomorrow"
-msgstr ""
+msgstr "明日"
 
 #: employee/templates/employee/dashboard/dashboard_employee.html:108
 #: offboarding/templates/offboarding/task/table_body.html:40
@@ -14312,7 +14312,7 @@ msgstr "メール"
 #: employee/templates/tabs/personal_tab.html:15 recruitment/models.py:434
 #: recruitment/templates/candidate/individual.html:234
 msgid "Date of Birth"
-msgstr ""
+msgstr "生年月日"
 
 #: employee/templates/employee/profile/personal_info.html:52
 #: employee/templates/personal-tab.html:70
@@ -14472,7 +14472,7 @@ msgstr ""
 #: recruitment/templates/candidate/interview_nav.html:29
 #: recruitment/templates/dashboard/dashboard.html:285
 msgid "Interview"
-msgstr ""
+msgstr "面接"
 
 #: employee/templates/employee/profile/profile_view.html:273
 msgid "Scheduled Interview"
@@ -14597,7 +14597,7 @@ msgstr ""
 
 #: employee/templates/employee/view/individual.html:448
 msgid "Bonus"
-msgstr ""
+msgstr "ボーナス"
 
 #: employee/templates/employee_export_filter.html:4
 #: employee/templates/employee_personal_info/employee_list.html:48
@@ -14817,7 +14817,7 @@ msgstr ""
 #: leave/templates/leave/user_leave_view.html:65
 #: report/templates/report/leave_report.html:40
 msgid "Leave Request"
-msgstr ""
+msgstr "休暇申請"
 
 #: employee/templates/navbar_component/profile_section.html:16
 msgid "My Profile"
@@ -14907,7 +14907,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/payslip_table.html:65
 #: payroll/templates/payroll/payslip/payslip_table.html:67
 msgid "Deduction"
-msgstr ""
+msgstr "控除"
 
 #: employee/templates/payroll-tab.html:37
 #: employee/templates/tabs/payroll-tab.html:37 payroll/filters.py:482
@@ -15067,7 +15067,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/payslip_pdf.html:281
 #: payroll/templates/payroll/payslip/test_pdf.html:281
 msgid "Allowance"
-msgstr ""
+msgstr "手当"
 
 #: employee/templates/tabs/allowance_deduction-tab.html:60
 #: payroll/templates/payroll/allowance/list_allowance.html:45
@@ -15364,7 +15364,7 @@ msgstr ""
 #: recruitment/templates/candidate/reject_form.html:13
 #: recruitment/templates/skill_zone/skill_zone_list.html:103
 msgid "Reason"
-msgstr ""
+msgstr "理由"
 
 #: employee/templates/tabs/htmx/view_file.html:40
 #: employee/templates/tabs/payroll-tab.html:80
@@ -15679,7 +15679,7 @@ msgstr ""
 
 #: employee/views.py:684
 msgid "Invalid request"
-msgstr ""
+msgstr "無効なリクエスト"
 
 #: employee/views.py:712
 #, python-brace-format
@@ -16319,7 +16319,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/test_pdf.html:244
 #: pms/templates/okr/objective_detailed_view_activity.html:103
 msgid "to"
-msgstr ""
+msgstr "〜"
 
 #: helpdesk/templates/helpdesk/ticket/ticket_detail.html:328
 msgid "Ticket Details"
@@ -16365,7 +16365,7 @@ msgstr ""
 #: helpdesk/templates/helpdesk/ticket/ticket_list.html:360
 #: helpdesk/templates/helpdesk/ticket/ticket_list.html:755
 msgid "Priority"
-msgstr ""
+msgstr "優先度"
 
 #: helpdesk/templates/helpdesk/ticket/ticket_detail.html:386
 msgid "Last activity:"
@@ -16453,7 +16453,7 @@ msgstr ""
 #: project/templates/project/new/project_kanban_view.html:36
 #: project/templates/project/new/project_list_view.html:38
 msgid "On Hold"
-msgstr ""
+msgstr "保留"
 
 #: helpdesk/templates/helpdesk/ticket/ticket_view.html:85 project/models.py:53
 #: project/models.py:329 project/models.py:527
@@ -16465,7 +16465,7 @@ msgstr ""
 #: project/templates/project/new/project_kanban_view.html:25
 #: project/templates/project/new/project_list_view.html:27
 msgid "New"
-msgstr ""
+msgstr "新規"
 
 #: helpdesk/templates/helpdesk/ticket/ticket_view.html:107
 msgid "Select All Tickets"
@@ -16577,7 +16577,7 @@ msgstr ""
 
 #: helpdesk/views.py:1134
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 #: helpdesk/views.py:1186
 msgid "Document has been deleted."
@@ -16649,7 +16649,7 @@ msgstr ""
 
 #: horilla/models.py:96 payroll/models/models.py:1807
 msgid "Created At"
-msgstr ""
+msgstr "作成日時"
 
 #: horilla/models.py:104 leave/models.py:684
 #: leave/templates/leave/compensatory_leave/compensatory_leave_req_list.html:40
@@ -16665,11 +16665,11 @@ msgstr ""
 #: leave/templates/leave/leave_request/one_request_view.html:91
 #: leave/templates/leave/one_request_view.html:48
 msgid "Created By"
-msgstr ""
+msgstr "作成者"
 
 #: horilla/models.py:113
 msgid "Modified By"
-msgstr ""
+msgstr "更新者"
 
 #: horilla_audit/forms.py:21
 msgid "Updation title"
@@ -17026,7 +17026,7 @@ msgstr ""
 #: leave/templates/leave/leave_type/leave_type_individual_view.html:67
 #: leave/templates/leave/leave_type_creation.html:89
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: leave/models.py:173
 #: leave/templates/leave/leave_type/leave_type_filter.html:53
@@ -17744,7 +17744,7 @@ msgstr ""
 
 #: leave/templates/leave/leave_request/request_view.html:61
 msgid "Leave Requests"
-msgstr ""
+msgstr "休暇申請"
 
 #: leave/templates/leave/leave_request/request_view.html:143
 msgid "Create Leave Report"
@@ -18230,7 +18230,7 @@ msgstr ""
 #: payroll/views/views.py:664 pms/views.py:3835
 #: recruitment/templates/pipeline/nav.html:506
 msgid "Something went wrong"
-msgstr ""
+msgstr "問題が発生しました"
 
 #: leave/views.py:2417
 msgid "Leave request updated successfully.."
@@ -18396,7 +18396,7 @@ msgstr ""
 #: project/templates/time_sheet/time_sheet_list_view.html:15
 #: templates/work_info_complete.html:26 templates/work_info_complete.html:37
 msgid "Completed"
-msgstr ""
+msgstr "完了"
 
 #: offboarding/models.py:72
 msgid "Notice period"
@@ -18497,7 +18497,7 @@ msgstr ""
 #: pms/templates/feedback/feedback_list_view.html:48
 #: report/templates/report/pms_report.html:117
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 #: offboarding/templates/offboarding/dashboard/employee_feedback_table.html:63
 msgid "No feedbacks for Offboarding Employees."
@@ -18538,7 +18538,7 @@ msgstr ""
 #: recruitment/templates/stage/stage_empty.html:5
 #: report/templates/report/recruitment_report.html:186
 msgid "Stage"
-msgstr ""
+msgstr "ステージ"
 
 #: offboarding/templates/offboarding/dashboard/employee_task_table.html:66
 msgid "No Pending Tasks for Offboarding Employees."
@@ -18600,7 +18600,7 @@ msgstr ""
 #: project/templates/task/new/task_list_view.html:103
 #: project/templates/task_all/task_all_navbar.html:6
 msgid "Tasks"
-msgstr ""
+msgstr "タスク"
 
 #: offboarding/templates/offboarding/pipeline/pipeline.html:17
 msgid "There is no offboardings at this moment."
@@ -18802,7 +18802,7 @@ msgstr ""
 #: onboarding/templates/onboarding/onboardings.html:12
 #: recruitment/models.py:412
 msgid "Mobile"
-msgstr ""
+msgstr "携帯電話"
 
 #: onboarding/forms.py:160
 msgid "Task title"
@@ -18904,7 +18904,7 @@ msgstr ""
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_nav.html:44
 #: report/templates/report/recruitment_report.html:201
 msgid "Candidates"
-msgstr ""
+msgstr "候補者"
 
 #: onboarding/models.py:102 onboarding/models.py:196
 msgid "Onboarding Task"
@@ -18925,7 +18925,7 @@ msgstr ""
 #: onboarding/models.py:164
 #: onboarding/templates/onboarding/dashboard/task_report.html:28
 msgid "Done"
-msgstr ""
+msgstr "完了"
 
 #: onboarding/templates/onboarding/candidate_creation.html:16
 #: onboarding/templates/onboarding/candidate_update.html:23
@@ -19015,7 +19015,7 @@ msgstr ""
 #: report/templates/report/recruitment_report.html:37
 #: report/templates/report/recruitment_report.html:245
 msgid "Candidate"
-msgstr ""
+msgstr "候補者"
 
 #: onboarding/templates/onboarding/candidates.html:51
 #: onboarding/templates/onboarding/candidates.html:53
@@ -19089,7 +19089,7 @@ msgstr ""
 
 #: onboarding/templates/onboarding/candidates_view.html:284
 msgid "Optional"
-msgstr ""
+msgstr "任意"
 
 #: onboarding/templates/onboarding/candidates_view.html:322
 msgid "Template as Attachments"
@@ -19154,7 +19154,7 @@ msgstr ""
 #: project/templates/time_sheet/time_sheet_single_view.html:28
 #: report/templates/report/recruitment_report.html:190
 msgid "Task"
-msgstr ""
+msgstr "タスク"
 
 #: onboarding/templates/onboarding/employee_bank_details.html:52
 #: onboarding/templates/onboarding/employee_creation.html:41
@@ -19181,7 +19181,7 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_creation.html:53
 #: onboarding/templates/onboarding/user_creation.html:80
 msgid "Bank Details"
-msgstr ""
+msgstr "銀行詳細"
 
 #: onboarding/templates/onboarding/employee_bank_details.html:82
 msgid "Account number"
@@ -19210,7 +19210,7 @@ msgstr ""
 #: templates/initialize_database/horilla_company.html:88
 #: templates/initialize_database/horilla_department_form.html:55
 msgid "Next Step"
-msgstr ""
+msgstr "次へ"
 
 #: onboarding/templates/onboarding/filters.html:20 recruitment/models.py:140
 #: recruitment/templates/pipeline/filters.html:71
@@ -19317,7 +19317,7 @@ msgstr ""
 #: recruitment/templates/recruitment/recruitment_component.html:177
 #: recruitment/templates/recruitment/recruitment_view.html:9
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 #: onboarding/templates/onboarding/onboardings.html:10
 msgid "Candidate Name"
@@ -20602,7 +20602,7 @@ msgstr ""
 
 #: payroll/templates/payroll/payslip/individual_payslip_summery.html:20
 msgid "Employee ID"
-msgstr ""
+msgstr "従業員ID"
 
 #: payroll/templates/payroll/payslip/individual_payslip_summery.html:33
 msgid "Bank Acc./Cheque No."
@@ -20922,7 +20922,7 @@ msgstr ""
 
 #: payroll/templates/payroll/settings/payroll_settings.html:43
 msgid "Position"
-msgstr ""
+msgstr "役職"
 
 #: payroll/templates/payroll/settings/payslip_auto_generate_table.html:6
 msgid "Payslip creation date"
@@ -21388,7 +21388,7 @@ msgstr ""
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:60
 #: recruitment/templates/pipeline/filters.html:158
 msgid "Rating"
-msgstr ""
+msgstr "評価"
 
 #: pms/models.py:456
 msgid "Boolean"
@@ -21843,19 +21843,19 @@ msgstr ""
 #: pms/templates/feedback/feedback_list_view.html:112
 #: pms/templates/okr/objective_list_view.html:143
 msgid "Yesterday"
-msgstr ""
+msgstr "昨日"
 
 #: pms/templates/feedback/feedback_list_view.html:117
 #: pms/templates/okr/objective_list_view.html:153
 #: templates/dashboard_tile_container.html:58
 msgid "This Week"
-msgstr ""
+msgstr "今週"
 
 #: pms/templates/feedback/feedback_list_view.html:122
 #: pms/templates/okr/objective_list_view.html:163
 #: templates/dashboard_tile_container.html:59
 msgid "This Month"
-msgstr ""
+msgstr "今月"
 
 #: pms/templates/feedback/feedback_overview.html:125
 msgid "No answers yet."
@@ -22246,7 +22246,7 @@ msgstr ""
 
 #: pms/templates/okr/objective_detailed_view.html:123
 msgid "Add New"
-msgstr ""
+msgstr "新規追加"
 
 #: pms/templates/okr/objective_detailed_view_activity.html:78
 #: pms/templates/okr/objective_detailed_view_activity.html:99
@@ -22284,7 +22284,7 @@ msgstr ""
 
 #: pms/templates/okr/objective_list_view.html:101
 msgid "Updated At"
-msgstr ""
+msgstr "更新日時"
 
 #: pms/templates/okr/objective_list_view.html:291
 msgid "Selected Objectives"
@@ -23623,7 +23623,7 @@ msgstr ""
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_list.html:13
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_list.html:44
 msgid "Resume"
-msgstr ""
+msgstr "履歴書"
 
 #: recruitment/templates/candidate/candidate_card.html:116
 #: recruitment/templates/candidate/candidate_list.html:192
@@ -23948,7 +23948,7 @@ msgstr ""
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:142
 msgid "Move"
-msgstr ""
+msgstr "移動"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:173
 msgid "Interviews Scheduled"
@@ -24791,7 +24791,7 @@ msgstr ""
 
 #: templates/dashboard_tile_container.html:60
 msgid "This Year"
-msgstr ""
+msgstr "今年"
 
 #: templates/dashboard_tile_container.html:92
 msgid "Candidates Started Onboarding"
@@ -24940,7 +24940,7 @@ msgstr ""
 
 #: templates/notification/notification_items.html:22
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 #: templates/notification/notification_items.html:76
 msgid "Anonymous"
