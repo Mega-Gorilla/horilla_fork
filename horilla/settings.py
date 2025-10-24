@@ -212,6 +212,7 @@ LANGUAGES = (
     ("zh-hans", "Simplified Chinese"),
     ("zh-hant", "Traditional Chinese"),
     ("it", "Italian"),
+    ("ja", "日本語"),
 )
 
 
