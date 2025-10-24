@@ -4966,24 +4966,24 @@ msgstr "資産の割り当てが作成されていません。"
 
 #: asset/templates/request_allocation/asset_request_allocation_view.html:79
 msgid "Requested Employee"
-msgstr ""
+msgstr "リクエスト従業員"
 
 #: asset/templates/request_allocation/asset_request_allocation_view.html:89
 msgid "Asset Request Date"
-msgstr ""
+msgstr "資産リクエスト日"
 
 #: asset/templates/request_allocation/asset_request_allocation_view.html:235
 msgid "Create request"
-msgstr ""
+msgstr "リクエストを作成"
 
 #: asset/templates/request_allocation/asset_request_allocation_view.html:246
 msgid "Create allocation"
-msgstr ""
+msgstr "割り当てを作成"
 
 #: asset/templates/request_allocation/group_by.html:34
 #: asset/templates/request_allocation/group_by.html:572
 msgid "In use"
-msgstr ""
+msgstr "使用中"
 
 #: asset/templates/request_allocation/group_by.html:164
 #: asset/templates/request_allocation/group_by.html:367
@@ -5011,14 +5011,14 @@ msgstr ""
 #: employee/templates/tabs/shift-tab.html:176
 #: employee/templates/tabs/shift-tab.html:860
 msgid "Requested Date"
-msgstr ""
+msgstr "リクエスト日"
 
 #: asset/templates/request_allocation/group_by.html:235
 #: asset/templates/request_allocation/group_by.html:433
 #: asset/templates/request_allocation/individual_request.html:97
 #: attendance/models.py:214
 msgid "Request Description"
-msgstr ""
+msgstr "リクエスト説明"
 
 #: asset/templates/request_allocation/individual allocation.html:36
 #: asset/templates/request_allocation/individual_request.html:45
@@ -5056,135 +5056,135 @@ msgstr "詳細"
 
 #: asset/templates/request_allocation/individual_own.html:26
 msgid "Asset Information"
-msgstr ""
+msgstr "資産情報"
 
 #: asset/views.py:84
 msgid "Asset deleted successfully"
-msgstr ""
+msgstr "資産が正常に削除されました"
 
 #: asset/views.py:86
 msgid "You cannot delete this asset."
-msgstr ""
+msgstr "この資産を削除できません。"
 
 #: asset/views.py:115 asset/views.py:424 asset/views.py:450
 msgid "Asset category not found"
-msgstr ""
+msgstr "資産カテゴリが見つかりません"
 
 #: asset/views.py:129
 msgid "Asset created successfully"
-msgstr ""
+msgstr "資産が正常に作成されました"
 
 #: asset/views.py:209
 msgid "Asset Updated"
-msgstr ""
+msgstr "資産が更新されました"
 
 #: asset/views.py:276
 msgid "Asset not found"
-msgstr ""
+msgstr "資産が見つかりません"
 
 #: asset/views.py:299 asset/views.py:309
 msgid "Asset is in use"
-msgstr ""
+msgstr "資産は使用中です"
 
 #: asset/views.py:301 asset/views.py:314
 msgid "Asset is used in allocation!."
-msgstr ""
+msgstr "資産は割り当てで使用されています！"
 
 #: asset/views.py:399
 msgid "Asset category created successfully"
-msgstr ""
+msgstr "資産カテゴリが正常に作成されました"
 
 #: asset/views.py:433
 msgid "Asset category updated successfully"
-msgstr ""
+msgstr "資産カテゴリが正常に更新されました"
 
 #: asset/views.py:455
 msgid "Asset category deleted."
-msgstr ""
+msgstr "資産カテゴリが削除されました。"
 
 #: asset/views.py:457
 msgid "Assets are located within this category."
-msgstr ""
+msgstr "この カテゴリ内に資産があります。"
 
 #: asset/views.py:609
 msgid "Asset request created!"
-msgstr ""
+msgstr "資産リクエストが作成されました！"
 
 #: asset/views.py:629
 msgid "Asset request does not exist."
-msgstr ""
+msgstr "資産リクエストが存在しません。"
 
 #: asset/views.py:655
 msgid "Your asset request has been approved!"
-msgstr ""
+msgstr "資産リクエストが承認されました！"
 
 #: asset/views.py:662
 msgid "Asset request approved successfully!"
-msgstr ""
+msgstr "資産リクエストが正常に承認されました！"
 
 #: asset/views.py:665
 msgid "An error occurred: "
-msgstr ""
+msgstr "エラーが発生しました："
 
 #: asset/views.py:725
 msgid "Asset request has been rejected."
-msgstr ""
+msgstr "資産リクエストが却下されました。"
 
 #: asset/views.py:775
 msgid "Asset allocated successfully!."
-msgstr ""
+msgstr "資産が正常に割り当てられました！"
 
 #: asset/views.py:789
 msgid "Return request for {} initiated."
-msgstr ""
+msgstr "{}の返却リクエストが開始されました。"
 
 #: asset/views.py:862
 msgid "Asset Return Successful !."
-msgstr ""
+msgstr "資産の返却が成功しました！"
 
 #: asset/views.py:883
 msgid "Asset Return Successful!."
-msgstr ""
+msgstr "資産の返却が成功しました！"
 
 #: asset/views.py:1252 asset/views.py:1263
 msgid "Successfully imported Assets"
-msgstr ""
+msgstr "資産のインポートに成功しました"
 
 #: asset/views.py:1267
 msgid "File Error"
-msgstr ""
+msgstr "ファイルエラー"
 
 #: asset/views.py:1308
 msgid "There are no assets to export."
-msgstr ""
+msgstr "エクスポートする資産がありません。"
 
 #: asset/views.py:1422
 msgid "Batch number created successfully."
-msgstr ""
+msgstr "バッチ番号が正常に作成されました。"
 
 #: asset/views.py:1489
 msgid "This batch number is already in-use"
-msgstr ""
+msgstr "このバッチ番号は既に使用中です"
 
 #: asset/views.py:1497
 msgid "Batch updated successfully."
-msgstr ""
+msgstr "バッチが正常に更新されました。"
 
 #: asset/views.py:1520
 msgid "Batch number in-use"
-msgstr ""
+msgstr "バッチ番号使用中"
 
 #: asset/views.py:1523
 msgid "Batch number deleted"
-msgstr ""
+msgstr "バッチ番号が削除されました"
 
 #: asset/views.py:1525
 msgid "Batch number not found"
-msgstr ""
+msgstr "バッチ番号が見つかりません"
 
 #: asset/views.py:1527
 msgid "You cannot delete this Batch number."
-msgstr ""
+msgstr "このバッチ番号を削除できません。"
 
 #: asset/views.py:1649 base/translator.py:249
 msgid "asset"
@@ -5192,7 +5192,7 @@ msgstr ""
 
 #: asset/views.py:1657 asset/views.py:1687
 msgid "Oops!! No Asset found..."
-msgstr ""
+msgstr "おっと！資産が見つかりません..."
 
 #: asset/views.py:1679
 msgid "assets in use"
@@ -5201,62 +5201,62 @@ msgstr ""
 #: attendance/filters.py:62 base/translator.py:50
 #: recruitment/views/dashboard.py:233
 msgid "January"
-msgstr ""
+msgstr "1月"
 
 #: attendance/filters.py:63 base/translator.py:51
 #: recruitment/views/dashboard.py:234
 msgid "February"
-msgstr ""
+msgstr "2月"
 
 #: attendance/filters.py:64 base/translator.py:52
 #: recruitment/views/dashboard.py:235
 msgid "March"
-msgstr ""
+msgstr "3月"
 
 #: attendance/filters.py:65 base/translator.py:53
 #: recruitment/views/dashboard.py:236
 msgid "April"
-msgstr ""
+msgstr "4月"
 
 #: attendance/filters.py:66 base/translator.py:54 base/translator.py:109
 #: leave/models.py:67 recruitment/views/dashboard.py:237
 msgid "May"
-msgstr ""
+msgstr "5月"
 
 #: attendance/filters.py:67 base/translator.py:55
 #: recruitment/views/dashboard.py:238
 msgid "June"
-msgstr ""
+msgstr "6月"
 
 #: attendance/filters.py:68 base/translator.py:56
 #: recruitment/views/dashboard.py:239
 msgid "July"
-msgstr ""
+msgstr "7月"
 
 #: attendance/filters.py:69 base/translator.py:57
 #: recruitment/views/dashboard.py:240
 msgid "August"
-msgstr ""
+msgstr "8月"
 
 #: attendance/filters.py:70 base/translator.py:58
 #: recruitment/views/dashboard.py:241
 msgid "September"
-msgstr ""
+msgstr "9月"
 
 #: attendance/filters.py:71 base/translator.py:59
 #: recruitment/views/dashboard.py:242
 msgid "October"
-msgstr ""
+msgstr "10月"
 
 #: attendance/filters.py:72 base/translator.py:60
 #: recruitment/views/dashboard.py:243
 msgid "November"
-msgstr ""
+msgstr "11月"
 
 #: attendance/filters.py:73 base/translator.py:61
 #: recruitment/views/dashboard.py:244
 msgid "December"
-msgstr ""
+msgstr "12月"
 
 #: attendance/forms.py:213 base/templates/base/auth/group_assign_view.html:10
 #: base/templates/base/auth/group_assign_view.html:37
@@ -5303,7 +5303,7 @@ msgstr "このフィールドは必須です"
 
 #: attendance/forms.py:397 base/forms.py:1307
 msgid "Employee not chosen"
-msgstr ""
+msgstr "従業員が選択されていません"
 
 #: attendance/forms.py:455 attendance/models.py:608
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:97
@@ -5342,7 +5342,7 @@ msgstr "勤務時間"
 #: attendance/templates/attendance/attendance_account/overtime_list.html:44
 #: attendance/templates/attendance/own_attendance/group_by.html:35
 msgid "Pending Hours"
-msgstr ""
+msgstr "保留時間"
 
 #: attendance/forms.py:476 attendance/models.py:193
 #: attendance/templates/attendance/attendance/attendance_on_time.html:35
@@ -5387,31 +5387,31 @@ msgstr ""
 
 #: attendance/forms.py:522
 msgid "Worked Hours(At Work) Auto Approve Till"
-msgstr ""
+msgstr "勤務時間（就業中）自動承認時間"
 
 #: attendance/forms.py:531
 msgid "Minimum Hour to Approve Overtime"
-msgstr ""
+msgstr "残業承認最低時間"
 
 #: attendance/forms.py:539
 msgid "Maximum Allowed Overtime Per Day"
-msgstr ""
+msgstr "1日の最大残業時間"
 
 #: attendance/forms.py:697 attendance/forms.py:1055
 msgid "Create Bulk"
-msgstr ""
+msgstr "一括作成"
 
 #: attendance/forms.py:732 attendance/forms.py:1170
 msgid "Employee work info not found"
-msgstr ""
+msgstr "従業員の勤務情報が見つかりません"
 
 #: attendance/forms.py:931 attendance/models.py:853
 msgid "Allcocate this grace time for Check-In Attendance"
-msgstr ""
+msgstr "チェックイン勤怠の猶予時間を割り当て"
 
 #: attendance/forms.py:957
 msgid "Assign Shifts"
-msgstr ""
+msgstr "シフトを割り当て"
 
 #: attendance/forms.py:1066
 #: leave/templates/leave/holiday/holiday_export_filter_form.html:43
@@ -5421,7 +5421,7 @@ msgstr ""
 #: leave/templates/leave/user_leave/user_request_view.html:148
 #: report/templates/report/leave_report.html:77
 msgid "From Date"
-msgstr ""
+msgstr "開始日"
 
 #: attendance/forms.py:1071
 #: leave/templates/leave/holiday/holiday_export_filter_form.html:53
@@ -5432,11 +5432,11 @@ msgstr ""
 #: leave/templates/leave/user_leave/user_request_view.html:155
 #: report/templates/report/leave_report.html:84
 msgid "To Date"
-msgstr ""
+msgstr "終了日"
 
 #: attendance/forms.py:1160
 msgid "To date should be after from date"
-msgstr ""
+msgstr "終了日は開始日より後である必要があります"
 
 #: attendance/forms.py:1174
 msgid ""
@@ -5445,30 +5445,30 @@ msgstr ""
 
 #: attendance/forms.py:1256
 msgid "Create attendance batch"
-msgstr ""
+msgstr "勤怠バッチを作成"
 
 #: attendance/forms.py:1280
 msgid "Update attendance batch"
-msgstr ""
+msgstr "勤怠バッチを更新"
 
 #: attendance/methods/utils.py:234
 msgid "Invalid format, it should be HH:MM:SS format"
-msgstr ""
+msgstr "無効な形式です。HH:MM:SS形式である必要があります"
 
 #: attendance/methods/utils.py:247 base/forms.py:88 base/forms.py:94
 #: base/forms.py:96 base/models.py:51 biometric/models.py:26
 #: biometric/models.py:36 project/models.py:36 project/models.py:41
 msgid "Invalid format, it should be HH:MM format"
-msgstr ""
+msgstr "無効な形式です。HH:MM形式である必要があります"
 
 #: attendance/methods/utils.py:251 biometric/models.py:32 project/models.py:45
 msgid "Invalid time"
-msgstr ""
+msgstr "無効な時刻"
 
 #: attendance/methods/utils.py:255 attendance/methods/utils.py:488
 #: attendance/methods/utils.py:492
 msgid "Invalid time, excepted MM:SS"
-msgstr ""
+msgstr "無効な時刻です。MM:SSが期待されます"
 
 #: attendance/methods/utils.py:257 project/models.py:47
 msgid "Invalid format"
@@ -5476,19 +5476,19 @@ msgstr "無効な形式"
 
 #: attendance/methods/utils.py:269
 msgid "Check date format."
-msgstr ""
+msgstr "日付形式を確認してください。"
 
 #: attendance/methods/utils.py:271 project/models.py:594
 msgid "You cannot choose a future date."
-msgstr ""
+msgstr "未来の日付は選択できません。"
 
 #: attendance/methods/utils.py:484
 msgid "Invalid format, it should be MM:SS format"
-msgstr ""
+msgstr "無効な形式です。MM:SS形式である必要があります"
 
 #: attendance/methods/utils.py:494
 msgid "Invalid format,  excepted MM:SS"
-msgstr ""
+msgstr "無効な形式です。MM:SSが期待されます"
 
 #: attendance/models.py:59
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:18
@@ -5515,7 +5515,7 @@ msgstr "勤怠日"
 #: attendance/templates/attendance/attendance_activity/export_filter.html:104
 #: base/models.py:580
 msgid "Shift Day"
-msgstr ""
+msgstr "シフト日"
 
 #: attendance/models.py:68
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:19
@@ -5552,7 +5552,7 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:242
 #: employee/templates/tabs/profile-attendance-tab.html:22
 msgid "In Date"
-msgstr ""
+msgstr "入力日"
 
 #: attendance/models.py:69
 #: attendance/templates/attendance/attendance/attendance_request_one.html:63
@@ -5598,7 +5598,7 @@ msgstr "チェックイン"
 #: employee/templates/tabs/attendance-tab.html:244
 #: employee/templates/tabs/profile-attendance-tab.html:24
 msgid "Out Date"
-msgstr ""
+msgstr "出力日"
 
 #: attendance/models.py:72
 #: attendance/templates/attendance/attendance/attendance_request_one.html:76
@@ -5611,32 +5611,32 @@ msgstr "チェックアウト"
 
 #: attendance/models.py:124
 msgid "Create Request"
-msgstr ""
+msgstr "リクエストを作成"
 
 #: attendance/models.py:125
 #: base/templates/shift_request/shift_request_view.html:100
 #: leave/templates/leave/leave_allocation_request/leave_allocation_request_view.html:303
 #: leave/templates/leave/user_leave/user_request_view.html:304
 msgid "Update Request"
-msgstr ""
+msgstr "リクエストを更新"
 
 #: attendance/models.py:126
 #: attendance/templates/requests/attendance/group_by.html:171
 #: employee/templates/tabs/attendance-tab.html:142
 msgid "Re-validate Request"
-msgstr ""
+msgstr "リクエストを再検証"
 
 #: attendance/models.py:139
 msgid "Attendance date"
-msgstr ""
+msgstr "勤怠日"
 
 #: attendance/models.py:155
 msgid "Attendance day"
-msgstr ""
+msgstr "勤怠日"
 
 #: attendance/models.py:158
 msgid "Check-In Date"
-msgstr ""
+msgstr "チェックイン日"
 
 #: attendance/models.py:161
 #: attendance/templates/attendance/attendance/attendance_on_time.html:27
@@ -5668,15 +5668,15 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:241
 #: employee/templates/tabs/profile-attendance-tab.html:21
 msgid "Check-In"
-msgstr ""
+msgstr "チェックイン"
 
 #: attendance/models.py:161
 msgid "First Check-In Time"
-msgstr ""
+msgstr "最初のチェックイン時刻"
 
 #: attendance/models.py:164
 msgid "Check-Out Date"
-msgstr ""
+msgstr "チェックアウト日"
 
 #: attendance/models.py:167
 #: attendance/templates/attendance/attendance/attendance_on_time.html:29
@@ -5709,39 +5709,39 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:243
 #: employee/templates/tabs/profile-attendance-tab.html:23
 msgid "Check-Out"
-msgstr ""
+msgstr "チェックアウト"
 
 #: attendance/models.py:167
 msgid "Last Check-Out Time"
-msgstr ""
+msgstr "最後のチェックアウト時刻"
 
 #: attendance/models.py:180
 msgid "Minimum hour"
-msgstr ""
+msgstr "最低時間"
 
 #: attendance/models.py:187
 msgid "Batch Attendance"
-msgstr ""
+msgstr "バッチ勤怠"
 
 #: attendance/models.py:196
 msgid "Overtime Approve"
-msgstr ""
+msgstr "残業承認"
 
 #: attendance/models.py:199
 msgid "Attendance Validate"
-msgstr ""
+msgstr "勤怠検証"
 
 #: attendance/models.py:203
 msgid "Overtime In Second"
-msgstr ""
+msgstr "残業（秒）"
 
 #: attendance/models.py:207 base/translator.py:101
 msgid "Is validate request"
-msgstr ""
+msgstr "検証リクエスト"
 
 #: attendance/models.py:211 base/translator.py:102
 msgid "Is validate request approved"
-msgstr ""
+msgstr "検証リクエスト承認済み"
 
 #: attendance/models.py:246 attendance/models.py:768 attendance/sidebar.py:13
 #: attendance/templates/attendance/attendance/attendance_filters.html:49
@@ -5764,7 +5764,7 @@ msgstr "勤怠"
 #: attendance/templates/attendance/attendance/attendance_nav.html:121
 #: attendance/templates/requests/attendance/nav.html:49
 msgid "Attendances"
-msgstr ""
+msgstr "勤怠記録"
 
 #: attendance/models.py:589
 #: attendance/templates/requests/attendance/attendance_comment.html:27
@@ -5813,19 +5813,19 @@ msgstr "コメント"
 #: attendance/models.py:635
 #: attendance/templates/attendance/attendance_account/overtime_list.html:45
 msgid "Overtime Hours"
-msgstr ""
+msgstr "残業時間"
 
 #: attendance/models.py:640
 msgid "Worked Seconds"
-msgstr ""
+msgstr "勤務秒数"
 
 #: attendance/models.py:645
 msgid "Pending Seconds"
-msgstr ""
+msgstr "保留秒数"
 
 #: attendance/models.py:650
 msgid "Overtime Seconds"
-msgstr ""
+msgstr "残業秒数"
 
 #: attendance/models.py:663 attendance/sidebar.py:33
 #: attendance/templates/attendance/attendance_account/nav.html:8
@@ -5834,15 +5834,15 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:37
 #: employee/templates/tabs/attendance-tab.html:171
 msgid "Hour Account"
-msgstr ""
+msgstr "時間アカウント"
 
 #: attendance/models.py:664
 msgid "Hour Accounts"
-msgstr ""
+msgstr "時間アカウント"
 
 #: attendance/models.py:671 attendance/models.py:675
 msgid "Year must be an integer value between 1900 and 2100"
-msgstr ""
+msgstr "年は1900から2100の整数値である必要があります"
 
 #: attendance/models.py:760
 #: attendance/templates/attendance/dashboard/dashboard.html:50
@@ -5850,13 +5850,13 @@ msgstr ""
 #: attendance/views.py:1338 attendance/views/dashboard.py:336
 #: base/methods.py:671
 msgid "Late Come"
-msgstr ""
+msgstr "遅刻"
 
 #: attendance/models.py:761
 #: attendance/templates/attendance/late_come_early_out/group_by.html:89
 #: attendance/views/dashboard.py:337 base/methods.py:672
 msgid "Early Out"
-msgstr ""
+msgstr "早退"
 
 #: attendance/models.py:778
 #: attendance/templates/attendance/late_come_early_out/export_filter.html:94
@@ -5890,44 +5890,44 @@ msgstr "種類"
 
 #: attendance/models.py:816
 msgid "Worked Hours Auto Approve Till"
-msgstr ""
+msgstr "勤務時間自動承認時間"
 
 #: attendance/models.py:825
 #: attendance/templates/attendance/break_point/condition.html:32
 msgid "Auto Approve OT"
-msgstr ""
+msgstr "残業自動承認"
 
 #: attendance/models.py:836
 msgid "You cannot add more conditions."
-msgstr ""
+msgstr "これ以上条件を追加できません。"
 
 #: attendance/models.py:848
 msgid "Allowed Time"
-msgstr ""
+msgstr "許可時間"
 
 #: attendance/models.py:854
 msgid "Allowed Clock-In"
-msgstr ""
+msgstr "出勤許可時刻"
 
 #: attendance/models.py:858
 msgid "Allcocate this grace time for Check-Out Attendance"
-msgstr ""
+msgstr "チェックアウト勤怠の猶予時間を割り当て"
 
 #: attendance/models.py:859
 msgid "Allowed Clock-Out"
-msgstr ""
+msgstr "退勤許可時刻"
 
 #: attendance/models.py:877
 msgid "There is already a default grace time that exists."
-msgstr ""
+msgstr "既にデフォルトの猶予時間が存在します。"
 
 #: attendance/models.py:893
 msgid "There is already an existing grace time with this allowed time."
-msgstr ""
+msgstr "この許可時間の猶予時間が既に存在します。"
 
 #: attendance/models.py:923
 msgid "Enable Check in/Check out"
-msgstr ""
+msgstr "チェックイン/チェックアウトを有効化"
 
 #: attendance/models.py:925
 msgid ""
@@ -5939,29 +5939,29 @@ msgstr ""
 #: attendance/templates/attendance/work_record/work_record_list.html:97
 #: payroll/models/models.py:388
 msgid "Present"
-msgstr ""
+msgstr "出席"
 
 #: attendance/models.py:939
 #: attendance/templates/attendance/work_record/work_record_list.html:90
 #: payroll/models/models.py:389
 msgid "Half Day Present"
-msgstr ""
+msgstr "半日出席"
 
 #: attendance/models.py:940
 #: attendance/templates/attendance/work_record/work_record_list.html:69
 #: payroll/models/models.py:390
 msgid "Absent"
-msgstr ""
+msgstr "欠席"
 
 #: attendance/models.py:941 payroll/models/models.py:391
 msgid "Holiday/Company Leave"
-msgstr ""
+msgstr "祝日/会社休暇"
 
 #: attendance/models.py:942
 #: attendance/templates/attendance/work_record/work_record_list.html:62
 #: payroll/models/models.py:392
 msgid "Conflict"
-msgstr ""
+msgstr "競合"
 
 #: attendance/models.py:943 base/methods.py:652
 #: employee/templates/payroll-tab.html:12
@@ -5977,68 +5977,68 @@ msgstr ""
 #: payroll/views/component_views.py:1100 payroll/views/component_views.py:1925
 #: payroll/views/views.py:67
 msgid "Draft"
-msgstr ""
+msgstr "下書き"
 
 #: attendance/models.py:1008 payroll/models/models.py:438
 msgid "Day percentage must be between 0.0 and 1.0"
-msgstr ""
+msgstr "日の割合は0.0から1.0の間である必要があります"
 
 #: attendance/models.py:1018
 msgid "Work Record"
-msgstr ""
+msgstr "勤務記録"
 
 #: attendance/models.py:1019 attendance/sidebar.py:38
 #: attendance/templates/attendance/work_record/work_record_view.html:51
 msgid "Work Records"
-msgstr ""
+msgstr "勤務記録"
 
 #: attendance/sidebar.py:29
 msgid "Attendance Requests"
-msgstr ""
+msgstr "勤怠リクエスト"
 
 #: attendance/sidebar.py:43
 msgid "Attendance Activities"
-msgstr ""
+msgstr "勤怠アクティビティ"
 
 #: attendance/sidebar.py:47
 msgid "Late Come Early Out"
-msgstr ""
+msgstr "遅刻早退"
 
 #: attendance/sidebar.py:52
 #: attendance/templates/attendance/own_attendance/nav.html:4
 #: attendance/templates/attendance/own_attendance/own_empty.html:6
 msgid "My Attendances"
-msgstr ""
+msgstr "自分の勤怠"
 
 #: attendance/signals.py:26
 msgid "Validate the attendance"
-msgstr ""
+msgstr "勤怠を検証"
 
 #: attendance/signals.py:30
 msgid "Incomplete minimum hour"
-msgstr ""
+msgstr "最低時間未達成"
 
 #: attendance/signals.py:32
 msgid "Incomplete half minimum hour"
-msgstr ""
+msgstr "半分の最低時間未達成"
 
 #: attendance/signals.py:67
 msgid "Half day leave"
-msgstr ""
+msgstr "半日休暇"
 
 #: attendance/signals.py:67
 msgid "An approved leave exists"
-msgstr ""
+msgstr "承認済みの休暇が存在します"
 
 #: attendance/signals.py:71
 msgid "Currently working"
-msgstr ""
+msgstr "勤務中"
 
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:4
 #: attendance/templates/attendance/attendance/attendance_request_one.html:120
 #: pms/templates/okr/objective_detailed_view_activity.html:23
 msgid "Activities"
-msgstr ""
+msgstr "アクティビティ"
 
 #: attendance/templates/attendance/attendance/attendance_activites_view.html:20
 msgid "Clock In"
@@ -6052,7 +6052,7 @@ msgstr "退勤"
 #: attendance/templates/attendance/attendance/attendance_nav.html:232
 #: attendance/templates/requests/attendance/nav.html:113
 msgid "Add to batch"
-msgstr ""
+msgstr "バッチに追加"
 
 #: attendance/templates/attendance/attendance/attendance_add_batch.html:19
 #: attendance/templates/attendance/attendance/attendance_filters.html:72
@@ -6077,7 +6077,7 @@ msgstr ""
 #: report/templates/report/attendance_report.html:90
 #: report/templates/report/payroll_report.html:60
 msgid "Batch"
-msgstr ""
+msgstr "バッチ"
 
 #: attendance/templates/attendance/attendance/attendance_add_batch.html:25
 msgid "Dynamic create"
@@ -6086,12 +6086,12 @@ msgstr ""
 #: attendance/templates/attendance/attendance/attendance_empty.html:9
 #: attendance/templates/attendance/attendance/attendance_nav.html:57
 msgid "Add Attendances"
-msgstr ""
+msgstr "勤怠を追加"
 
 #: attendance/templates/attendance/attendance/attendance_empty.html:24
 #: attendance/templates/attendance/attendance/attendance_nav.html:71
 msgid "Import Attendances"
-msgstr ""
+msgstr "勤怠をインポート"
 
 #: attendance/templates/attendance/attendance/attendance_empty.html:36
 #: attendance/templates/attendance/attendance/attendance_nav.html:83
@@ -6113,7 +6113,7 @@ msgstr ""
 #: attendance/templates/attendance/late_come_early_out/single_report.html:165
 #: attendance/templates/attendance/own_attendance/own_empty.html:14
 msgid "There are no attendance records to display."
-msgstr ""
+msgstr "表示する勤怠記録がありません。"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:4
 #: attendance/templates/attendance/attendance/export_filter.html:44
@@ -6142,7 +6142,7 @@ msgstr ""
 #: payroll/templates/payroll/contract/contract_export_filter.html:87
 #: payroll/templates/payroll/contract/filter_contract.html:53
 msgid "Work Info"
-msgstr ""
+msgstr "勤務情報"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:21
 #: attendance/templates/attendance/attendance/export_filter.html:61
@@ -6197,7 +6197,7 @@ msgstr ""
 #: employee/templates/personal-tab.html:187
 #: employee/templates/tabs/personal_tab.html:194
 msgid "Work Location"
-msgstr ""
+msgstr "勤務場所"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:58
 #: attendance/templates/attendance/attendance/export_filter.html:96
@@ -6285,7 +6285,7 @@ msgstr ""
 #: attendance/templates/requests/attendance/filter.html:95
 #: report/templates/report/attendance_report.html:100
 msgid "Attendance From"
-msgstr ""
+msgstr "勤怠開始"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:97
 #: attendance/templates/attendance/attendance/export_filter.html:131
@@ -6319,7 +6319,7 @@ msgstr ""
 #: attendance/templates/requests/attendance/filter.html:107
 #: report/templates/report/attendance_report.html:112
 msgid "At Work Greater or Equal"
-msgstr ""
+msgstr "就業時間が以上"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:112
 msgid "Pending Hour Greater or Equal"
@@ -6345,7 +6345,7 @@ msgstr ""
 #: attendance/templates/requests/attendance/filter.html:117
 #: report/templates/report/attendance_report.html:123
 msgid "Attendance Till"
-msgstr ""
+msgstr "勤怠終了"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:127
 #: attendance/templates/attendance/attendance/export_filter.html:157
@@ -6379,7 +6379,7 @@ msgstr ""
 #: attendance/templates/requests/attendance/filter.html:129
 #: report/templates/report/attendance_report.html:135
 msgid "At Work Less Than or Equal"
-msgstr ""
+msgstr "就業時間が以下"
 
 #: attendance/templates/attendance/attendance/attendance_filters.html:142
 msgid "Pending Hour Less Than or Equal"
@@ -6401,11 +6401,11 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/attendance_nav.html:142
 msgid "Search in : Shift"
-msgstr ""
+msgstr "検索対象：シフト"
 
 #: attendance/templates/attendance/attendance/attendance_nav.html:143
 msgid "Search in : Work Type"
-msgstr ""
+msgstr "検索対象：勤務タイプ"
 
 #: attendance/templates/attendance/attendance/attendance_nav.html:145
 #: employee/filters.py:40
@@ -6415,7 +6415,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance/attendance_nav.html:147
 #: employee/filters.py:41
 msgid "Search in : Job Position"
-msgstr ""
+msgstr "検索対象：職位"
 
 #: attendance/templates/attendance/attendance/attendance_nav.html:149
 msgid "Search in : Company"
@@ -6611,7 +6611,7 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:248
 #: employee/templates/tabs/profile-attendance-tab.html:28
 msgid "At Work"
-msgstr ""
+msgstr "就業中"
 
 #: attendance/templates/attendance/attendance/attendance_on_time.html:101
 #: attendance/templates/attendance/attendance/tab_content.html:405
@@ -6626,7 +6626,7 @@ msgstr ""
 #: employee/templates/tabs/attendance-tab.html:206
 #: employee/templates/tabs/attendance-tab.html:318
 msgid "Are you sure want to delete this attendance?"
-msgstr ""
+msgstr "この勤怠を削除してもよろしいですか？"
 
 #: attendance/templates/attendance/attendance/attendance_on_time.html:103
 #: attendance/templates/attendance/attendance/group_by.html:177
@@ -6756,12 +6756,12 @@ msgstr ""
 #: attendance/templates/attendance/attendance/tab_content.html:695
 #: attendance/templates/attendance/dashboard/overtime_table.html:59
 msgid "Approve Overtime"
-msgstr ""
+msgstr "残業を承認"
 
 #: attendance/templates/attendance/attendance/attendance_request_one.html:190
 #: attendance/templates/attendance/attendance/attendance_request_one.html:219
 msgid " Are you sure want to delete this attendance?"
-msgstr ""
+msgstr "この勤怠を削除してもよろしいですか？"
 
 #: attendance/templates/attendance/attendance/attendance_request_one.html:213
 #: attendance/templates/attendance/attendance/attendance_view.html:21
@@ -6774,11 +6774,11 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/attendance_view.html:11
 msgid "Attendance To Validate "
-msgstr ""
+msgstr "検証する勤怠"
 
 #: attendance/templates/attendance/attendance/attendance_view.html:29
 msgid "OT Attendances"
-msgstr ""
+msgstr "残業勤怠"
 
 #: attendance/templates/attendance/attendance/attendance_view.html:39
 msgid "Approve OT"
@@ -6786,15 +6786,15 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/attendance_view.html:47
 msgid "Validated Attendances"
-msgstr ""
+msgstr "検証済み勤怠"
 
 #: attendance/templates/attendance/attendance/batches_list.html:16
 msgid "Attendance Batches"
-msgstr ""
+msgstr "勤怠バッチ"
 
 #: attendance/templates/attendance/attendance/batches_list.html:33
 msgid "No of Attendances"
-msgstr ""
+msgstr "勤怠数"
 
 #: attendance/templates/attendance/attendance/batches_list.html:39
 #: employee/forms.py:739
@@ -6812,7 +6812,7 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/export_filter.html:4
 msgid "Export Attendances"
-msgstr ""
+msgstr "勤怠をエクスポート"
 
 #: attendance/templates/attendance/attendance/export_filter.html:21
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:17
@@ -6838,7 +6838,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance/validate_attendance.html:244
 #: employee/templates/tabs/attendance-tab.html:360
 msgid "Edit Attendance"
-msgstr ""
+msgstr "勤怠を編集"
 
 #: attendance/templates/attendance/attendance/group_by.html:340
 #: attendance/templates/attendance/attendance/group_by.html:635
@@ -6858,7 +6858,7 @@ msgstr ""
 
 #: attendance/templates/attendance/attendance/tab_content.html:96
 msgid "Atwork"
-msgstr ""
+msgstr "就業中"
 
 #: attendance/templates/attendance/attendance/tab_content.html:102
 #: attendance/templates/attendance/attendance/tab_content.html:104
@@ -6940,11 +6940,11 @@ msgstr ""
 #: attendance/templates/attendance/attendance/tab_content.html:323
 #: employee/templates/dashboard/not_out_yet.html:17
 msgid "At work"
-msgstr ""
+msgstr "就業中"
 
 #: attendance/templates/attendance/attendance/tab_content.html:756
 msgid "No validated attendance to show."
-msgstr ""
+msgstr "表示する検証済み勤怠がありません。"
 
 #: attendance/templates/attendance/attendance/validate_attendance_empty.html:7
 #, python-format
@@ -6959,7 +6959,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:125
 #: attendance/templates/attendance/attendance_account/attendance_account_filter.html:80
 msgid "Worked Hours Greater or Equal"
-msgstr ""
+msgstr "勤務時間が以上"
 
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:129
 #: attendance/templates/attendance/attendance_account/attendance_account_filter.html:86
@@ -6974,7 +6974,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:139
 #: attendance/templates/attendance/attendance_account/attendance_account_filter.html:100
 msgid "Worked Hours Less Than or Equal"
-msgstr ""
+msgstr "勤務時間が以下"
 
 #: attendance/templates/attendance/attendance_account/attendance_account_export_filter.html:143
 #: attendance/templates/attendance/attendance_account/attendance_account_filter.html:106
@@ -6990,7 +6990,7 @@ msgstr ""
 #: attendance/templates/attendance/attendance_activity/attendance_activity_view.html:6
 #: attendance/templates/attendance/late_come_early_out/reports.html:7
 msgid "Selected Attendance"
-msgstr ""
+msgstr "選択された勤怠"
 
 #: attendance/templates/attendance/attendance_account/attendance_overtime_view.html:11
 #: attendance/templates/requests/attendance/view-requests.html:39
@@ -7027,30 +7027,30 @@ msgstr ""
 #: attendance/templates/attendance/attendance_activity/nav.html:6
 #: attendance/views/views.py:1051
 msgid "Attendance Activity"
-msgstr ""
+msgstr "勤怠アクティビティ"
 
 #: attendance/templates/attendance/attendance_activity/activity_empty.html:14
 msgid "There are no attendance activity records to display."
-msgstr ""
+msgstr "表示する勤怠アクティビティ記録がありません。"
 
 #: attendance/templates/attendance/attendance_activity/attendance_activity_view.html:11
 #: attendance/templates/attendance/late_come_early_out/reports.html:11
 msgid "Select All Attendance"
-msgstr ""
+msgstr "すべての勤怠を選択"
 
 #: attendance/templates/attendance/attendance_activity/attendance_activity_view.html:15
 #: attendance/templates/attendance/late_come_early_out/reports.html:14
 msgid "Unselect All Attendance"
-msgstr ""
+msgstr "すべての勤怠の選択を解除"
 
 #: attendance/templates/attendance/attendance_activity/attendance_activity_view.html:18
 #: attendance/templates/attendance/late_come_early_out/reports.html:17
 msgid "Export Attendance"
-msgstr ""
+msgstr "勤怠をエクスポート"
 
 #: attendance/templates/attendance/attendance_activity/export_filter.html:4
 msgid "Export Attendance Activities"
-msgstr ""
+msgstr "勤怠アクティビティをエクスポート"
 
 #: attendance/templates/attendance/attendance_activity/group_by.html:50
 msgid "Attendnace Date"
@@ -7155,7 +7155,7 @@ msgstr ""
 #: attendance/templates/attendance/dashboard/dashboard.html:106
 #: base/views.py:6768 templates/dashboard_tile_container.html:9
 msgid "Offline Employees"
-msgstr ""
+msgstr "オフライン従業員"
 
 #: attendance/templates/attendance/dashboard/dashboard.html:123
 #: base/views.py:6775 templates/dashboard_tile_container.html:165
@@ -7211,7 +7211,7 @@ msgstr ""
 
 #: attendance/templates/attendance/dashboard/on_break_employees.html:24
 msgid "No employees are currently taking a break."
-msgstr ""
+msgstr "現在休憩中の従業員はいません。"
 
 #: attendance/templates/attendance/dashboard/overtime_table.html:73
 msgid "No overtime records pending validation."
@@ -7484,7 +7484,7 @@ msgstr ""
 #: attendance/templates/attendance/penalty/form.html:76
 #: leave/templates/leave/leave_request/penalty/form.html:64
 msgid "Leave type is optional when 'minus leave' is 0"
-msgstr ""
+msgstr "'マイナス休暇'が0の場合、休暇タイプは任意です"
 
 #: attendance/templates/attendance/penalty/form.html:79
 #: leave/templates/leave/leave_request/penalty/form.html:67
@@ -7494,7 +7494,7 @@ msgstr ""
 #: attendance/templates/attendance/penalty/form.html:82
 #: leave/templates/leave/leave_request/penalty/form.html:70
 msgid "By default minus leave will cut/deduct from available leaves"
-msgstr ""
+msgstr "デフォルトでマイナス休暇は利用可能休暇から差し引かれます"
 
 #: attendance/templates/attendance/settings/check_in_check_out_enable_form.html:6
 msgid "Enable Check In/Check out"
@@ -7515,7 +7515,7 @@ msgstr ""
 
 #: attendance/templates/attendance/settings/settings.html:8
 msgid "At-Work Tracker"
-msgstr ""
+msgstr "就業トラッカー"
 
 #: attendance/templates/attendance/settings/settings.html:9
 msgid ""
@@ -7538,7 +7538,7 @@ msgstr "休暇"
 
 #: attendance/templates/attendance/work_record/work_record_list.html:83
 msgid "On leave, But attendance exist"
-msgstr ""
+msgstr "休暇中ですが、勤怠が存在します"
 
 #: attendance/templates/attendance/work_record/work_record_view copy.html:10
 msgid "record_type_name"
@@ -7866,7 +7866,7 @@ msgstr ""
 
 #: attendance/views/clock_in_out.py:244
 msgid "You cannot mark attendance from this network"
-msgstr ""
+msgstr "このネットワークから勤怠を記録できません"
 
 #: attendance/views/clock_in_out.py:342
 msgid ""
@@ -7970,7 +7970,7 @@ msgstr ""
 #: attendance/views/views.py:765
 #, python-brace-format
 msgid "{employee} hour account deleted."
-msgstr ""
+msgstr "{employee}の時間アカウントが削除されました。"
 
 #: attendance/views/views.py:770
 msgid "Hour account not found."
@@ -8018,7 +8018,7 @@ msgstr ""
 #: attendance/views/views.py:1237
 #, python-brace-format
 msgid "{employee} Late-in early-out deleted."
-msgstr ""
+msgstr "{employee}の遅刻早退が削除されました。"
 
 #: attendance/views/views.py:1242
 msgid "Attendance not found."
@@ -8153,7 +8153,7 @@ msgstr ""
 
 #: base/announcement.py:151
 msgid "Your job position was mentioned in an announcement."
-msgstr ""
+msgstr "あなたの職位が発表で言及されました。"
 
 #: base/announcement.py:155
 msgid "You have been mentioned in an announcement."
@@ -8181,7 +8181,7 @@ msgstr ""
 
 #: base/context_processors.py:124 employee/views.py:1442
 msgid "Employee is not working in the selected company."
-msgstr ""
+msgstr "従業員は選択された会社で勤務していません。"
 
 #: base/context_processors.py:299 base/views.py:5545
 msgid "Profile Edit Access"
@@ -8196,11 +8196,11 @@ msgstr ""
 
 #: base/forms.py:596
 msgid "Job position already exists under {}"
-msgstr ""
+msgstr "職位は既に{}の下に存在します"
 
 #: base/forms.py:720 base/urls.py:299
 msgid "---Choose Work Type---"
-msgstr ""
+msgstr "---勤務タイプを選択---"
 
 #: base/forms.py:1177 base/forms.py:1262
 msgid ""
@@ -8477,7 +8477,7 @@ msgstr "いいえ"
 
 #: base/middleware.py:69 base/views.py:593
 msgid "An employee related to this user's credentials does not exist."
-msgstr ""
+msgstr "このユーザー資格情報に関連する従業員が存在しません。"
 
 #: base/models.py:27 leave/models.py:140
 msgid "First Week"
@@ -8557,17 +8557,17 @@ msgstr ""
 
 #: base/models.py:215
 msgid "Work Types"
-msgstr ""
+msgstr "勤務タイプ"
 
 #: base/models.py:250
 #: base/templates/base/rotating_work_type/rotating_work_type_view.html:7
 msgid "Work Type 1"
-msgstr ""
+msgstr "勤務タイプ1"
 
 #: base/models.py:256
 #: base/templates/base/rotating_work_type/rotating_work_type_view.html:8
 msgid "Work Type 2"
-msgstr ""
+msgstr "勤務タイプ2"
 
 #: base/models.py:275 base/models.py:354
 #: base/templates/base/rotating_work_type/filters.html:5
@@ -8575,15 +8575,15 @@ msgstr ""
 #: base/templates/base/rotating_work_type/rotating_work_type_assign_export.html:35
 #: templates/settings.html:305
 msgid "Rotating Work Type"
-msgstr ""
+msgstr "ローテーション勤務タイプ"
 
 #: base/models.py:276
 msgid "Rotating Work Types"
-msgstr ""
+msgstr "ローテーション勤務タイプ"
 
 #: base/models.py:283 base/models.py:295 base/models.py:301 base/models.py:306
 msgid "Select different work type continuously"
-msgstr ""
+msgstr "異なる勤務タイプを連続して選択"
 
 #: base/models.py:325 leave/models.py:78 payroll/models/models.py:1839
 msgid "Last Day"
@@ -8698,7 +8698,7 @@ msgstr ""
 #: base/templates/base/rotating_work_type/rotating_work_type_assign_view.html:73
 #: employee/templates/tabs/shift-tab.html:648
 msgid "Current Work Type"
-msgstr ""
+msgstr "現在の勤務タイプ"
 
 #: base/models.py:372
 #: base/templates/base/rotating_work_type/htmx/group_by.html:71
@@ -8706,7 +8706,7 @@ msgstr ""
 #: base/templates/base/rotating_work_type/rotating_work_type_assign_view.html:78
 #: employee/templates/tabs/shift-tab.html:654
 msgid "Next Work Type"
-msgstr ""
+msgstr "次の勤務タイプ"
 
 #: base/models.py:379 base/models.py:773
 #: base/templates/base/rotating_shift/filters.html:14
@@ -8749,15 +8749,15 @@ msgstr ""
 #: base/templates/base/rotating_work_type/htmx/rotating_work_type_assign_update_form.html:4
 #: base/templates/base/rotating_work_type/rotating_work_type_assign_nav.html:5
 msgid "Rotating Work Type Assign"
-msgstr ""
+msgstr "ローテーション勤務タイプ割り当て"
 
 #: base/models.py:417
 msgid "Rotating Work Type Assigns"
-msgstr ""
+msgstr "ローテーション勤務タイプ割り当て"
 
 #: base/models.py:427 base/models.py:823
 msgid "Only one active record allowed per employee"
-msgstr ""
+msgstr "従業員ごとに1つのアクティブレコードのみ許可されています"
 
 #: base/models.py:429 base/models.py:825 base/models.py:947 base/models.py:1066
 msgid "Date must be greater than or equal to today"
@@ -8765,27 +8765,27 @@ msgstr ""
 
 #: base/models.py:448
 msgid "Employee Types"
-msgstr ""
+msgstr "従業員タイプ"
 
 #: base/models.py:492
 msgid "Employee Shift Day"
-msgstr ""
+msgstr "従業員シフト日"
 
 #: base/models.py:493
 msgid "Employee Shift Days"
-msgstr ""
+msgstr "従業員シフト日"
 
 #: base/models.py:538 templates/settings.html:315
 msgid "Employee Shift"
-msgstr ""
+msgstr "従業員シフト"
 
 #: base/models.py:539
 msgid "Employee Shifts"
-msgstr ""
+msgstr "従業員シフト"
 
 #: base/models.py:589
 msgid "Minimum Working Hours"
-msgstr ""
+msgstr "最低勤務時間"
 
 #: base/models.py:591
 msgid "Start Time"
@@ -8819,11 +8819,11 @@ msgstr ""
 
 #: base/models.py:616 templates/settings.html:335
 msgid "Employee Shift Schedule"
-msgstr ""
+msgstr "従業員シフトスケジュール"
 
 #: base/models.py:617
 msgid "Employee Shift Schedules"
-msgstr ""
+msgstr "従業員シフトスケジュール"
 
 #: base/models.py:654
 #: base/templates/base/rotating_shift/rotating_shift_view.html:7
@@ -9050,7 +9050,7 @@ msgstr ""
 
 #: base/models.py:1274
 msgid "Leave Requested Days"
-msgstr ""
+msgstr "休暇申請日数"
 
 #: base/models.py:1301
 #: base/templates/multi_approval_condition/condition_create_form.html:62
@@ -9132,11 +9132,11 @@ msgstr ""
 
 #: base/models.py:1544 base/templates/announcement/announcement_one.html:11
 msgid "Announcement"
-msgstr ""
+msgstr "お知らせ"
 
 #: base/models.py:1545 templates/dashboard.html:194
 msgid "Announcements"
-msgstr ""
+msgstr "お知らせ"
 
 #: base/models.py:1643
 msgid "Excluded Charts"
@@ -9259,13 +9259,13 @@ msgstr ""
 #: leave/templates/leave/holiday/holiday_export_filter_form.html:35
 #: leave/templates/leave/holiday/holiday_filter.html:11
 msgid "Holiday"
-msgstr ""
+msgstr "祝日"
 
 #: base/models.py:1741 base/templates/holiday/holiday_view.html:6
 #: base/views.py:7150 leave/templates/leave/holiday/holiday_view.html:6
 #: templates/sidebar.html:281
 msgid "Holidays"
-msgstr ""
+msgstr "祝日"
 
 #: base/models.py:1767 base/templates/company_leave/company_leave.html:19
 #: leave/templates/leave/company_leave/company_leave.html:19
@@ -9284,29 +9284,29 @@ msgstr ""
 #: base/models.py:1779 base/templates/company_leave/company_leave_view.html:33
 #: leave/templates/leave/company_leave/company_leave_view.html:32
 msgid "Company Leave"
-msgstr ""
+msgstr "会社休暇"
 
 #: base/models.py:1780 base/templates/company_leave/company_leave_view.html:8
 #: leave/templates/leave/company_leave/company_leave_view.html:8
 #: templates/sidebar.html:290
 msgid "Company Leaves"
-msgstr ""
+msgstr "会社休暇"
 
 #: base/models.py:1825
 msgid "Specify the leave type to deduct the leave."
-msgstr ""
+msgstr "控除する休暇タイプを指定してください。"
 
 #: base/models.py:1831
 msgid "If a leave type is chosen for a penalty, minus leaves are required."
-msgstr ""
+msgstr "ペナルティに休暇タイプが選択された場合、マイナス休暇が必要です。"
 
 #: base/models.py:1839
 msgid "Either minus leaves or a penalty amount is required"
-msgstr ""
+msgstr "マイナス休暇またはペナルティ額が必要です"
 
 #: base/models.py:1847
 msgid "Leave type is required"
-msgstr ""
+msgstr "休暇タイプは必須です"
 
 #: base/models.py:1852
 #: employee/templates/employee/profile/profile_view.html:196
@@ -9552,7 +9552,7 @@ msgstr ""
 #: base/templates/base/auth/group_assign.html:3
 #: base/templates/base/auth/group_view.html:10
 msgid "Group"
-msgstr ""
+msgstr "グループ"
 
 #: base/templates/base/auth/group_assign_view.html:23
 #: base/templates/base/auth/group_view.html:25
@@ -10652,7 +10652,7 @@ msgstr ""
 #: base/templates/company_leave/company_leave.html:122
 #: leave/templates/leave/company_leave/company_leave.html:124
 msgid "There are no company leaves at the moment."
-msgstr ""
+msgstr "現在、会社休暇はありません。"
 
 #: base/templates/email_config.html:9
 msgid "Configure your email server."
@@ -10677,55 +10677,55 @@ msgstr ""
 #: base/templates/holiday/holiday.html:15
 #: leave/templates/leave/holiday/holiday.html:16
 msgid "Select All Holidays"
-msgstr ""
+msgstr "すべての祝日を選択"
 
 #: base/templates/holiday/holiday.html:18
 #: leave/templates/leave/holiday/holiday.html:21
 msgid "Unselect All Holidays"
-msgstr ""
+msgstr "すべての祝日の選択を解除"
 
 #: base/templates/holiday/holiday.html:21
 #: base/templates/holiday/holiday_export_filter_form.html:4
 #: leave/templates/leave/holiday/holiday.html:26
 #: leave/templates/leave/holiday/holiday_export_filter_form.html:4
 msgid "Export Holidays"
-msgstr ""
+msgstr "祝日をエクスポート"
 
 #: base/templates/holiday/holiday.html:37
 #: leave/templates/leave/holiday/holiday.html:48
 #: leave/templates/leave/holiday/holiday_form.html:39
 #: leave/templates/leave/holiday/holiday_update_form.html:39
 msgid "Holiday Name"
-msgstr ""
+msgstr "祝日名"
 
 #: base/templates/holiday/holiday.html:93
 msgid "Are you sure you want to delete this holiday?"
-msgstr ""
+msgstr "この祝日を削除してもよろしいですか？"
 
 #: base/templates/holiday/holiday.html:156
 #: leave/templates/leave/holiday/holiday.html:211
 msgid "There are no holidays at the moments."
-msgstr ""
+msgstr "現在、祝日はありません。"
 
 #: base/templates/holiday/holiday_view.html:100
 #: leave/templates/leave/holiday/holiday_view.html:147
 #: leave/templates/leave/restrict/view_restrict.html:80
 msgid "Selected Holidays"
-msgstr ""
+msgstr "選択された祝日"
 
 #: base/templates/holiday/holiday_view.html:119
 #: leave/templates/leave/holiday/holiday_view.html:173
 msgid "There are no holidays at the moment."
-msgstr ""
+msgstr "現在、祝日はありません。"
 
 #: base/templates/holiday/holiday_view.html:133
 #: leave/templates/leave/holiday/holiday_view.html:193
 msgid "Import Holidays"
-msgstr ""
+msgstr "祝日をインポート"
 
 #: base/templates/holiday/upcoming_holidays.html:18
 msgid "No more holidays scheduled for this month."
-msgstr ""
+msgstr "今月はこれ以上の祝日はありません。"
 
 #: base/templates/mail/empty_mail_template.html:7
 #: base/templates/mail/view_templates.html:8 templates/sidebar.html:262
@@ -11200,7 +11200,7 @@ msgstr ""
 
 #: base/translator.py:22
 msgid "LEAVE"
-msgstr ""
+msgstr "休暇"
 
 #: base/translator.py:23 base/translator.py:92
 msgid "ASSET"
@@ -11252,19 +11252,19 @@ msgstr ""
 
 #: base/translator.py:35
 msgid "You have a new leave request to validate."
-msgstr ""
+msgstr "検証する新しい休暇申請があります。"
 
 #: base/translator.py:36
 msgid "New leave type is assigned to you"
-msgstr ""
+msgstr "新しい休暇タイプが割り当てられました"
 
 #: base/translator.py:37
 msgid "Your Leave request has been cancelled"
-msgstr ""
+msgstr "休暇申請がキャンセルされました"
 
 #: base/translator.py:38
 msgid "Your Leave request has been approved"
-msgstr ""
+msgstr "休暇申請が承認されました"
 
 #: base/translator.py:39
 msgid "You are chosen as onboarding stage manager"
@@ -11372,15 +11372,15 @@ msgstr ""
 
 #: base/translator.py:76
 msgid "Calculate daily leave amount"
-msgstr ""
+msgstr "日次休暇額を計算"
 
 #: base/translator.py:77
 msgid "Deduction for one leave amount"
-msgstr ""
+msgstr "1日の休暇控除額"
 
 #: base/translator.py:78
 msgid "Deduct leave from basic pay"
-msgstr ""
+msgstr "基本給から休暇を控除"
 
 #: base/translator.py:79
 msgid "Job role"
@@ -11661,7 +11661,7 @@ msgstr ""
 #: payroll/templates/payroll/reimbursement/reimbursement_list.html:434
 #: payroll/templates/payroll/reimbursement/reimbursenent_individual.html:112
 msgid "Leave type"
-msgstr ""
+msgstr "休暇タイプ"
 
 #: base/translator.py:162
 msgid "From date"
@@ -11899,15 +11899,15 @@ msgstr ""
 
 #: base/translator.py:221
 msgid "leave-dashboard"
-msgstr ""
+msgstr "休暇ダッシュボード"
 
 #: base/translator.py:222
 msgid "leave-employee-dashboard"
-msgstr ""
+msgstr "休暇従業員ダッシュボード"
 
 #: base/translator.py:223
 msgid "user-leave"
-msgstr ""
+msgstr "ユーザー休暇"
 
 #: base/translator.py:224
 msgid "user-request-view"
@@ -11927,11 +11927,11 @@ msgstr ""
 
 #: base/translator.py:228
 msgid "holiday-view"
-msgstr ""
+msgstr "祝日表示"
 
 #: base/translator.py:229
 msgid "company-leave-view"
-msgstr ""
+msgstr "会社休暇表示"
 
 #: base/translator.py:230
 msgid "dashboard-view"
@@ -12003,7 +12003,7 @@ msgstr ""
 
 #: base/translator.py:250
 msgid "leave"
-msgstr ""
+msgstr "休暇"
 
 #: base/translator.py:251
 msgid "attendance"
@@ -12083,7 +12083,7 @@ msgstr ""
 
 #: base/translator.py:271
 msgid "leave-allocation-request-view"
-msgstr ""
+msgstr "休暇割り当てリクエスト表示"
 
 #: base/translator.py:272
 msgid "employee-view-update"
@@ -12307,11 +12307,11 @@ msgstr ""
 
 #: base/translator.py:327
 msgid "compensatory-leave-settings-view"
-msgstr ""
+msgstr "代休設定表示"
 
 #: base/translator.py:328
 msgid "view-compensatory-leave"
-msgstr ""
+msgstr "代休表示"
 
 #: base/translator.py:329
 msgid "interview-view"
@@ -12343,7 +12343,7 @@ msgstr ""
 
 #: base/translator.py:336
 msgid "employee-past-leave-restriction"
-msgstr ""
+msgstr "従業員過去休暇制限"
 
 #: base/translator.py:337
 msgid "track-late-come-early-out"
@@ -12439,7 +12439,7 @@ msgstr ""
 
 #: base/translator.py:361
 msgid "leave-report"
-msgstr ""
+msgstr "休暇レポート"
 
 #: base/translator.py:362
 msgid "payroll-report"
@@ -12941,7 +12941,7 @@ msgstr ""
 
 #: base/views.py:6770
 msgid "Overall Leave Chart"
-msgstr ""
+msgstr "全体休暇チャート"
 
 #: base/views.py:6771 onboarding/templates/onboarding/candidates_view.html:23
 #: recruitment/templates/dashboard/dashboard.html:74
@@ -13004,11 +13004,11 @@ msgstr ""
 
 #: base/views.py:6786
 msgid "Leave Request to Approve"
-msgstr ""
+msgstr "承認する休暇申請"
 
 #: base/views.py:6787
 msgid "Leave Allocation to Approve"
-msgstr ""
+msgstr "承認する休暇割り当て"
 
 #: base/views.py:6788
 msgid "Feedbacks to Answer"
@@ -13028,7 +13028,7 @@ msgstr ""
 
 #: base/views.py:6935
 msgid "New holiday created successfully.."
-msgstr ""
+msgstr "新しい祝日が正常に作成されました。"
 
 #: base/views.py:6998
 msgid "Invalid start date format."
@@ -14160,7 +14160,7 @@ msgstr ""
 #: employee/templates/employee/profile/profile.html:22
 #: employee/templates/employee/update_form/form_view.html:12
 msgid "Personal Info"
-msgstr ""
+msgstr "個人情報"
 
 #: employee/templates/employee/create_form/personal_info.html:46
 #: employee/templates/employee/profile/personal_info.html:139
@@ -14241,14 +14241,14 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_bank_details.html:75
 #: payroll/forms/component_forms.py:506
 msgid "Bank Name"
-msgstr ""
+msgstr "銀行名"
 
 #: employee/templates/employee/profile/bank_info.html:17
 #: employee/templates/personal-tab.html:313
 #: employee/templates/tabs/personal_tab.html:354
 #: payroll/forms/component_forms.py:508
 msgid "Account Number"
-msgstr ""
+msgstr "口座番号"
 
 #: employee/templates/employee/profile/bank_info.html:26
 #: employee/templates/personal-tab.html:280
@@ -14256,7 +14256,7 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_bank_details.html:89
 #: payroll/forms/component_forms.py:507
 msgid "Branch"
-msgstr ""
+msgstr "支店"
 
 #: employee/templates/employee/profile/bank_info.html:33
 #: employee/templates/employee/profile/bank_info.html:77
@@ -14319,7 +14319,7 @@ msgstr "生年月日"
 #: employee/templates/tabs/personal_tab.html:64 onboarding/forms.py:333
 #: onboarding/templates/onboarding/employee_creation.html:133
 msgid "Qualification"
-msgstr ""
+msgstr "資格"
 
 #: employee/templates/employee/profile/personal_info.html:58
 #: employee/templates/personal-tab.html:79
@@ -14327,7 +14327,7 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_creation.html:140
 #: payroll/models/models.py:679
 msgid "Experience"
-msgstr ""
+msgstr "経験"
 
 #: employee/templates/employee/profile/personal_info.html:91
 #: recruitment/models.py:442
@@ -14339,7 +14339,7 @@ msgstr ""
 #: employee/templates/personal-tab.html:106
 #: employee/templates/tabs/personal_tab.html:96
 msgid "Emergency Contact"
-msgstr ""
+msgstr "緊急連絡先"
 
 #: employee/templates/employee/profile/personal_info.html:102
 msgid "Contact Name"
@@ -14358,7 +14358,7 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_creation.html:147
 #: payroll/models/models.py:678
 msgid "Marital Status"
-msgstr ""
+msgstr "婚姻状態"
 
 #: employee/templates/employee/profile/personal_info.html:122
 #: employee/templates/personal-tab.html:97
@@ -14486,7 +14486,7 @@ msgstr ""
 
 #: employee/templates/employee/profile/work_info.html:7
 msgid "Job Title"
-msgstr ""
+msgstr "職務名"
 
 #: employee/templates/employee/profile/work_info.html:21
 #: employee/templates/personal-tab.html:157
@@ -14506,7 +14506,7 @@ msgstr ""
 #: recruitment/templates/candidate/mail_log.html:7
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:65
 msgid "Subject"
-msgstr ""
+msgstr "件名"
 
 #: employee/templates/employee/send_mail.html:54
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:72
@@ -14527,7 +14527,7 @@ msgstr ""
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:88
 #: recruitment/templates/survey/template_accordion.html:31
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
 #: employee/templates/employee/send_mail.html:87
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:106
@@ -14576,7 +14576,7 @@ msgstr ""
 #: leave/templates/leave/leave_allocation_request/leave_allocation_request_single_view.html:101
 #: recruitment/templates/candidate/individual.html:197
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 #: employee/templates/employee/view/individual.html:409
 #: employee/templates/employee/view/individual.html:414
@@ -14680,7 +14680,7 @@ msgstr ""
 
 #: employee/templates/employee_nav.html:271 horilla_views/forms.py:109
 msgid "Bulk Update"
-msgstr ""
+msgstr "一括更新"
 
 #: employee/templates/employee_personal_info/bulk_update.html:19
 msgid "Employees Bulk Update"
@@ -14891,7 +14891,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/payslip_table.html:62
 #: payroll/templates/payroll/payslip/payslip_table.html:64
 msgid "Gross Pay"
-msgstr ""
+msgstr "総支給額"
 
 #: employee/templates/payroll-tab.html:36
 #: employee/templates/tabs/allowance_deduction-tab.html:157
@@ -14919,7 +14919,7 @@ msgstr "控除"
 #: payroll/templates/payroll/payslip/payslip_table.html:68
 #: payroll/templates/payroll/payslip/payslip_table.html:70
 msgid "Net Pay"
-msgstr ""
+msgstr "手取り額"
 
 #: employee/templates/performance-tab.html:9
 #: employee/templates/tabs/performance-tab.html:10
@@ -14956,7 +14956,7 @@ msgstr ""
 #: employee/templates/tabs/personal_tab.html:104 onboarding/forms.py:340
 #: onboarding/templates/onboarding/employee_creation.html:168
 msgid "Emergency Contact Name"
-msgstr ""
+msgstr "緊急連絡先氏名"
 
 #: employee/templates/personal-tab.html:228
 #: employee/templates/tabs/personal_tab.html:234 payroll/models/models.py:126
@@ -15050,7 +15050,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/individual_payslip_summery.html:82
 #: payroll/templates/payroll/payslip/individual_pdf.html:154
 msgid "Allowances"
-msgstr ""
+msgstr "手当"
 
 #: employee/templates/tabs/allowance_deduction-tab.html:40
 #: payroll/templates/payroll/deduction/view_deduction.html:18
@@ -15058,7 +15058,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/individual_payslip_summery.html:133
 #: payroll/templates/payroll/payslip/individual_pdf.html:197
 msgid "Deductions"
-msgstr ""
+msgstr "控除"
 
 #: employee/templates/tabs/allowance_deduction-tab.html:55
 #: payroll/forms/component_forms.py:52 payroll/models/models.py:962
@@ -15310,7 +15310,7 @@ msgstr ""
 
 #: employee/templates/tabs/document_tab.html:84 horilla_documents/models.py:96
 msgid "Issue Date"
-msgstr ""
+msgstr "発行日"
 
 #: employee/templates/tabs/document_tab.html:156
 #: recruitment/templates/candidate/document.html:198
@@ -15535,7 +15535,7 @@ msgstr "時刻"
 #: recruitment/templates/candidate/interview_list.html:41
 #: recruitment/templates/candidate/interview_list.html:42
 msgid "Interviewer"
-msgstr ""
+msgstr "面接官"
 
 #: employee/templates/tabs/scheduled_interview.html:133
 #: recruitment/templates/candidate/candidate_interview_view.html:122
@@ -15990,13 +15990,13 @@ msgstr ""
 
 #: helpdesk/models.py:130
 msgid "Ticket"
-msgstr ""
+msgstr "チケット"
 
 #: helpdesk/models.py:131
 #: helpdesk/templates/helpdesk/ticket/ticket_filter.html:63
 #: helpdesk/templates/helpdesk/ticket/ticket_nav.html:5
 msgid "Tickets"
-msgstr ""
+msgstr "チケット"
 
 #: helpdesk/models.py:138
 msgid "Deadline should be greater than today"
@@ -17881,7 +17881,7 @@ msgstr ""
 #: leave/templates/leave/leave_type/leave_type_filter.html:15
 #: leave/templates/leave/leave_type_creation.html:59
 msgid "Payment Method"
-msgstr ""
+msgstr "支払方法"
 
 #: leave/templates/leave/leave_type/leave_type_filter.html:30
 msgid "Carry Forward Type"
@@ -18454,7 +18454,7 @@ msgstr ""
 
 #: offboarding/templates/offboarding/dashboard/asset_returned_table.html:19
 msgid "Reminder"
-msgstr ""
+msgstr "リマインダー"
 
 #: offboarding/templates/offboarding/dashboard/asset_returned_table.html:75
 msgid "No Assets Due for Return from Offboarding Employees."
@@ -18509,7 +18509,7 @@ msgstr ""
 #: onboarding/templates/onboarding/onboarding_table.html:122
 #: project/templates/dashboard/project_dashboard.html:69
 msgid "Task Status"
-msgstr ""
+msgstr "タスクステータス"
 
 #: offboarding/templates/offboarding/dashboard/employee_task_table.html:15
 #: offboarding/templates/offboarding/pipeline/filter.html:91
@@ -18816,7 +18816,7 @@ msgstr ""
 #: onboarding/forms.py:337
 #: onboarding/templates/onboarding/employee_creation.html:161
 msgid "Emergency Contact Number"
-msgstr ""
+msgstr "緊急連絡先電話番号"
 
 #: onboarding/forms.py:370
 msgid "Experience should be a postive integier"
@@ -18877,7 +18877,7 @@ msgstr ""
 
 #: onboarding/models.py:50
 msgid "Onboarding Stage"
-msgstr ""
+msgstr "オンボーディングステージ"
 
 #: onboarding/models.py:51
 msgid "Onboarding Stages"
@@ -19174,7 +19174,7 @@ msgstr ""
 #: onboarding/templates/onboarding/employee_creation.html:60
 #: onboarding/templates/onboarding/user_creation.html:76
 msgid "Personal Details"
-msgstr ""
+msgstr "個人情報"
 
 #: onboarding/templates/onboarding/employee_bank_details.html:64
 #: onboarding/templates/onboarding/employee_bank_details.html:71
@@ -19321,7 +19321,7 @@ msgstr "開く"
 
 #: onboarding/templates/onboarding/onboardings.html:10
 msgid "Candidate Name"
-msgstr ""
+msgstr "候補者名"
 
 #: onboarding/templates/onboarding/rejection/form.html:23
 msgid "Cancel Rejection"
@@ -19574,7 +19574,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/payslip_pdf.html:288
 #: payroll/templates/payroll/payslip/test_pdf.html:288
 msgid "Basic Pay"
-msgstr ""
+msgstr "基本給"
 
 #: payroll/forms/component_forms.py:300
 msgid "You need to choose the employee."
@@ -19631,7 +19631,7 @@ msgstr ""
 
 #: payroll/models/models.py:128
 msgid "Commission"
-msgstr ""
+msgstr "コミッション"
 
 #: payroll/models/models.py:159
 msgid "Contract Title."
@@ -20000,7 +20000,7 @@ msgstr ""
 #: payroll/templates/payroll/loan/records_card.html:5
 #: payroll/templates/payroll/loan/records_list.html:5
 msgid "Loan"
-msgstr ""
+msgstr "ローン"
 
 #: payroll/models/models.py:1469 payroll/templates/payroll/loan/records.html:13
 #: payroll/templates/payroll/loan/records_card.html:9
@@ -20023,7 +20023,7 @@ msgstr ""
 #: payroll/models/models.py:1583
 #: payroll/templates/payroll/reimbursement/filter.html:14
 msgid "Reimbursement"
-msgstr ""
+msgstr "払い戻し"
 
 #: payroll/models/models.py:1584
 msgid "Bonus Point Encashment"
@@ -20366,7 +20366,7 @@ msgstr ""
 
 #: payroll/templates/payroll/deduction/view_single_deduction.html:40
 msgid "Tax"
-msgstr ""
+msgstr "税金"
 
 #: payroll/templates/payroll/deduction/view_single_deduction.html:50
 msgid "One Time deduction"
@@ -20473,7 +20473,7 @@ msgstr ""
 #: payroll/templates/payroll/payslip/view_payslips.html:15
 #: report/templates/report/payroll_report.html:39
 msgid "Payslip"
-msgstr ""
+msgstr "給与明細"
 
 #: payroll/templates/payroll/payslip/filter_payslips.html:51
 #: payroll/templates/payroll/payslip/payslips_quick_filter.html:27
@@ -20545,7 +20545,7 @@ msgstr ""
 
 #: payroll/templates/payroll/payslip/generate_payslip_list.html:6
 msgid "Payslips"
-msgstr ""
+msgstr "給与明細"
 
 #: payroll/templates/payroll/payslip/group_by.html:21
 #: payroll/templates/payroll/payslip/payslip_table.html:17
@@ -21548,7 +21548,7 @@ msgstr ""
 
 #: pms/templates/dashboard/feedback_answer.html:9
 msgid "Due Date"
-msgstr ""
+msgstr "期限"
 
 #: pms/templates/dashboard/pms_dashboard.html:23
 msgid "Total employee objectives"
@@ -23339,14 +23339,14 @@ msgstr ""
 #: recruitment/models.py:110
 #: recruitment/templates/settings/skills/skills_list.html:7
 msgid "Skill"
-msgstr ""
+msgstr "スキル"
 
 #: recruitment/models.py:111 recruitment/models.py:174
 #: recruitment/templates/settings/skills/skills_form.html:5
 #: recruitment/templates/settings/skills/skills_view.html:6
 #: templates/settings.html:255
 msgid "Skills"
-msgstr ""
+msgstr "スキル"
 
 #: recruitment/models.py:125
 msgid "To start recruitment for multiple job positions"
@@ -23421,7 +23421,7 @@ msgstr ""
 #: recruitment/templates/recruitment/recruitment_component.html:167
 #: recruitment/templates/stage/stage_group.html:33
 msgid "Hired"
-msgstr ""
+msgstr "採用済み"
 
 #: recruitment/models.py:360
 msgid "Not Sent"
@@ -23530,13 +23530,13 @@ msgstr ""
 #: recruitment/templates/candidate/interview_list.html:43
 #: recruitment/templates/candidate/interview_list.html:46
 msgid "Interview Date"
-msgstr ""
+msgstr "面接日"
 
 #: recruitment/models.py:986
 #: recruitment/templates/candidate/interview_list.html:47
 #: recruitment/templates/candidate/interview_list.html:48
 msgid "Interview Time"
-msgstr ""
+msgstr "面接時刻"
 
 #: recruitment/models.py:992
 msgid "Is Interview Completed"
@@ -24078,7 +24078,7 @@ msgstr ""
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:69
 msgid "Reopen"
-msgstr ""
+msgstr "再オープン"
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:77
 msgid "Are you sure you want to delete this recruitment?"
@@ -24299,7 +24299,7 @@ msgstr ""
 
 #: recruitment/templates/survey/view_question_templates.html:95
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #: recruitment/templates/survey/view_question_templates.html:105
 msgid " Create template group"
@@ -24980,7 +24980,7 @@ msgstr ""
 
 #: templates/settings.html:60
 msgid "General Settings"
-msgstr ""
+msgstr "一般設定"
 
 #: templates/settings.html:69
 msgid "Employee Permission"
@@ -24992,7 +24992,7 @@ msgstr ""
 
 #: templates/settings.html:89
 msgid "User Group"
-msgstr ""
+msgstr "ユーザーグループ"
 
 #: templates/settings.html:99
 msgid "Date & Time Format"
@@ -25072,4 +25072,4 @@ msgstr ""
 
 #: templates/work_info_complete.html:10
 msgid "Progress"
-msgstr ""
+msgstr "進捗"
