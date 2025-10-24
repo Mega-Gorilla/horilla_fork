@@ -1,6 +1,6 @@
 ---
 name: codex-reviewer
-description: Review GitHub issues and PRs using OpenAI Codex: analyze implementation feasibility, code quality, security, performance, architecture, test coverage. Post automated review comments to skyvern_fork repository. Use when reviewing issues, PRs, or requesting AI code review.
+description: Review GitHub issues and PRs using OpenAI Codex: analyze implementation feasibility, code quality, security, performance, architecture, test coverage. Post automated review comments to horilla_fork repository. Use when reviewing issues, PRs, or requesting AI code review.
 allowed-tools: Bash
 ---
 
@@ -15,7 +15,7 @@ This skill automates the review process by:
 2. Requesting comprehensive review from OpenAI Codex
 3. Posting review results as GitHub comments
 
-**Target Repository**: `Mega-Gorilla/skyvern_fork`
+**Target Repository**: `Mega-Gorilla/horilla_fork`
 
 ## Prerequisites
 

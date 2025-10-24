@@ -2,7 +2,7 @@
 # Review GitHub Pull Request using OpenAI Codex
 set -euo pipefail
 
-REPO="Mega-Gorilla/skyvern_fork"
+REPO="Mega-Gorilla/horilla_fork"
 PR_NUMBER="${1:?Usage: $0 <pr_number>}"
 
 echo "🔍 Fetching PR #${PR_NUMBER} from ${REPO}..."

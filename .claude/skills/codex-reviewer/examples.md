@@ -10,11 +10,11 @@ scripts/review_issue.sh 27
 
 **Expected Output**:
 ```
-🔍 Fetching Issue #27 from Mega-Gorilla/skyvern_fork...
+🔍 Fetching Issue #27 from Mega-Gorilla/horilla_fork...
 🤖 Requesting Codex review...
 ✍️ Posting review to GitHub...
 ✅ Review posted successfully!
-View at: https://github.com/Mega-Gorilla/skyvern_fork/issues/27
+View at: https://github.com/Mega-Gorilla/horilla_fork/issues/27
 ```
 
 **What Gets Reviewed**:
@@ -43,11 +43,11 @@ scripts/review_pr.sh 28
 
 **Expected Output**:
 ```
-🔍 Fetching PR #28 from Mega-Gorilla/skyvern_fork...
+🔍 Fetching PR #28 from Mega-Gorilla/horilla_fork...
 🤖 Requesting Codex review...
 ✍️ Posting review to GitHub...
 ✅ Review posted successfully!
-View at: https://github.com/Mega-Gorilla/skyvern_fork/pull/28
+View at: https://github.com/Mega-Gorilla/horilla_fork/pull/28
 ```
 
 **What Gets Reviewed**:
@@ -76,7 +76,7 @@ View at: https://github.com/Mega-Gorilla/skyvern_fork/pull/28
 ISSUE_NUMBER=25
 
 # Fetch issue content
-CONTEXT=$(gh issue view ${ISSUE_NUMBER} --repo Mega-Gorilla/skyvern_fork \
+CONTEXT=$(gh issue view ${ISSUE_NUMBER} --repo Mega-Gorilla/horilla_fork \
   --json title,body,comments --jq '{title, body, comments: [.comments[] | {author: .author.login, body}]}')
 
 # Custom security review
@@ -106,11 +106,11 @@ echo "${REVIEW}"
 PR_NUMBER=5
 
 # Fetch PR details
-PR_INFO=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork \
+PR_INFO=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork \
   --json title,body,commits,additions,deletions)
 
 # Get diff
-DIFF=$(gh pr diff ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork | head -200)
+DIFF=$(gh pr diff ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork | head -200)
 
 # Performance-focused review
 PROMPT="PERFORMANCE REVIEW - Analyze:
@@ -129,7 +129,7 @@ ${DIFF}"
 REVIEW=$(codex exec --full-auto "${PROMPT}")
 
 # Post review
-gh pr comment ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork \
+gh pr comment ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork \
   --body "## 🚀 Performance Review
 
 ${REVIEW}
@@ -148,7 +148,7 @@ ${REVIEW}
 #!/bin/bash
 set -euo pipefail
 
-REPO="Mega-Gorilla/skyvern_fork"
+REPO="Mega-Gorilla/horilla_fork"
 
 # Get all open enhancement issues
 ISSUES=$(gh issue list --repo ${REPO} --label enhancement --state open --json number --jq '.[].number')
@@ -178,7 +178,7 @@ echo "✅ Batch review completed!"
 #!/bin/bash
 ISSUE_NUMBER=30  # Hypothetical API design issue
 
-CONTEXT=$(gh issue view ${ISSUE_NUMBER} --repo Mega-Gorilla/skyvern_fork --json title,body)
+CONTEXT=$(gh issue view ${ISSUE_NUMBER} --repo Mega-Gorilla/horilla_fork --json title,body)
 
 PROMPT="API DESIGN REVIEW - Evaluate:
 
@@ -224,7 +224,7 @@ codex exec --full-auto "${PROMPT}"
 PR_NUMBER=35  # Hypothetical migration PR
 
 # Get migration files
-FILES=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork \
+FILES=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork \
   --json files --jq '.files[] | select(.path | contains("migration")) | .path')
 
 if [ -z "${FILES}" ]; then
@@ -236,7 +236,7 @@ fi
 DIFF=""
 for file in ${FILES}; do
   DIFF="${DIFF}\n\n=== ${file} ===\n"
-  DIFF="${DIFF}$(gh pr diff ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork -- ${file})"
+  DIFF="${DIFF}$(gh pr diff ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork -- ${file})"
 done
 
 PROMPT="DATABASE MIGRATION REVIEW - Check:
@@ -283,7 +283,7 @@ codex exec --full-auto "${PROMPT}"
 PR_NUMBER=28
 
 # Focus on UI files
-UI_FILES=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/skyvern_fork \
+UI_FILES=$(gh pr view ${PR_NUMBER} --repo Mega-Gorilla/horilla_fork \
   --json files --jq '.files[] | select(.path | contains("gui") or contains("widgets")) | .path' | head -5)
 
 PROMPT="UI/UX IMPLEMENTATION REVIEW - Assess:
@@ -359,7 +359,7 @@ Review only code changes, not full context:
 #!/bin/bash
 PR=28
 
-DIFF=$(gh pr diff ${PR} --repo Mega-Gorilla/skyvern_fork)
+DIFF=$(gh pr diff ${PR} --repo Mega-Gorilla/horilla_fork)
 
 PROMPT="Code Review - Analyze only these changes:
 
@@ -381,7 +381,7 @@ Review based on file types:
 #!/bin/bash
 PR=$1
 
-FILES=$(gh pr view ${PR} --repo Mega-Gorilla/skyvern_fork --json files --jq '.files[].path')
+FILES=$(gh pr view ${PR} --repo Mega-Gorilla/horilla_fork --json files --jq '.files[].path')
 
 if echo "${FILES}" | grep -q "\.py$"; then
   echo "Python files detected - running Python review"

@@ -1,22 +1,22 @@
 ---
 name: github-manager
-description: Manage GitHub issues and PRs using gh CLI: list, view, create, comment, edit, close issues; list, view, diff, review, approve PRs. Target skyvern_fork repository. Use when managing issues, PRs, posting comments, or checking project status.
+description: Manage GitHub issues and PRs using gh CLI: list, view, create, comment, edit, close issues; list, view, diff, review, approve PRs. Target horilla_fork repository. Use when managing issues, PRs, posting comments, or checking project status.
 allowed-tools: Bash
 ---
 
 # GitHub Manager
 
-Manage GitHub issues and pull requests for the skyvern_fork repository using `gh` CLI.
+Manage GitHub issues and pull requests for the horilla_fork repository using `gh` CLI.
 
 ## Overview
 
 This skill provides commands to:
-- View and manage issues in the skyvern_fork project
+- View and manage issues in the horilla_fork project
 - View and manage pull requests
 - Post comments on issues and PRs
 - Create new issues
 
-**Target Repository**: `Mega-Gorilla/skyvern_fork` (always use `--repo` flag)
+**Target Repository**: `Mega-Gorilla/horilla_fork` (always use `--repo` flag)
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ This skill provides commands to:
 
 **Command**:
 ```bash
-gh issue list --repo Mega-Gorilla/skyvern_fork
+gh issue list --repo Mega-Gorilla/horilla_fork
 ```
 
 **Options**:
@@ -48,12 +48,12 @@ gh issue list --repo Mega-Gorilla/skyvern_fork
 
 **Basic View**:
 ```bash
-gh issue view <number> --repo Mega-Gorilla/skyvern_fork
+gh issue view <number> --repo Mega-Gorilla/horilla_fork
 ```
 
 **Detailed View with JSON**:
 ```bash
-gh issue view <number> --repo Mega-Gorilla/skyvern_fork --json title,body,state,comments,author,createdAt,updatedAt
+gh issue view <number> --repo Mega-Gorilla/horilla_fork --json title,body,state,comments,author,createdAt,updatedAt
 ```
 
 This returns structured data including:
@@ -63,19 +63,19 @@ This returns structured data including:
 
 **Example**:
 ```bash
-gh issue view 27 --repo Mega-Gorilla/skyvern_fork --json title,body,comments
+gh issue view 27 --repo Mega-Gorilla/horilla_fork --json title,body,comments
 ```
 
 ### Get Issue Comments
 
 **Method 1 - Using gh issue view**:
 ```bash
-gh issue view <number> --repo Mega-Gorilla/skyvern_fork --json comments --jq '.comments[] | {author: .author.login, body, createdAt}'
+gh issue view <number> --repo Mega-Gorilla/horilla_fork --json comments --jq '.comments[] | {author: .author.login, body, createdAt}'
 ```
 
 **Method 2 - Using gh api**:
 ```bash
-gh api repos/Mega-Gorilla/skyvern_fork/issues/<number>/comments --jq '.[] | {author: .user.login, created_at, body}'
+gh api repos/Mega-Gorilla/horilla_fork/issues/<number>/comments --jq '.[] | {author: .user.login, created_at, body}'
 ```
 
 Both methods return all comments with author information.
@@ -83,7 +83,7 @@ Both methods return all comments with author information.
 ### Create Issue
 
 ```bash
-gh issue create --repo Mega-Gorilla/skyvern_fork \
+gh issue create --repo Mega-Gorilla/horilla_fork \
   --title "Issue title" \
   --body "Issue description"
 ```
@@ -96,14 +96,14 @@ gh issue create --repo Mega-Gorilla/skyvern_fork \
 ### Comment on Issue
 
 ```bash
-gh issue comment <number> --repo Mega-Gorilla/skyvern_fork \
+gh issue comment <number> --repo Mega-Gorilla/horilla_fork \
   --body "Comment text"
 ```
 
 ### Edit Issue
 
 ```bash
-gh issue edit <number> --repo Mega-Gorilla/skyvern_fork \
+gh issue edit <number> --repo Mega-Gorilla/horilla_fork \
   --title "New title" \
   --body "New body"
 ```
@@ -111,7 +111,7 @@ gh issue edit <number> --repo Mega-Gorilla/skyvern_fork \
 ### Close Issue
 
 ```bash
-gh issue close <number> --repo Mega-Gorilla/skyvern_fork
+gh issue close <number> --repo Mega-Gorilla/horilla_fork
 ```
 
 ## Pull Request Operations
@@ -119,7 +119,7 @@ gh issue close <number> --repo Mega-Gorilla/skyvern_fork
 ### List Pull Requests
 
 ```bash
-gh pr list --repo Mega-Gorilla/skyvern_fork
+gh pr list --repo Mega-Gorilla/horilla_fork
 ```
 
 **Options**:
@@ -136,29 +136,29 @@ gh pr list --repo Mega-Gorilla/skyvern_fork
 
 **Basic View**:
 ```bash
-gh pr view <number> --repo Mega-Gorilla/skyvern_fork
+gh pr view <number> --repo Mega-Gorilla/horilla_fork
 ```
 
 **With Comments**:
 ```bash
-gh pr view <number> --repo Mega-Gorilla/skyvern_fork --comments
+gh pr view <number> --repo Mega-Gorilla/horilla_fork --comments
 ```
 
 **JSON Format**:
 ```bash
-gh pr view <number> --repo Mega-Gorilla/skyvern_fork --json title,body,state,comments,commits
+gh pr view <number> --repo Mega-Gorilla/horilla_fork --json title,body,state,comments,commits
 ```
 
 ### View Pull Request Diff
 
 ```bash
-gh pr diff <number> --repo Mega-Gorilla/skyvern_fork
+gh pr diff <number> --repo Mega-Gorilla/horilla_fork
 ```
 
 ### Comment on Pull Request
 
 ```bash
-gh pr comment <number> --repo Mega-Gorilla/skyvern_fork \
+gh pr comment <number> --repo Mega-Gorilla/horilla_fork \
   --body "Comment text"
 ```
 
@@ -166,18 +166,18 @@ gh pr comment <number> --repo Mega-Gorilla/skyvern_fork \
 
 **Approve**:
 ```bash
-gh pr review <number> --repo Mega-Gorilla/skyvern_fork --approve
+gh pr review <number> --repo Mega-Gorilla/horilla_fork --approve
 ```
 
 **Request Changes**:
 ```bash
-gh pr review <number> --repo Mega-Gorilla/skyvern_fork --request-changes \
+gh pr review <number> --repo Mega-Gorilla/horilla_fork --request-changes \
   --body "Review comments"
 ```
 
 **Comment Only**:
 ```bash
-gh pr review <number> --repo Mega-Gorilla/skyvern_fork --comment \
+gh pr review <number> --repo Mega-Gorilla/horilla_fork --comment \
   --body "Review comments"
 ```
 
@@ -185,9 +185,9 @@ gh pr review <number> --repo Mega-Gorilla/skyvern_fork --comment \
 
 ### Repository Context
 
-- **ALWAYS** use `--repo Mega-Gorilla/skyvern_fork` flag
+- **ALWAYS** use `--repo Mega-Gorilla/horilla_fork` flag
 - This is a **FORK** repository (upstream: Skyvern-AI/skyvern)
-- When creating issues, ensure they are for skyvern_fork, not upstream
+- When creating issues, ensure they are for horilla_fork, not upstream
 
 ### Warnings
 
@@ -211,38 +211,38 @@ Expected output should show:
 ### Check Recent Issues
 
 ```bash
-gh issue list --repo Mega-Gorilla/skyvern_fork --limit 10
+gh issue list --repo Mega-Gorilla/horilla_fork --limit 10
 ```
 
 ### View Issue with All Comments
 
 ```bash
-gh issue view 27 --repo Mega-Gorilla/skyvern_fork --json title,body,state,comments
+gh issue view 27 --repo Mega-Gorilla/horilla_fork --json title,body,state,comments
 ```
 
 ### Post Review Comment to Issue
 
 ```bash
-gh issue comment 27 --repo Mega-Gorilla/skyvern_fork \
+gh issue comment 27 --repo Mega-Gorilla/horilla_fork \
   --body "レビュー完了しました。変更内容を確認し、問題ありません。"
 ```
 
 ### Check Open Pull Requests
 
 ```bash
-gh pr list --repo Mega-Gorilla/skyvern_fork --state open
+gh pr list --repo Mega-Gorilla/horilla_fork --state open
 ```
 
 ### View PR Diff Before Review
 
 ```bash
-gh pr diff 28 --repo Mega-Gorilla/skyvern_fork
+gh pr diff 28 --repo Mega-Gorilla/horilla_fork
 ```
 
 ### Approve Pull Request After Review
 
 ```bash
-gh pr review 28 --repo Mega-Gorilla/skyvern_fork --approve \
+gh pr review 28 --repo Mega-Gorilla/horilla_fork --approve \
   --body "LGTM! Changes look good."
 ```
 
@@ -265,5 +265,5 @@ gh pr review 28 --repo Mega-Gorilla/skyvern_fork --approve \
 
 - Use JSON output for programmatic processing: `--json <fields>`
 - Combine with `jq` for filtering: `--jq '<query>'`
-- Use `--web` flag to open in browser: `gh issue view 27 --repo Mega-Gorilla/skyvern_fork --web`
+- Use `--web` flag to open in browser: `gh issue view 27 --repo Mega-Gorilla/horilla_fork --web`
 - Check command help: `gh issue --help`, `gh pr --help`

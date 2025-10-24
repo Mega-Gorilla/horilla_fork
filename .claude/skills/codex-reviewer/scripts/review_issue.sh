@@ -2,7 +2,7 @@
 # Review GitHub Issue using OpenAI Codex
 set -euo pipefail
 
-REPO="Mega-Gorilla/skyvern_fork"
+REPO="Mega-Gorilla/horilla_fork"
 ISSUE_NUMBER="${1:?Usage: $0 <issue_number>}"
 
 echo "🔍 Fetching Issue #${ISSUE_NUMBER} from ${REPO}..."
