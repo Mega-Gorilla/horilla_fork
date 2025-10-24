@@ -16125,7 +16125,7 @@ msgstr "このチケットのアーカイブを解除しますか？"
 #: helpdesk/templates/helpdesk/ticket/ticket_list.html:600
 #: helpdesk/templates/helpdesk/ticket/ticket_list.html:962
 msgid "Are you sure you want to delete\tthis Ticket?"
-msgstr ""
+msgstr "このチケットを削除してもよろしいですか？"
 
 #: helpdesk/templates/helpdesk/ticket/ticket_card.html:186
 #: helpdesk/templates/helpdesk/ticket/ticket_card.html:523
@@ -16517,7 +16517,7 @@ msgstr "FAQが正常に更新されました。"
 
 #: helpdesk/views.py:372
 msgid "The FAQ \"{}\" has been deleted successfully."
-msgstr ""
+msgstr "FAQ「{}」が正常に削除されました。"
 
 #: helpdesk/views.py:376
 msgid "You cannot delete this FAQ."
@@ -16549,11 +16549,11 @@ msgstr "権限がありません。"
 
 #: helpdesk/views.py:718 helpdesk/views.py:1490
 msgid "The Ticket \"{}\" has been deleted successfully."
-msgstr ""
+msgstr "チケット「{}」が正常に削除されました。"
 
 #: helpdesk/views.py:721
 msgid "The ticket is not in the \"New\" status"
-msgstr ""
+msgstr "チケットは「新規」ステータスではありません"
 
 #: helpdesk/views.py:723 helpdesk/views.py:1493
 msgid "You cannot delete this Ticket."
@@ -21172,7 +21172,7 @@ msgstr "{payslip}を削除できません"
 #: payroll/views/views.py:1404
 #, python-brace-format
 msgid "{name} deleted."
-msgstr ""
+msgstr "{name}が削除されました。"
 
 #: payroll/views/views.py:1411
 #, python-brace-format
@@ -21181,25 +21181,25 @@ msgstr "{contract}を削除できません"
 
 #: payroll/views/views.py:1841
 msgid "The initial notice period has been successfully updated."
-msgstr ""
+msgstr "初期通知期間が正常に更新されました。"
 
 #: payroll/views/views.py:1876
 #, python-brace-format
 msgid "Payslip Auto generate for {company} created successfully "
-msgstr ""
+msgstr "{company}の給与明細自動生成が正常に作成されました "
 
 #: payroll/views/views.py:1900
 msgid "Auto paslip generate activated successfully."
-msgstr ""
+msgstr "給与明細自動生成が正常に有効化されました。"
 
 #: payroll/views/views.py:1906
 msgid "Auto paslip generate deactivated successfully."
-msgstr ""
+msgstr "給与明細自動生成が正常に無効化されました。"
 
 #: payroll/views/views.py:1934
 #, python-brace-format
 msgid "Payslip auto generate for {company} deleted successfully."
-msgstr ""
+msgstr "{company}の給与明細自動生成が正常に削除されました。"
 
 #: payroll/views/views.py:1937
 msgid "Active 'Payslip auto generate' cannot delete."
@@ -21207,40 +21207,40 @@ msgstr "アクティブな「給与明細自動生成」は削除できません
 
 #: payroll/views/views.py:1940
 msgid "Payslip auto generate not found."
-msgstr ""
+msgstr "給与明細自動生成が見つかりません。"
 
 #: pms/cbvs.py:63 pms/templates/bonus/view_bonus_settings.html:7
 #: templates/settings.html:552
 msgid "Bonus Point Setting"
-msgstr ""
+msgstr "ボーナスポイント設定"
 
 #: pms/cbvs.py:77
 msgid "Create Bonus Point Setting"
-msgstr ""
+msgstr "ボーナスポイント設定を作成"
 
 #: pms/cbvs.py:174
 msgid "Employee Bonus Point "
-msgstr ""
+msgstr "従業員ボーナスポイント "
 
 #: pms/cbvs.py:187
 msgid "Employement Type"
-msgstr ""
+msgstr "雇用形態"
 
 #: pms/cbvs.py:202
 msgid "Create Employee Bonus Point "
-msgstr ""
+msgstr "従業員ボーナスポイントを作成 "
 
 #: pms/cbvs.py:289
 msgid "Share Feedback request "
-msgstr ""
+msgstr "フィードバックリクエストを共有 "
 
 #: pms/cbvs.py:327
 msgid "Bulk Feedback request "
-msgstr ""
+msgstr "一括フィードバックリクエスト "
 
 #: pms/forms.py:81 pms/forms.py:249 pms/forms.py:306 pms/forms.py:390
 msgid "Key result"
-msgstr ""
+msgstr "主要結果"
 
 #: pms/forms.py:318 pms/models.py:893
 #: pms/templates/okr/emp_objective/emp_objective_nav.html:86
@@ -21255,67 +21255,67 @@ msgstr "目標"
 
 #: pms/forms.py:547 pms/forms.py:676
 msgid "Enter a title"
-msgstr ""
+msgstr "タイトルを入力"
 
 #: pms/forms.py:554
 msgid "Enter a description"
-msgstr ""
+msgstr "説明を入力"
 
 #: pms/forms.py:792
 msgid "For Developer"
-msgstr ""
+msgstr "開発者向け"
 
 #: pms/forms.py:834
 msgid "Enter question"
-msgstr ""
+msgstr "質問を入力"
 
 #: pms/forms.py:930
 msgid "Add a comment..."
-msgstr ""
+msgstr "コメントを追加..."
 
 #: pms/forms.py:1042
 msgid "Question template is required when answer employees are choosed"
-msgstr ""
+msgstr "回答従業員が選択された場合、質問テンプレートが必要です"
 
 #: pms/forms.py:1099 pms/forms.py:1110
 msgid "Model Doesn't have this {cleaned_data.get('applicable_for')} field"
-msgstr ""
+msgstr "モデルにこの{cleaned_data.get('applicable_for')}フィールドがありません"
 
 #: pms/forms.py:1104
 msgid "This 'Bonus for' is not in the Model's status"
-msgstr ""
+msgstr "この「ボーナス対象」はモデルのステータスにありません"
 
 #: pms/forms.py:1114
 msgid "Bonus point must be greater than zero"
-msgstr ""
+msgstr "ボーナスポイントは0より大きい必要があります"
 
 #: pms/forms.py:1143
 msgid "Point should be greater than zero."
-msgstr ""
+msgstr "ポイントは0より大きい必要があります。"
 
 #: pms/forms.py:1195
 msgid "Other employees"
-msgstr ""
+msgstr "その他の従業員"
 
 #: pms/forms.py:1196
 msgid "Employees need to sent feedback request."
-msgstr ""
+msgstr "従業員はフィードバックリクエストを送信する必要があります。"
 
 #: pms/forms.py:1203
 msgid "Include all subordinates"
-msgstr ""
+msgstr "すべての部下を含む"
 
 #: pms/forms.py:1206
 msgid "Include all colleagues"
-msgstr ""
+msgstr "すべての同僚を含む"
 
 #: pms/forms.py:1211
 msgid "Include all keyresults"
-msgstr ""
+msgstr "すべての主要結果を含む"
 
 #: pms/forms.py:1212
 msgid "Include all keyresults assigned to the employee."
-msgstr ""
+msgstr "従業員に割り当てられたすべての主要結果を含む。"
 
 #: pms/models.py:39 pms/models.py:289 recruitment/models.py:760
 msgid "Percentage"
@@ -21327,29 +21327,29 @@ msgstr "番号"
 
 #: pms/models.py:83 pms/models.py:506
 msgid "Months"
-msgstr ""
+msgstr "月"
 
 #: pms/models.py:84 pms/models.py:507
 msgid "Years"
-msgstr ""
+msgstr "年"
 
 #: pms/models.py:159 pms/models.py:294 pms/models.py:498 pms/models.py:634
 #: pms/templates/feedback/feedback_list.html:47
 #: pms/templates/okr/group_by.html:24 pms/templates/okr/objective_list.html:25
 msgid "On Track"
-msgstr ""
+msgstr "順調"
 
 #: pms/models.py:160 pms/models.py:295 pms/models.py:499 pms/models.py:635
 #: pms/templates/feedback/feedback_list.html:39
 #: pms/templates/okr/group_by.html:16 pms/templates/okr/objective_list.html:17
 msgid "Behind"
-msgstr ""
+msgstr "遅れ"
 
 #: pms/models.py:162 pms/models.py:297 pms/models.py:501 pms/models.py:637
 #: pms/templates/feedback/feedback_list.html:31
 #: pms/templates/okr/group_by.html:8 pms/templates/okr/objective_list.html:9
 msgid "At Risk"
-msgstr ""
+msgstr "リスクあり"
 
 #: pms/models.py:163 pms/models.py:298 pms/models.py:502 pms/models.py:638
 #: pms/templates/feedback/feedback_list.html:35
@@ -21366,7 +21366,7 @@ msgstr ""
 
 #: pms/models.py:389
 msgid "The target value can't be zero."
-msgstr ""
+msgstr "目標値は0にできません。"
 
 #: pms/models.py:395
 msgid ""
@@ -21376,7 +21376,7 @@ msgstr ""
 
 #: pms/models.py:407
 msgid "The current value can't be greater than target value."
-msgstr ""
+msgstr "現在値は目標値より大きくできません。"
 
 #: pms/models.py:454 recruitment/models.py:758
 msgid "Text"
@@ -21396,35 +21396,35 @@ msgstr "真偽値"
 
 #: pms/models.py:457
 msgid "Multi-choices"
-msgstr ""
+msgstr "複数選択"
 
 #: pms/models.py:458
 msgid "Likert"
-msgstr ""
+msgstr "リッカート尺度"
 
 #: pms/models.py:532 pms/templates/feedback/feedback_detailed_view.html:427
 #: pms/templates/feedback/feedback_list_view.html:73
 #: pms/templates/feedback/feedback_update.html:59
 #: report/templates/report/pms_report.html:142
 msgid "Colleague"
-msgstr ""
+msgstr "同僚"
 
 #: pms/models.py:533
 msgid "Employees working on the same department."
-msgstr ""
+msgstr "同じ部署で働く従業員。"
 
 #: pms/models.py:539 pms/templates/feedback/feedback_detailed_view.html:376
 #: pms/templates/feedback/feedback_update.html:47
 msgid "Subordinates"
-msgstr ""
+msgstr "部下"
 
 #: pms/models.py:541
 msgid "Employees for whom the feedback requester is the reporting manager"
-msgstr ""
+msgstr "フィードバックリクエスターが報告先マネージャーである従業員"
 
 #: pms/models.py:548 pms/templates/feedback/feedback_detailed_view.html:478
 msgid "Other Employees"
-msgstr ""
+msgstr "その他の従業員"
 
 #: pms/models.py:556 pms/templates/feedback/feedback_update.html:102
 #: pms/templates/feedback/question_template/question_template_form.html:7
@@ -21432,7 +21432,7 @@ msgstr ""
 #: pms/templates/meetings/meeting_single_view.html:53
 #: pms/templates/meetings/meetings_filter.html:45
 msgid "Question Template"
-msgstr ""
+msgstr "質問テンプレート"
 
 #: pms/models.py:565 pms/models.py:894
 #: pms/templates/feedback/answer/feedback_answer.html:137
@@ -21444,20 +21444,20 @@ msgstr ""
 #: pms/templates/okr/okr_nav.html:51 report/templates/report/pms_report.html:50
 #: report/templates/report/pms_report.html:86
 msgid "Key Result"
-msgstr ""
+msgstr "主要結果"
 
 #: pms/models.py:568 pms/templates/feedback/feedback_update.html:122
 msgid "Is Cyclic Feedback"
-msgstr ""
+msgstr "サイクリックフィードバック"
 
 #: pms/models.py:571 pms/templates/feedback/feedback_update.html:131
 msgid "Cycle Period"
-msgstr ""
+msgstr "サイクル期間"
 
 #: pms/models.py:584 pms/templates/feedback/feedback_empty.html:17
 #: pms/templates/feedback/feedback_list_view.html:19
 msgid "Feedbacks"
-msgstr ""
+msgstr "フィードバック"
 
 #: pms/models.py:641 templates/settings.html:50
 msgid "General"
@@ -21472,7 +21472,7 @@ msgstr ""
 
 #: pms/models.py:774
 msgid "Answerable Employees"
-msgstr ""
+msgstr "回答可能な従業員"
 
 #: pms/models.py:776
 msgid ""
@@ -21483,7 +21483,7 @@ msgstr ""
 #: pms/models.py:795 pms/models.py:796 pms/templates/meetings/form.html:8
 #: pms/templates/meetings/meetings_nav.html:4
 msgid "Meetings"
-msgstr ""
+msgstr "ミーティング"
 
 #: pms/models.py:899 project/cbv/dashboard.py:33 project/models.py:251
 #: project/models.py:267 project/models.py:335 project/models.py:535
@@ -21505,15 +21505,15 @@ msgstr "プロジェクト"
 
 #: pms/models.py:902
 msgid "Completing"
-msgstr ""
+msgstr "完了中"
 
 #: pms/models.py:903
 msgid "Closing"
-msgstr ""
+msgstr "クローズ中"
 
 #: pms/models.py:913
 msgid "Completion Date"
-msgstr ""
+msgstr "完了日"
 
 #: pms/models.py:920 project/templates/dashboard/project_details.html:22
 #: project/templates/task_all/task_all_list.html:54
@@ -21522,11 +21522,11 @@ msgstr "メンバー"
 
 #: pms/templates/anonymous/anonymous_feedback_form.html:36
 msgid "Feedback Subject"
-msgstr ""
+msgstr "フィードバック件名"
 
 #: pms/templates/anonymous/anonymous_feedback_form.html:62
 msgid "Feedback Description"
-msgstr ""
+msgstr "フィードバック説明"
 
 #: pms/templates/anonymous/single_view.html:4
 #: pms/templates/feedback/feedback_list.html:69
@@ -21536,15 +21536,15 @@ msgstr "匿名フィードバック"
 
 #: pms/templates/bonus/bonus_point_action.html:19
 msgid "Do you want to delete the bonus point ?"
-msgstr ""
+msgstr "ボーナスポイントを削除しますか？"
 
 #: pms/templates/bonus/bonus_seetting_action.html:19
 msgid "Do you want to delete the bonus point setting?"
-msgstr ""
+msgstr "ボーナスポイント設定を削除しますか？"
 
 #: pms/templates/bonus/view_bonus_settings.html:26
 msgid "There is no Bonus setting at this moment."
-msgstr ""
+msgstr "現在、ボーナス設定はありません。"
 
 #: pms/templates/dashboard/feedback_answer.html:9
 msgid "Due Date"
@@ -21556,11 +21556,11 @@ msgstr "従業員目標総数"
 
 #: pms/templates/dashboard/pms_dashboard.html:35
 msgid "Total key results"
-msgstr ""
+msgstr "合計主要結果"
 
 #: pms/templates/dashboard/pms_dashboard.html:51
 msgid "Total feedbacks"
-msgstr ""
+msgstr "合計フィードバック"
 
 #: pms/templates/dashboard/pms_dashboard.html:66
 msgid "Objective status"
@@ -21572,19 +21572,19 @@ msgstr "利用可能な目標がありません。"
 
 #: pms/templates/dashboard/pms_dashboard.html:88
 msgid "Key result status"
-msgstr ""
+msgstr "主要結果ステータス"
 
 #: pms/templates/dashboard/pms_dashboard.html:98
 msgid "No key results are available."
-msgstr ""
+msgstr "利用可能な主要結果はありません。"
 
 #: pms/templates/dashboard/pms_dashboard.html:109
 msgid "Feedback status"
-msgstr ""
+msgstr "フィードバックステータス"
 
 #: pms/templates/dashboard/pms_dashboard.html:119
 msgid "No feedbacks are available."
-msgstr ""
+msgstr "利用可能なフィードバックはありません。"
 
 #: pms/templates/dashboard/pms_dashboard.html:141
 msgid "Objectives At-Risk"
@@ -21592,11 +21592,11 @@ msgstr "リスクのある目標"
 
 #: pms/templates/dashboard/pms_dashboard.html:168
 msgid "No OKRs are currently At-Risk."
-msgstr ""
+msgstr "現在リスクのあるOKRはありません。"
 
 #: pms/templates/feedback/answer/feedback_answer.html:13
 msgid "Feedback Answer"
-msgstr ""
+msgstr "フィードバック回答"
 
 #: pms/templates/feedback/answer/feedback_answer.html:29
 #: pms/templates/feedback/answer/feedback_answer.html:31
@@ -21641,7 +21641,7 @@ msgstr ""
 #: recruitment/templates/rating_input.html:13
 #: recruitment/templates/rating_input.html:16
 msgid "Stars"
-msgstr ""
+msgstr "星"
 
 #: pms/templates/feedback/answer/feedback_answer.html:37
 #: pms/templates/feedback/answer/feedback_answer_view.html:28
@@ -21658,7 +21658,7 @@ msgstr "スター"
 #: pms/templates/feedback/answer/feedback_answer.html:103
 #: pms/templates/meetings/meeting_answer.html:225
 msgid "Strongly Disagree"
-msgstr ""
+msgstr "強く反対"
 
 #: pms/templates/feedback/answer/feedback_answer.html:107
 #: pms/templates/meetings/meeting_answer.html:236
@@ -21668,7 +21668,7 @@ msgstr "不同意"
 #: pms/templates/feedback/answer/feedback_answer.html:111
 #: pms/templates/meetings/meeting_answer.html:246
 msgid "Neutral"
-msgstr ""
+msgstr "中立"
 
 #: pms/templates/feedback/answer/feedback_answer.html:115
 #: pms/templates/meetings/meeting_answer.html:256
@@ -21678,11 +21678,11 @@ msgstr "同意"
 #: pms/templates/feedback/answer/feedback_answer.html:119
 #: pms/templates/meetings/meeting_answer.html:266
 msgid "Strongly Agree"
-msgstr ""
+msgstr "強く同意"
 
 #: pms/templates/feedback/answer/feedback_answer.html:151
 msgid "Perfect"
-msgstr ""
+msgstr "完璧"
 
 #: pms/templates/feedback/answer/feedback_answer.html:155
 msgid "Good"
@@ -21694,7 +21694,7 @@ msgstr "平均"
 
 #: pms/templates/feedback/answer/feedback_answer.html:163
 msgid "Bad"
-msgstr ""
+msgstr "悪い"
 
 #: pms/templates/feedback/answer/feedback_answer_view.html:71
 #: pms/templates/okr/key_result/key_result_creation.html:67
@@ -21706,58 +21706,58 @@ msgstr ""
 #: pms/templates/okr/okr_list.html:135 pms/templates/okr/okr_list.html:137
 #: pms/templates/okr/okr_list.html:441 pms/templates/okr/okr_list.html:443
 msgid "Key Results"
-msgstr ""
+msgstr "主要結果"
 
 #: pms/templates/feedback/feedback_detailed_view.html:87
 msgid "Owner: "
-msgstr ""
+msgstr "所有者： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:137
 msgid "Request feedback"
-msgstr ""
+msgstr "フィードバックをリクエスト"
 
 #: pms/templates/feedback/feedback_detailed_view.html:142
 msgid "Do you want archive this Feedback ?"
-msgstr ""
+msgstr "このフィードバックをアーカイブしますか？"
 
 #: pms/templates/feedback/feedback_detailed_view.html:149
 #: pms/templates/feedback/feedback_list.html:172
 #: pms/templates/feedback/feedback_list.html:467
 #: pms/templates/feedback/feedback_list.html:625
 msgid "Do you want Delete this Feedback ?"
-msgstr ""
+msgstr "このフィードバックを削除しますか？"
 
 #: pms/templates/feedback/feedback_detailed_view.html:162
 msgid "Start date: "
-msgstr ""
+msgstr "開始日： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:166
 msgid "Due on: "
-msgstr ""
+msgstr "期限： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:180
 msgid "Answered employees: "
-msgstr ""
+msgstr "回答済み従業員： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:197
 msgid "Employees not answerd yet: "
-msgstr ""
+msgstr "未回答従業員： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:216
 msgid "Cyclic feedback period: "
-msgstr ""
+msgstr "サイクリックフィードバック期間： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:222
 msgid "Next feedback on: "
-msgstr ""
+msgstr "次のフィードバック日： "
 
 #: pms/templates/feedback/feedback_detailed_view.html:240
 msgid "Feedback Answers"
-msgstr ""
+msgstr "フィードバック回答"
 
 #: pms/templates/feedback/feedback_detailed_view.html:243
 msgid "Feedback Overview"
-msgstr ""
+msgstr "フィードバック概要"
 
 #: pms/templates/feedback/feedback_detailed_view.html:286
 #: pms/templates/feedback/feedback_detailed_view.html:337
@@ -21765,38 +21765,38 @@ msgstr ""
 #: pms/templates/feedback/feedback_detailed_view.html:455
 #: pms/templates/feedback/feedback_detailed_view.html:506
 msgid "Answer View"
-msgstr ""
+msgstr "回答表示"
 
 #: pms/templates/feedback/feedback_detailed_view.html:346
 #: pms/templates/feedback/feedback_detailed_view.html:544
 msgid "Answers"
-msgstr ""
+msgstr "回答"
 
 #: pms/templates/feedback/feedback_detailed_view.html:556
 msgid "Update Feedback"
-msgstr ""
+msgstr "フィードバックを更新"
 
 #: pms/templates/feedback/feedback_detailed_view_answer.html:67
 #: pms/templates/okr/okr_list.html:232 pms/templates/okr/okr_list.html:508
 msgid "Key results"
-msgstr ""
+msgstr "主要結果"
 
 #: pms/templates/feedback/feedback_empty.html:35
 #: pms/templates/feedback/feedback_list_view.html:158
 msgid "Bulk Feedback"
-msgstr ""
+msgstr "一括フィードバック"
 
 #: pms/templates/feedback/feedback_empty.html:62
 msgid "No Feedbacks are available."
-msgstr ""
+msgstr "利用可能なフィードバックはありません。"
 
 #: pms/templates/feedback/feedback_list.html:54
 msgid "Self Feedback"
-msgstr ""
+msgstr "自己フィードバック"
 
 #: pms/templates/feedback/feedback_list.html:58
 msgid "Requested Feedback"
-msgstr ""
+msgstr "リクエストされたフィードバック"
 
 #: pms/templates/feedback/feedback_list.html:64
 msgid "Feedbacks to review"
@@ -21806,39 +21806,39 @@ msgstr "レビューするフィードバック"
 #: pms/templates/feedback/feedback_list.html:265
 #: pms/templates/feedback/feedback_list.html:401
 msgid "Due On"
-msgstr ""
+msgstr "期限"
 
 #: pms/templates/feedback/feedback_list.html:179
 #: pms/templates/feedback/feedback_list.html:474
 msgid "Can't delete the feedback it's already answered."
-msgstr ""
+msgstr "フィードバックは既に回答されているため削除できません。"
 
 #: pms/templates/feedback/feedback_list.html:237
 #: pms/templates/feedback/feedback_list.html:534
 msgid "There are no Feedbacks available."
-msgstr ""
+msgstr "利用可能なフィードバックはありません。"
 
 #: pms/templates/feedback/feedback_list.html:371
 msgid "There are no Feedback requests available."
-msgstr ""
+msgstr "利用可能なフィードバックリクエストはありません。"
 
 #: pms/templates/feedback/feedback_list.html:557
 msgid "Create At"
-msgstr ""
+msgstr "作成日時"
 
 #: pms/templates/feedback/feedback_list.html:642
 msgid "There are no anonymous feedbacks available."
-msgstr ""
+msgstr "利用可能な匿名フィードバックはありません。"
 
 #: pms/templates/feedback/feedback_list_view.html:53
 #: report/templates/report/pms_report.html:122
 msgid "Feedback Title"
-msgstr ""
+msgstr "フィードバックタイトル"
 
 #: pms/templates/feedback/feedback_list_view.html:83
 #: report/templates/report/pms_report.html:152
 msgid "Subordinate"
-msgstr ""
+msgstr "部下"
 
 #: pms/templates/feedback/feedback_list_view.html:112
 #: pms/templates/okr/objective_list_view.html:143
@@ -21859,7 +21859,7 @@ msgstr "今月"
 
 #: pms/templates/feedback/feedback_overview.html:125
 msgid "No answers yet."
-msgstr ""
+msgstr "まだ回答がありません。"
 
 #: pms/templates/feedback/feedback_update.html:19
 msgid "Review Cycle"
@@ -21867,18 +21867,18 @@ msgstr "レビューサイクル"
 
 #: pms/templates/feedback/question/question_all.html:12
 msgid "Hide Questions"
-msgstr ""
+msgstr "質問を非表示"
 
 #: pms/templates/feedback/question/question_all.html:17
 msgid "Show Questions"
-msgstr ""
+msgstr "質問を表示"
 
 #: pms/templates/feedback/question/question_all.html:34
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:31
 #: recruitment/templates/survey/filter.html:29
 #: recruitment/templates/survey/view_single_template.html:38
 msgid "Question Type"
-msgstr ""
+msgstr "質問タイプ"
 
 #: pms/templates/feedback/question/question_all.html:41
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:37
@@ -21886,17 +21886,17 @@ msgstr ""
 #: recruitment/templates/survey/template_accordion.html:72
 #: recruitment/templates/survey/view_single_template.html:29
 msgid "Question"
-msgstr ""
+msgstr "質問"
 
 #: pms/templates/feedback/question/question_all.html:47
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:46
 msgid "Show Options"
-msgstr ""
+msgstr "オプションを表示"
 
 #: pms/templates/feedback/question/question_all.html:52
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:51
 msgid "Hide Options"
-msgstr ""
+msgstr "オプションを非表示"
 
 #: pms/templates/feedback/question/question_all.html:58
 #: pms/templates/feedback/question/question_all.html:62
@@ -21907,95 +21907,95 @@ msgstr ""
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:71
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:78
 msgid "Option"
-msgstr ""
+msgstr "オプション"
 
 #: pms/templates/feedback/question/question_all.html:88
 msgid "Do you want to delete the question?"
-msgstr ""
+msgstr "質問を削除しますか？"
 
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:23
 msgid "Add A Question"
-msgstr ""
+msgstr "質問を追加"
 
 #: pms/templates/feedback/question_template/question_template_detailed_view.html:88
 msgid "Add Question"
-msgstr ""
+msgstr "質問を追加"
 
 #: pms/templates/feedback/question_template/question_template_list.html:11
 msgid "Total Question"
-msgstr ""
+msgstr "合計質問数"
 
 #: pms/templates/feedback/question_template/question_template_list.html:60
 msgid "Do you want to delete this question template?"
-msgstr ""
+msgstr "この質問テンプレートを削除しますか？"
 
 #: pms/templates/feedback/question_template/question_template_list.html:79
 msgid "No Question templates are available."
-msgstr ""
+msgstr "利用可能な質問テンプレートはありません。"
 
 #: pms/templates/meetings/meeting_answer_view.html:109
 msgid "Questions not answered yet."
-msgstr ""
+msgstr "まだ回答されていない質問。"
 
 #: pms/templates/meetings/meeting_question_template_view.html:17
 msgid "Meeting Questions & Answer"
-msgstr ""
+msgstr "ミーティングの質問と回答"
 
 #: pms/templates/meetings/meeting_single_view.html:79
 msgid "Answerable employees"
-msgstr ""
+msgstr "回答可能な従業員"
 
 #: pms/templates/meetings/meeting_single_view.html:90
 msgid "Minutes of Meeting"
-msgstr ""
+msgstr "議事録"
 
 #: pms/templates/meetings/meeting_single_view.html:106
 #: pms/templates/meetings/meetings_list.html:193
 msgid "Are you sure to delete this meeting?"
-msgstr ""
+msgstr "このミーティングを削除してもよろしいですか？"
 
 #: pms/templates/meetings/meetings_filter.html:3
 msgid "Meeting"
-msgstr ""
+msgstr "ミーティング"
 
 #: pms/templates/meetings/meetings_filter.html:122
 msgid "Date greater than or equal"
-msgstr ""
+msgstr "日付が以上"
 
 #: pms/templates/meetings/meetings_filter.html:132
 msgid "Date less than or equal"
-msgstr ""
+msgstr "日付が以下"
 
 #: pms/templates/meetings/meetings_list.html:34
 #: pms/templates/meetings/meetings_list.html:35
 msgid "MoM"
-msgstr ""
+msgstr "議事録"
 
 #: pms/templates/meetings/meetings_list.html:50
 #: recruitment/templates/candidate/interview_list.html:64
 msgid " Reveal"
-msgstr ""
+msgstr " 表示"
 
 #: pms/templates/meetings/meetings_list.html:53
 #: recruitment/templates/candidate/interview_list.html:67
 msgid " Collapse"
-msgstr ""
+msgstr " 折りたたむ"
 
 #: pms/templates/meetings/meetings_list.html:73
 msgid "Are you sure to remove this employee?"
-msgstr ""
+msgstr "この従業員を削除してもよろしいですか？"
 
 #: pms/templates/meetings/meetings_list.html:101
 msgid "Are you sure to remove this manager?"
-msgstr ""
+msgstr "このマネージャーを削除してもよろしいですか？"
 
 #: pms/templates/meetings/meetings_list.html:127
 msgid "Add MoM"
-msgstr ""
+msgstr "議事録を追加"
 
 #: pms/templates/meetings/meetings_list.html:167
 msgid "Do you want to unarchive this meeting?"
-msgstr ""
+msgstr "このミーティングのアーカイブを解除しますか？"
 
 #: pms/templates/meetings/meetings_list.html:174
 #: pms/templates/okr/emp_obj_single.html:145
@@ -22008,29 +22008,29 @@ msgstr "アーカイブ解除"
 
 #: pms/templates/meetings/meetings_list.html:179
 msgid "Do you want to archive this meeting?"
-msgstr ""
+msgstr "このミーティングをアーカイブしますか？"
 
 #: pms/templates/meetings/meetings_list.html:260
 msgid "There is no meetings has been created."
-msgstr ""
+msgstr "作成されたミーティングはありません。"
 
 #: pms/templates/meetings/mom_form.html:9
 msgid "Minutes of Meeting (MoM)"
-msgstr ""
+msgstr "議事録（MoM）"
 
 #: pms/templates/meetings/mom_form.html:20
 msgid "Response"
-msgstr ""
+msgstr "応答"
 
 #: pms/templates/okr/add_assignees.html:19
 msgid "Add assignees"
-msgstr ""
+msgstr "担当者を追加"
 
 #: pms/templates/okr/create_period.html:14
 #: pms/templates/okr/objective_creation.html:79
 #: pms/templates/period/period_create.html:18
 msgid "Create Period"
-msgstr ""
+msgstr "期間を作成"
 
 #: pms/templates/okr/emp_objective/emp_objective_create_form.html:6
 msgid "Create Employee Objective"
@@ -22043,12 +22043,12 @@ msgstr "従業員目標"
 
 #: pms/templates/okr/emp_objective/emp_objective_dashboard_view.html:60
 msgid "Viewxxxxxxxxxxxx"
-msgstr ""
+msgstr "表示xxxxxxxxxxxx"
 
 #: pms/templates/okr/emp_objective/emp_objective_dashboard_view.html:72
 #: pms/templates/okr/emp_objective/emp_objective_list.html:90
 msgid "Activites"
-msgstr ""
+msgstr "アクティビティ"
 
 #: pms/templates/okr/emp_objective/emp_objective_dashboard_view.html:117
 #: pms/templates/okr/emp_objective/emp_objective_list.html:132
@@ -22072,7 +22072,7 @@ msgstr "従業員目標を更新"
 #: pms/templates/okr/emp_objective_form.html:29
 #: pms/templates/okr/key_result/key_result_form.html:25
 msgid "Create Key Result"
-msgstr ""
+msgstr "主要結果を作成"
 
 #: pms/templates/okr/group_by.html:34 pms/templates/okr/objective_list.html:35
 msgid "Select All Objectives"
@@ -22096,18 +22096,18 @@ msgstr "すべての目標"
 #: pms/templates/okr/objective_list.html:155
 #: pms/templates/okr/objective_list.html:374
 msgid "Do you want un-archive this OKR ?"
-msgstr ""
+msgstr "このOKRのアーカイブを解除しますか？"
 
 #: pms/templates/okr/group_by.html:195 pms/templates/okr/group_by.html:517
 #: pms/templates/okr/objective_list.html:175
 #: pms/templates/okr/objective_list.html:394
 msgid "Do you want archive this OKR ?"
-msgstr ""
+msgstr "このOKRをアーカイブしますか？"
 
 #: pms/templates/okr/group_by.html:215
 #: pms/templates/okr/objective_list.html:195
 msgid "Do you want Delete this OKR ?"
-msgstr ""
+msgstr "このOKRを削除しますか？"
 
 #: pms/templates/okr/group_by.html:386 pms/templates/okr/group_by.html:705
 #: pms/templates/okr/objective_list.html:287
@@ -22118,11 +22118,11 @@ msgstr "利用可能な目標がありません。"
 #: pms/templates/okr/group_by.html:537
 #: pms/templates/okr/objective_list.html:414
 msgid "Do you want delete this OKR ?"
-msgstr ""
+msgstr "このOKRを削除しますか？"
 
 #: pms/templates/okr/key_result/key_result_creation.html:68
 msgid "type"
-msgstr ""
+msgstr "タイプ"
 
 #: pms/templates/okr/key_result/key_result_creation.html:83
 #: pms/templates/okr/key_result/key_result_creation_htmx.html:62
@@ -22135,32 +22135,32 @@ msgstr ""
 #: pms/templates/okr/kr_list.html:29
 #: pms/templates/okr/objective_detailed_view.html:200
 msgid "Target Value"
-msgstr ""
+msgstr "目標値"
 
 #: pms/templates/okr/key_result/key_result_creation_htmx.html:19
 msgid "Add Key Results"
-msgstr ""
+msgstr "主要結果を追加"
 
 #: pms/templates/okr/key_result/key_result_creation_htmx.html:47
 msgid "Key Results Type"
-msgstr ""
+msgstr "主要結果タイプ"
 
 #: pms/templates/okr/key_result/key_result_update.html:19
 msgid "Update Key Results"
-msgstr ""
+msgstr "主要結果を更新"
 
 #: pms/templates/okr/key_result/key_result_view.html:28
 #: pms/templates/okr/objective_detailed_view.html:49
 #: pms/templates/okr/objective_detailed_view.html:138
 msgid "Due"
-msgstr ""
+msgstr "期限"
 
 #: pms/templates/okr/key_result/key_result_view.html:54
 #: pms/templates/okr/key_result/kr_dashboard_view.html:48
 #: pms/templates/okr/kr_list.html:27
 #: pms/templates/okr/objective_detailed_view.html:170
 msgid "Start Value"
-msgstr ""
+msgstr "開始値"
 
 #: pms/templates/okr/key_result/kr_card.html:34
 #: pms/templates/okr/key_result/kr_filter.html:27
@@ -22174,54 +22174,54 @@ msgstr "期間"
 #: pms/templates/okr/key_result/kr_card.html:35
 #: pms/templates/okr/key_result/kr_list.html:85
 msgid " Days"
-msgstr ""
+msgstr " 日"
 
 #: pms/templates/okr/key_result/kr_card.html:59
 #: pms/templates/okr/key_result/kr_list.html:107
 msgid "Do you want to delete this Key result?"
-msgstr ""
+msgstr "この主要結果を削除しますか？"
 
 #: pms/templates/okr/key_result/kr_dashboard_view.html:8
 msgid "Employee Key Results"
-msgstr ""
+msgstr "従業員主要結果"
 
 #: pms/templates/okr/key_result/kr_dashboard_view.html:51
 #: pms/templates/okr/kr_list.html:30
 msgid "Progress Percentage"
-msgstr ""
+msgstr "進捗率"
 
 #: pms/templates/okr/key_result/kr_dashboard_view.html:151
 #: pms/templates/okr/kr_list.html:123
 msgid "Are you sure you want to delete\tthis Key result?"
-msgstr ""
+msgstr "この主要結果を削除してもよろしいですか？"
 
 #: pms/templates/okr/key_result/kr_filter.html:13
 #: pms/templates/okr/key_result/kr_list.html:57
 #: pms/templates/okr/key_result/kr_list.html:58
 msgid "Progress Type"
-msgstr ""
+msgstr "進捗タイプ"
 
 #: pms/templates/okr/key_result/kr_form.html:21
 #: pms/templates/okr/key_result/real_kr_form.html:8
 msgid "Update Key result"
-msgstr ""
+msgstr "主要結果を更新"
 
 #: pms/templates/okr/key_result/kr_form.html:25
 #: pms/templates/okr/key_result/real_kr_form.html:12
 msgid "Create Key result"
-msgstr ""
+msgstr "主要結果を作成"
 
 #: pms/templates/okr/key_result/kr_list.html:61
 msgid "Descrption"
-msgstr ""
+msgstr "説明"
 
 #: pms/templates/okr/key_result/view_kr.html:17
 msgid "There are currently no key results to consider."
-msgstr ""
+msgstr "現在、検討すべき主要結果はありません。"
 
 #: pms/templates/okr/kr_list.html:223
 msgid "No valid key result assigned!"
-msgstr ""
+msgstr "有効な主要結果が割り当てられていません！"
 
 #: pms/templates/okr/objective_creation.html:40
 msgid "Update Objective"
@@ -22251,24 +22251,24 @@ msgstr "新規追加"
 #: pms/templates/okr/objective_detailed_view_activity.html:78
 #: pms/templates/okr/objective_detailed_view_activity.html:99
 msgid "updated"
-msgstr ""
+msgstr "更新されました"
 
 #: pms/templates/okr/objective_detailed_view_activity.html:79
 #: pms/templates/okr/objective_detailed_view_activity.html:102
 msgid "from"
-msgstr ""
+msgstr "から"
 
 #: pms/templates/okr/objective_detailed_view_activity.html:100
 msgid "field of "
-msgstr ""
+msgstr "フィールド "
 
 #: pms/templates/okr/objective_detailed_view_activity.html:101
 msgid "key result"
-msgstr ""
+msgstr "主要結果"
 
 #: pms/templates/okr/objective_detailed_view_activity.html:126
 msgid "added a comment"
-msgstr ""
+msgstr "コメントを追加しました"
 
 #: pms/templates/okr/objective_detailed_view_activity.html:151
 msgid "Created Objective"
@@ -22297,16 +22297,16 @@ msgstr "目標を更新"
 #: pms/templates/okr/okr_detailed_view.html:115
 #: project/templates/cbv/projects/project_details.html:54
 msgid "Managers:"
-msgstr ""
+msgstr "マネージャー："
 
 #: pms/templates/okr/okr_detailed_view.html:132
 msgid "Duration:"
-msgstr ""
+msgstr "期間："
 
 #: pms/templates/okr/okr_detailed_view.html:139
 #: project/templates/cbv/projects/project_details.html:111
 msgid "Description:"
-msgstr ""
+msgstr "説明："
 
 #: pms/templates/okr/okr_detailed_view.html:178
 msgid "There are no assignees for this objective at the moment."
@@ -22318,15 +22318,15 @@ msgstr "目標を作成"
 
 #: pms/templates/okr/okr_list.html:186
 msgid "Are you sure want to remove this manager?"
-msgstr ""
+msgstr "このマネージャーを削除してもよろしいですか？"
 
 #: pms/templates/okr/okr_list.html:219
 msgid "Are you sure want to remove this key result?"
-msgstr ""
+msgstr "この主要結果を削除してもよろしいですか？"
 
 #: pms/templates/okr/okr_list.html:251
 msgid "Are you sure want to remove this assignee?"
-msgstr ""
+msgstr "この担当者を削除してもよろしいですか？"
 
 #: pms/templates/okr/okr_list.html:293 pms/templates/okr/okr_list.html:531
 msgid "Do you want to unarchive this objective?"
@@ -22342,23 +22342,23 @@ msgstr "この目標を削除してもよろしいですか？"
 
 #: pms/templates/okr/okr_nav.html:76
 msgid "Is Archived"
-msgstr ""
+msgstr "アーカイブ済み"
 
 #: pms/templates/period/period_list.html:45
 msgid "None."
-msgstr ""
+msgstr "なし。"
 
 #: pms/templates/period/period_list.html:61
 msgid "Do you want to delete this period ?"
-msgstr ""
+msgstr "この期間を削除しますか？"
 
 #: pms/templates/period/period_list.html:81
 msgid "No time periods have been created."
-msgstr ""
+msgstr "期間が作成されていません。"
 
 #: pms/templates/period/period_update.html:18
 msgid "Update Period"
-msgstr ""
+msgstr "期間を更新"
 
 #: pms/views.py:135
 msgid "Objective created"
@@ -22372,12 +22372,12 @@ msgstr "目標%(objective)sが更新されました"
 #: pms/views.py:344 pms/views.py:411
 #, python-format
 msgid "Key result %(key_result)s created successfully"
-msgstr ""
+msgstr "主要結果%(key_result)sが正常に作成されました"
 
 #: pms/views.py:400
 #, python-format
 msgid "Key result %(key_result)s updated successfully"
-msgstr ""
+msgstr "主要結果%(key_result)sが正常に更新されました"
 
 #: pms/views.py:502
 #, python-format
@@ -22400,16 +22400,16 @@ msgstr "目標%(objective)sのステータスが更新されました"
 
 #: pms/views.py:959
 msgid "Status has been updated"
-msgstr ""
+msgstr "ステータスが更新されました"
 
 #: pms/views.py:987 pms/views.py:998
 #, python-format
 msgid "Current value of %(employee_key_result)s updated"
-msgstr ""
+msgstr "%(employee_key_result)sの現在値が更新されました"
 
 #: pms/views.py:1008
 msgid "Current value is greater than target value"
-msgstr ""
+msgstr "現在値が目標値より大きい"
 
 #: pms/views.py:1010
 msgid "Error occurred during current value updation"
@@ -22452,43 +22452,43 @@ msgstr "目標のステータスは選択されたものと同じです。"
 
 #: pms/views.py:1332 pms/views.py:1393
 msgid "Key result created"
-msgstr ""
+msgstr "主要結果が作成されました"
 
 #: pms/views.py:1357
 msgid "Key results created"
-msgstr ""
+msgstr "主要結果が作成されました"
 
 #: pms/views.py:1426
 msgid "Key result updated"
-msgstr ""
+msgstr "主要結果が更新されました"
 
 #: pms/views.py:1506
 msgid "Feedback created successfully."
-msgstr ""
+msgstr "フィードバックが正常に作成されました。"
 
 #: pms/views.py:1570
 msgid "Ongoing feedback is not editable!."
-msgstr ""
+msgstr "進行中のフィードバックは編集できません！。"
 
 #: pms/views.py:1594
 msgid "Feedback updated successfully!."
-msgstr ""
+msgstr "フィードバックが正常に更新されました！。"
 
 #: pms/views.py:1868
 msgid "Feedback not started yet"
-msgstr ""
+msgstr "フィードバックはまだ開始されていません"
 
 #: pms/views.py:1873
 msgid "Feedback is due"
-msgstr ""
+msgstr "フィードバックが期限です"
 
 #: pms/views.py:1889 pms/views.py:3653
 msgid "You are not allowed to answer"
-msgstr ""
+msgstr "回答する権限がありません"
 
 #: pms/views.py:1903
 msgid "Feedback already answered"
-msgstr ""
+msgstr "フィードバックは既に回答されています"
 
 #: pms/views.py:1954
 #, python-format
@@ -22497,7 +22497,7 @@ msgstr "フィードバック%(review_cycle)sに正常に回答しました！"
 
 #: pms/views.py:1979
 msgid "Feedback is not answered yet"
-msgstr ""
+msgstr "フィードバックはまだ回答されていません"
 
 #: pms/views.py:2011 pms/views.py:2902
 #, python-format
@@ -22511,16 +22511,16 @@ msgstr "ステータス%(status)sのフィードバック%(review_cycle)sを削�
 
 #: pms/views.py:2024 pms/views.py:2918 pms/views.py:3130
 msgid "Feedback not found."
-msgstr ""
+msgstr "フィードバックが見つかりません。"
 
 #: pms/views.py:2044
 msgid "Feedback is already started"
-msgstr ""
+msgstr "フィードバックは既に開始されています"
 
 #: pms/views.py:2051
 #, python-format
 msgid "Feedback status updated to  %(status)s"
-msgstr ""
+msgstr "フィードバックステータスが%(status)sに更新されました"
 
 #: pms/views.py:2057
 #, python-format
@@ -22529,23 +22529,23 @@ msgstr "%(status)sへのステータス更新中にエラーが発生しまし�
 
 #: pms/views.py:2118 pms/views.py:3095
 msgid "Feedback un-archived successfully!."
-msgstr ""
+msgstr "フィードバックが正常にアーカイブ解除されました！。"
 
 #: pms/views.py:2122 pms/views.py:3099
 msgid "Feedback archived successfully!."
-msgstr ""
+msgstr "フィードバックが正常にアーカイブされました！。"
 
 #: pms/views.py:2195
 msgid "Not-completed"
-msgstr ""
+msgstr "未完了"
 
 #: pms/views.py:2218
 msgid "Question template is used in feedback."
-msgstr ""
+msgstr "質問テンプレートがフィードバックで使用されています。"
 
 #: pms/views.py:2238 pms/views.py:2240
 msgid "Question created successfully."
-msgstr ""
+msgstr "質問が正常に作成されました。"
 
 #: pms/views.py:2243
 msgid "Error occurred during question creation!"
@@ -22553,15 +22553,15 @@ msgstr "質問作成中にエラーが発生しました！"
 
 #: pms/views.py:2313 pms/views.py:2320
 msgid "Question updated successfully."
-msgstr ""
+msgstr "質問が正常に更新されました。"
 
 #: pms/views.py:2354
 msgid "Question deleted successfully!"
-msgstr ""
+msgstr "質問が正常に削除されました！"
 
 #: pms/views.py:2358 recruitment/views/surveys.py:331
 msgid "Question not found."
-msgstr ""
+msgstr "質問が見つかりません。"
 
 #: pms/views.py:2361
 msgid "Failed to delete question: Question template is in use."
@@ -22573,43 +22573,43 @@ msgstr "予期しないエラー：{str(e)}"
 
 #: pms/views.py:2385
 msgid "Question template created successfully!"
-msgstr ""
+msgstr "質問テンプレートが正常に作成されました！"
 
 #: pms/views.py:2436
 msgid "Question template does not exist"
-msgstr ""
+msgstr "質問テンプレートが存在しません"
 
 #: pms/views.py:2478
 msgid "Question template updated"
-msgstr ""
+msgstr "質問テンプレートが更新されました"
 
 #: pms/views.py:2498
 msgid "This template is using in a feedback"
-msgstr ""
+msgstr "このテンプレートはフィードバックで使用されています"
 
 #: pms/views.py:2502
 msgid "The question template is deleted successfully !."
-msgstr ""
+msgstr "質問テンプレートが正常に削除されました！。"
 
 #: pms/views.py:2505
 msgid "question template not found."
-msgstr ""
+msgstr "質問テンプレートが見つかりません。"
 
 #: pms/views.py:2561
 msgid "Period creation was Successful "
-msgstr ""
+msgstr "期間が正常に作成されました "
 
 #: pms/views.py:2585
 msgid "Period updated  Successfully. "
-msgstr ""
+msgstr "期間が正常に更新されました。 "
 
 #: pms/views.py:2604
 msgid "Period deleted successfully."
-msgstr ""
+msgstr "期間が正常に削除されました。"
 
 #: pms/views.py:2606
 msgid "Period not found."
-msgstr ""
+msgstr "期間が見つかりません。"
 
 #: pms/views.py:2811
 #, python-brace-format
@@ -22629,15 +22629,15 @@ msgstr "ステータス%(status)sの目標%(objective)sを削除できません"
 #: pms/views.py:2871 pms/views.py:2880
 #, python-brace-format
 msgid "{feedback} is {message}"
-msgstr ""
+msgstr "{feedback}は{message}です"
 
 #: pms/views.py:3075 pms/views.py:3102 pms/views.py:3213
 msgid "You are don't have permissions."
-msgstr ""
+msgstr "権限がありません。"
 
 #: pms/views.py:3122
 msgid "Feedback deleted successfully!"
-msgstr ""
+msgstr "フィードバックが正常に削除されました！"
 
 #: pms/views.py:3126
 msgid "Failed to delete feedback: Feedback template is in use."
@@ -22645,71 +22645,71 @@ msgstr "フィードバックの削除に失敗しました：フィードバッ
 
 #: pms/views.py:3191
 msgid "Key result assigned sucessfully."
-msgstr ""
+msgstr "主要結果が正常に割り当てられました。"
 
 #: pms/views.py:3245
 msgid "Key result Updated sucessfully."
-msgstr ""
+msgstr "主要結果が正常に更新されました。"
 
 #: pms/views.py:3304
 msgid "Key result sattus changed to {}."
-msgstr ""
+msgstr "主要結果ステータスが{}に変更されました。"
 
 #: pms/views.py:3490
 msgid "Meeting added successfully"
-msgstr ""
+msgstr "ミーティングが正常に追加されました"
 
 #: pms/views.py:3518
 msgid "Meeting unarchived successfully"
-msgstr ""
+msgstr "ミーティングが正常にアーカイブ解除されました"
 
 #: pms/views.py:3520
 msgid "Meeting archived successfully"
-msgstr ""
+msgstr "ミーティングが正常にアーカイブされました"
 
 #: pms/views.py:3541
 msgid "Manager has been successfully removed from the meeting."
-msgstr ""
+msgstr "マネージャーがミーティングから正常に削除されました。"
 
 #: pms/views.py:3560
 msgid "Employee has been successfully removed from the meeting."
-msgstr ""
+msgstr "従業員がミーティングから正常に削除されました。"
 
 #: pms/views.py:3623
 msgid "Minutes of Meeting (MoM) have been created successfully"
-msgstr ""
+msgstr "議事録（MoM）が正常に作成されました"
 
 #: pms/views.py:3692
 #, python-format
 msgid "Questions for meeting %(meeting)s has been answered successfully!."
-msgstr ""
+msgstr "ミーティング%(meeting)sの質問が正常に回答されました！。"
 
 #: pms/views.py:3832
 #, python-brace-format
 msgid "{bonus} deleted"
-msgstr ""
+msgstr "{bonus}が削除されました"
 
 #: pms/views.py:3881
 msgid "Bonus point setting activated successfully."
-msgstr ""
+msgstr "ボーナスポイント設定が正常に有効化されました。"
 
 #: pms/views.py:3884
 msgid "Bonus point setting deactivated successfully."
-msgstr ""
+msgstr "ボーナスポイント設定が正常に無効化されました。"
 
 #: project/cbv/dashboard.py:87
 #: project/templates/cbv/projects/project_list.html:16
 msgid "View Project"
-msgstr ""
+msgstr "プロジェクトを表示"
 
 #: project/cbv/dashboard.py:108
 #: project/templates/dashboard/project_details.html:32
 msgid "No of Tasks"
-msgstr ""
+msgstr "タスク数"
 
 #: project/cbv/project_stage.py:33
 msgid "Create Project Stage"
-msgstr ""
+msgstr "プロジェクト段階を作成"
 
 #: project/cbv/project_stage.py:56
 msgid "Something went wrong!"
@@ -22717,139 +22717,139 @@ msgstr "問題が発生しました！"
 
 #: project/cbv/project_stage.py:68
 msgid "Update Project Stage"
-msgstr ""
+msgstr "プロジェクト段階を更新"
 
 #: project/cbv/project_stage.py:75 project/cbv/project_stage.py:131
 #: project/cbv/projects.py:304 project/cbv/tasks.py:375
 #: project/cbv/timesheet.py:387
 #, python-brace-format
 msgid "{self.form.instance} Updated"
-msgstr ""
+msgstr "{self.form.instance}が更新されました"
 
 #: project/cbv/project_stage.py:78 project/cbv/project_stage.py:133
 #: project/views.py:1291
 msgid "New project stage created"
-msgstr ""
+msgstr "新しいプロジェクト段階が作成されました"
 
 #: project/cbv/projects.py:313 project/views.py:206
 msgid "New project created"
-msgstr ""
+msgstr "新しいプロジェクトが作成されました"
 
 #: project/cbv/tasks.py:114 project/cbv/tasks.py:518 project/models.py:328
 #: project/templates/task_all/task_all_card.html:21
 #: project/templates/task_all/task_all_list.html:22
 msgid "To Do"
-msgstr ""
+msgstr "TODO"
 
 #: project/cbv/tasks.py:315 project/cbv/tasks.py:324 project/views.py:1369
 msgid "Select Stage"
-msgstr ""
+msgstr "段階を選択"
 
 #: project/cbv/tasks.py:317 project/cbv/tasks.py:326 project/views.py:1371
 msgid "Dynamic Create"
-msgstr ""
+msgstr "動的作成"
 
 #: project/cbv/tasks.py:377
 msgid "New Task created"
-msgstr ""
+msgstr "新しいタスクが作成されました"
 
 #: project/cbv/tasks.py:411
 msgid "Task Details"
-msgstr ""
+msgstr "タスク詳細"
 
 #: project/cbv/tasks.py:458
 msgid "archive_status"
-msgstr ""
+msgstr "アーカイブステータス"
 
 #: project/cbv/timesheet.py:333
 msgid "Update Time Sheet"
-msgstr ""
+msgstr "タイムシートを更新"
 
 #: project/cbv/timesheet.py:389
 msgid "New time sheet created"
-msgstr ""
+msgstr "新しいタイムシートが作成されました"
 
 #: project/filters.py:31
 msgid "Start From"
-msgstr ""
+msgstr "開始"
 
 #: project/filters.py:37 project/filters.py:80
 msgid "End Till"
-msgstr ""
+msgstr "終了"
 
 #: project/models.py:64
 msgid "Project Managers"
-msgstr ""
+msgstr "プロジェクトマネージャー"
 
 #: project/models.py:70 project/templates/project/new/project_list_view.html:72
 msgid "Project Members"
-msgstr ""
+msgstr "プロジェクトメンバー"
 
 #: project/models.py:78
 msgid "Project File"
-msgstr ""
+msgstr "プロジェクトファイル"
 
 #: project/models.py:201
 msgid "Are you sure you want to delete this project?"
-msgstr ""
+msgstr "このプロジェクトを削除してもよろしいですか？"
 
 #: project/models.py:252 project/templates/cbv/projects/project_tab.html:7
 #: project/templates/dashboard/project_dashboard.html:129
 #: project/templates/project/new/navbar.html:64
 msgid "Projects"
-msgstr ""
+msgstr "プロジェクト"
 
 #: project/models.py:270
 msgid "Is end stage"
-msgstr ""
+msgstr "終了段階"
 
 #: project/models.py:286
 #, python-brace-format
 msgid "Already exist an end stage - {end_stage.title}."
-msgstr ""
+msgstr "終了段階が既に存在します - {end_stage.title}。"
 
 #: project/models.py:318 project/models.py:342
 #: project/templates/project_stage/forms/create_project_stage.html:4
 #: project/templates/project_stage/forms/update_project_stage.html:4
 #: project/templates/task_all/forms/create_project_stage_taskall.html:4
 msgid "Project Stage"
-msgstr ""
+msgstr "プロジェクト段階"
 
 #: project/models.py:319
 msgid "Project Stages"
-msgstr ""
+msgstr "プロジェクト段階"
 
 #: project/models.py:350
 msgid "Task Members"
-msgstr ""
+msgstr "タスクメンバー"
 
 #: project/models.py:358
 msgid "Task File"
-msgstr ""
+msgstr "タスクファイル"
 
 #: project/models.py:373
 msgid "The task end date must be between the project's start and end dates."
-msgstr ""
+msgstr "タスク終了日はプロジェクトの開始日と終了日の間である必要があります。"
 
 #: project/models.py:517 project/templates/task/new/task_card_view.html:170
 msgid "Are you sure you want to delete this task?"
-msgstr ""
+msgstr "このタスクを削除してもよろしいですか？"
 
 #: project/models.py:555
 msgid "Hours Spent"
-msgstr ""
+msgstr "消費時間"
 
 #: project/models.py:586
 msgid "Employee not included in this task"
-msgstr ""
+msgstr "従業員はこのタスクに含まれていません"
 
 #: project/models.py:592
 msgid "Employee not included in this project"
-msgstr ""
+msgstr "従業員はこのプロジェクトに含まれていません"
 
 #: project/models.py:634
 msgid "Are you sure you want to delete this time sheet?"
-msgstr ""
+msgstr "このタイムシートを削除してもよろしいですか？"
 
 #: project/models.py:645 project/templates/cbv/timesheet/filter.html:4
 #: project/templates/time_sheet/filters.html:5
@@ -22857,147 +22857,147 @@ msgstr ""
 #: project/templates/time_sheet/form-update.html:4
 #: project/templates/time_sheet/time_sheet_navbar.html:5
 msgid "Time Sheet"
-msgstr ""
+msgstr "タイムシート"
 
 #: project/models.py:646
 msgid "Time Sheets"
-msgstr ""
+msgstr "タイムシート"
 
 #: project/templates/cbv/projects/actions.html:60
 #: project/templates/cbv/timesheet/detail_actions.html:19
 #: project/templates/project/new/project_list_view.html:133
 #: project/templates/time_sheet/time_sheet_single_view.html:82
 msgid "Do you want to delete this project?"
-msgstr ""
+msgstr "このプロジェクトを削除しますか？"
 
 #: project/templates/cbv/projects/project_details.html:9
 msgid "Project:"
-msgstr ""
+msgstr "プロジェクト："
 
 #: project/templates/cbv/projects/project_details.html:71
 msgid "Members:"
-msgstr ""
+msgstr "メンバー："
 
 #: project/templates/cbv/projects/project_details.html:88
 msgid "Start date:"
-msgstr ""
+msgstr "開始日："
 
 #: project/templates/cbv/projects/project_details.html:95
 #: project/templates/task/new/task_kanban_view.html:138
 msgid "End date:"
-msgstr ""
+msgstr "終了日："
 
 #: project/templates/cbv/projects/project_nav.html:5
 msgid "Do you really want to archive all the selected projects?"
-msgstr ""
+msgstr "選択されたすべてのプロジェクトをアーカイブしてもよろしいですか？"
 
 #: project/templates/cbv/projects/project_nav.html:8
 msgid "Do you really want to unarchive all the selected projects?"
-msgstr ""
+msgstr "選択されたすべてのプロジェクトのアーカイブを解除してもよろしいですか？"
 
 #: project/templates/cbv/projects/project_nav.html:11
 msgid "Do you really want to delete all the selected projects?"
-msgstr ""
+msgstr "選択されたすべてのプロジェクトを削除してもよろしいですか？"
 
 #: project/templates/cbv/projects/project_tab.html:16
 msgid "No projects assigned to this employee."
-msgstr ""
+msgstr "この従業員に割り当てられたプロジェクトはありません。"
 
 #: project/templates/cbv/projects/projects.html:98
 #: project/templates/project/new/navbar.html:13
 msgid "Import Project"
-msgstr ""
+msgstr "プロジェクトをインポート"
 
 #: project/templates/cbv/tasks/task_actions.html:13
 #: project/templates/task_all/task_all_card.html:78
 msgid "Do you want to archive this task?"
-msgstr ""
+msgstr "このタスクをアーカイブしますか？"
 
 #: project/templates/cbv/tasks/task_actions.html:19
 #: project/templates/task_all/task_all_card.html:82
 msgid "Do you want to un archive this task?"
-msgstr ""
+msgstr "このタスクのアーカイブを解除しますか？"
 
 #: project/templates/cbv/tasks/task_actions.html:25
 msgid "Do you want Delete this Task ?"
-msgstr ""
+msgstr "このタスクを削除しますか？"
 
 #: project/templates/cbv/tasks/task_detail_actions.html:18
 #: project/templates/cbv/timesheet/task_timesheet.html:6
 msgid "Time sheet"
-msgstr ""
+msgstr "タイムシート"
 
 #: project/templates/cbv/tasks/task_detail_actions.html:23
 #: project/templates/task/new/task_details.html:99
 msgid "Do you want to delete this task?"
-msgstr ""
+msgstr "このタスクを削除しますか？"
 
 #: project/templates/cbv/timesheet/actions.html:23
 #: project/templates/cbv/timesheet/actions.html:37
 #: project/templates/time_sheet/time_sheet_list_view.html:106
 msgid "Do you want to delete this time sheet?"
-msgstr ""
+msgstr "このタイムシートを削除しますか？"
 
 #: project/templates/cbv/timesheet/detail_actions.html:14
 #: project/templates/time_sheet/time_sheet_single_view.html:76
 msgid "View Timesheet Chart"
-msgstr ""
+msgstr "タイムシートチャートを表示"
 
 #: project/templates/cbv/timesheet/task_timesheet.html:16
 #: project/templates/task/new/task_timesheet.html:19
 msgid " Add"
-msgstr ""
+msgstr " 追加"
 
 #: project/templates/dashboard/project_dashboard.html:15
 msgid "Total Projects"
-msgstr ""
+msgstr "合計プロジェクト"
 
 #: project/templates/dashboard/project_dashboard.html:28
 msgid "New Projects"
-msgstr ""
+msgstr "新しいプロジェクト"
 
 #: project/templates/dashboard/project_dashboard.html:41
 msgid "Projects in progress"
-msgstr ""
+msgstr "進行中のプロジェクト"
 
 #: project/templates/dashboard/project_dashboard.html:57
 msgid "Project Status"
-msgstr ""
+msgstr "プロジェクトステータス"
 
 #: project/templates/dashboard/project_dashboard.html:95
 msgid "Projects due in this month"
-msgstr ""
+msgstr "今月期限のプロジェクト"
 
 #: project/templates/project/new/project_kanban_view.html:89
 msgid "Project manager"
-msgstr ""
+msgstr "プロジェクトマネージャー"
 
 #: project/templates/project/new/project_kanban_view.html:130
 msgid "Do you want to archive this project?"
-msgstr ""
+msgstr "このプロジェクトをアーカイブしますか？"
 
 #: project/templates/project/new/project_kanban_view.html:134
 msgid "Do you want to un archive this project?"
-msgstr ""
+msgstr "このプロジェクトのアーカイブを解除しますか？"
 
 #: project/templates/project/new/project_kanban_view.html:145
 #: project/templates/time_sheet/time_sheet_card_view.html:69
 msgid "Do you want to delete this employee?"
-msgstr ""
+msgstr "この従業員を削除しますか？"
 
 #: project/templates/project/new/project_kanban_view.html:208
 #: project/templates/project/new/project_list_view.html:150
 msgid "There are currently no available projects; please create a new one."
-msgstr ""
+msgstr "現在、利用可能なプロジェクトはありません。新しいプロジェクトを作成してください。"
 
 #: project/templates/project/new/project_list_view.html:71
 msgid "Project Manager"
-msgstr ""
+msgstr "プロジェクトマネージャー"
 
 #: project/templates/task/new/forms/create_timesheet.html:4
 #: project/templates/task/new/forms/update_timesheet.html:4
 msgid "Timesheet"
-msgstr ""
+msgstr "タイムシート"
 
 #: project/templates/task/new/task_card_view.html:84
 #: project/templates/task/new/task_kanban_view.html:48
@@ -23007,72 +23007,72 @@ msgstr ""
 #: recruitment/templates/pipeline/pipeline_card.html:272
 #: recruitment/templates/stage/stage_component.html:161
 msgid "Are you sure you want to delete this stage?"
-msgstr ""
+msgstr "この段階を削除してもよろしいですか？"
 
 #: project/templates/task/new/task_card_view.html:207
 #: project/templates/task_all/task_all_card.html:155
 #: project/templates/task_all/task_all_list.html:183
 msgid "There are currently no available tasks; please create a new one."
-msgstr ""
+msgstr "現在、利用可能なタスクはありません。新しいタスクを作成してください。"
 
 #: project/templates/task/new/task_details.html:33
 msgid "Task manager"
-msgstr ""
+msgstr "タスクマネージャー"
 
 #: project/templates/task/new/task_details.html:39
 msgid "Task members"
-msgstr ""
+msgstr "タスクメンバー"
 
 #: project/templates/task/new/task_details.html:96
 msgid " Time sheet"
-msgstr ""
+msgstr " タイムシート"
 
 #: project/templates/task/new/task_kanban_view.html:100
 #: project/templates/task/new/task_list_view.html:175
 msgid "Do you really want to delete this task?"
-msgstr ""
+msgstr "本当にこのタスクを削除しますか？"
 
 #: project/templates/task/new/task_kanban_view.html:117
 msgid "Managers: "
-msgstr ""
+msgstr "マネージャー： "
 
 #: project/templates/task/new/task_kanban_view.html:153
 #: project/templates/task/new/task_list_view.html:22
 msgid "Add Stage"
-msgstr ""
+msgstr "段階を追加"
 
 #: project/templates/task/new/task_list_view.html:72
 msgid " Are you sure you want to delete this stage?"
-msgstr ""
+msgstr " この段階を削除してもよろしいですか？"
 
 #: project/templates/task/new/task_list_view.html:197
 msgid "No tasks found in this stage."
-msgstr ""
+msgstr "この段階にタスクが見つかりません。"
 
 #: project/templates/task/new/task_navbar.html:61
 msgid "Create task"
-msgstr ""
+msgstr "タスクを作成"
 
 #: project/templates/task/new/task_timesheet.html:59
 #: project/templates/time_sheet/time_sheet_card_view.html:54
 #: project/templates/time_sheet/time_sheet_list_view.html:39
 #: project/templates/time_sheet/time_sheet_single_view.html:38
 msgid "Time Spent"
-msgstr ""
+msgstr "消費時間"
 
 #: project/templates/task/new/task_timesheet.html:135
 #: project/templates/time_sheet/time_sheet_card_view.html:147
 #: project/templates/time_sheet/time_sheet_list_view.html:186
 msgid "There are currently no available timesheets; please create a new one."
-msgstr ""
+msgstr "現在、利用可能なタイムシートはありません。新しいタイムシートを作成してください。"
 
 #: project/templates/task_all/task_all_card.html:59
 msgid "Project Name"
-msgstr ""
+msgstr "プロジェクト名"
 
 #: project/templates/task_all/task_all_card.html:60
 msgid "Stage Name"
-msgstr ""
+msgstr "段階名"
 
 #: project/templates/task_all/task_all_card.html:90
 #: recruitment/templates/candidate/candidate_card.html:221
@@ -23080,27 +23080,27 @@ msgstr ""
 #: recruitment/templates/candidate/group_by.html:250
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_card.html:78
 msgid "Do you want to delete this candidate?"
-msgstr ""
+msgstr "この候補者を削除しますか？"
 
 #: project/templates/task_all/task_all_list.html:53
 msgid "Mangers"
-msgstr ""
+msgstr "マネージャー"
 
 #: project/templates/task_all/task_all_navbar.html:167
 msgid " Task"
-msgstr ""
+msgstr " タスク"
 
 #: project/views.py:242
 msgid "Project updated"
-msgstr ""
+msgstr "プロジェクトが更新されました"
 
 #: project/views.py:275
 msgid "{project} status updated to {project.get_status_display()}."
-msgstr ""
+msgstr "{project}のステータスが{project.get_status_display()}に更新されました。"
 
 #: project/views.py:300
 msgid "{project} status is already set to {project.get_status_display()}."
-msgstr ""
+msgstr "{project}のステータスは既に{project.get_status_display()}に設定されています。"
 
 #: project/views.py:304
 msgid "Invalid status or missing data."
@@ -23108,11 +23108,11 @@ msgstr "無効なステータスまたはデータが不足しています。"
 
 #: project/views.py:307
 msgid "The specified project does not exist."
-msgstr ""
+msgstr "指定されたプロジェクトは存在しません。"
 
 #: project/views.py:625 project/views.py:668
 msgid "Could not retrieve project IDs."
-msgstr ""
+msgstr "プロジェクトIDを取得できませんでした。"
 
 #: project/views.py:638
 msgid "Invalid value for 'is_active'. Use 'true' or 'false'."
@@ -23120,162 +23120,162 @@ msgstr "'is_active'の値が無効です。'true'または'false'を使用して
 
 #: project/views.py:665
 msgid "No project IDs were provided."
-msgstr ""
+msgstr "プロジェクトIDが提供されませんでした。"
 
 #: project/views.py:686
 #, python-brace-format
 msgid "{count} project(s) deleted successfully."
-msgstr ""
+msgstr "{count}件のプロジェクトが正常に削除されました。"
 
 #: project/views.py:694
 #, python-format
 msgid "Permission denied or skipped for: %(projects)s."
-msgstr ""
+msgstr "権限がないかスキップされました：%(projects)s。"
 
 #: project/views.py:712
 #, python-brace-format
 msgid "{project} Un-Archived successfully."
-msgstr ""
+msgstr "{project}が正常にアーカイブ解除されました。"
 
 #: project/views.py:714
 #, python-brace-format
 msgid "{project} Archived successfully."
-msgstr ""
+msgstr "{project}が正常にアーカイブされました。"
 
 #: project/views.py:768
 msgid "The task has been created successfully!"
-msgstr ""
+msgstr "タスクが正常に作成されました！"
 
 #: project/views.py:804 project/views.py:842 project/views.py:1121
 msgid "New task created"
-msgstr ""
+msgstr "新しいタスクが作成されました"
 
 #: project/views.py:878
 msgid "Task updated"
-msgstr ""
+msgstr "タスクが更新されました"
 
 #: project/views.py:919
 msgid "The task has been deleted successfully."
-msgstr ""
+msgstr "タスクが正常に削除されました。"
 
 #: project/views.py:980
 msgid "Task stage updated"
-msgstr ""
+msgstr "タスク段階が更新されました"
 
 #: project/views.py:1009
 msgid "Timesheet created"
-msgstr ""
+msgstr "タイムシートが作成されました"
 
 #: project/views.py:1033
 msgid "Timesheet updated"
-msgstr ""
+msgstr "タイムシートが更新されました"
 
 #: project/views.py:1078
 msgid "Task stage has been successfully updated."
-msgstr ""
+msgstr "タスク段階が正常に更新されました。"
 
 #: project/views.py:1080
 msgid "Tasks order has been successfully updated."
-msgstr ""
+msgstr "タスクの順序が正常に更新されました。"
 
 #: project/views.py:1147
 msgid "Cannot update status. Task has already expired."
-msgstr ""
+msgstr "ステータスを更新できません。タスクは既に期限切れです。"
 
 #: project/views.py:1152
 msgid "Task status has been updated successfully"
-msgstr ""
+msgstr "タスクステータスが正常に更新されました"
 
 #: project/views.py:1164
 msgid "Task updated successfully"
-msgstr ""
+msgstr "タスクが正常に更新されました"
 
 #: project/views.py:1246
 #, python-format
 msgid "You cannot delete %(task)s."
-msgstr ""
+msgstr "%(task)sを削除できません。"
 
 #: project/views.py:1247
 msgid "{} tasks."
-msgstr ""
+msgstr "{}件のタスク。"
 
 #: project/views.py:1262
 #, python-brace-format
 msgid "{task} un-archived"
-msgstr ""
+msgstr "{task}がアーカイブ解除されました"
 
 #: project/views.py:1264
 #, python-brace-format
 msgid "{task} archived"
-msgstr ""
+msgstr "{task}がアーカイブされました"
 
 #: project/views.py:1316
 msgid "Project stage updated successfully"
-msgstr ""
+msgstr "プロジェクトステージが正常に更新されました"
 
 #: project/views.py:1344
 msgid "Stage deleted successfully"
-msgstr ""
+msgstr "ステージが正常に削除されました"
 
 #: project/views.py:1346
 msgid "Can't Delete. This stage contain some tasks"
-msgstr ""
+msgstr "削除できません。このステージにはタスクが含まれています"
 
 #: project/views.py:1429
 msgid "The project stage sequence has been successfully updated."
-msgstr ""
+msgstr "プロジェクトステージの順序が正常に更新されました。"
 
 #: project/views.py:1613
 msgid "Time sheet created"
-msgstr ""
+msgstr "タイムシートが作成されました"
 
 #: project/views.py:1711
 msgid "Time sheet updated"
-msgstr ""
+msgstr "タイムシートが更新されました"
 
 #: project/views.py:1745
 msgid "The time sheet has been deleted successfully"
-msgstr ""
+msgstr "タイムシートが正常に削除されました"
 
 #: project/views.py:1943
 #, python-format
 msgid "%(timesheet)s deleted."
-msgstr ""
+msgstr "%(timesheet)sが削除されました。"
 
 #: project/views.py:1949
 #, python-format
 msgid "You cannot delete %(timesheet)s."
-msgstr ""
+msgstr "%(timesheet)sは削除できません。"
 
 #: recruitment/cbvs.py:55 recruitment/models.py:1103
 msgid "LinkedIn Accounts"
-msgstr ""
+msgstr "LinkedInアカウント"
 
 #: recruitment/filters.py:201 recruitment/models.py:310
 #: recruitment/templates/pipeline/filters.html:91
 #: report/templates/report/recruitment_report.html:98
 msgid "Stage Type"
-msgstr ""
+msgstr "ステージタイプ"
 
 #: recruitment/forms.py:329
 msgid "---Choose Skills---"
-msgstr ""
+msgstr "---スキルを選択---"
 
 #: recruitment/forms.py:333
 msgid "Create new skill "
-msgstr ""
+msgstr "新しいスキルを作成 "
 
 #: recruitment/forms.py:358
 msgid "Job position is required if the recruitment is publishing."
-msgstr ""
+msgstr "募集を公開する場合は職位が必要です。"
 
 #: recruitment/forms.py:367
 msgid "LinkedIn account is required for publishing."
-msgstr ""
+msgstr "公開にはLinkedInアカウントが必要です。"
 
 #: recruitment/forms.py:513 recruitment/models.py:604
 msgid "Choose valid choice"
-msgstr ""
+msgstr "有効な選択肢を選んでください"
 
 #: recruitment/forms.py:622 recruitment/models.py:158
 #: recruitment/templates/recruitment/recruitment_component.html:70
@@ -23291,50 +23291,50 @@ msgstr "順序"
 
 #: recruitment/forms.py:821
 msgid "Is Mandatory"
-msgstr ""
+msgstr "必須"
 
 #: recruitment/forms.py:841
 msgid "Choose any recruitment to apply this question"
-msgstr ""
+msgstr "この質問を適用する募集を選択してください"
 
 #: recruitment/forms.py:1048
 msgid "Skill Zone Candidate"
-msgstr ""
+msgstr "スキルゾーン候補者"
 
 #: recruitment/forms.py:1116
 msgid "Add To Skill Zone"
-msgstr ""
+msgstr "スキルゾーンに追加"
 
 #: recruitment/forms.py:1118 recruitment/models.py:880
 msgid "Skill Zones"
-msgstr ""
+msgstr "スキルゾーン"
 
 #: recruitment/forms.py:1240
 msgid "Interview date cannot be in the past."
-msgstr ""
+msgstr "面接日は過去の日付にできません。"
 
 #: recruitment/forms.py:1250
 msgid "Interview time cannot be in the past."
-msgstr ""
+msgstr "面接時刻は過去の時刻にできません。"
 
 #: recruitment/forms.py:1270
 #, python-brace-format
 msgid "{employees} have approved leave on this date"
-msgstr ""
+msgstr "{employees}はこの日に承認済みの休暇があります"
 
 #: recruitment/models.py:57
 msgid "File must be a PDF."
-msgstr ""
+msgstr "ファイルはPDFである必要があります。"
 
 #: recruitment/models.py:94
 msgid "Survey Template"
-msgstr ""
+msgstr "アンケートテンプレート"
 
 #: recruitment/models.py:95 recruitment/models.py:161
 #: recruitment/templates/survey/survey_empty_view.html:51
 #: recruitment/templates/survey/view_question_templates.html:65
 msgid "Survey Templates"
-msgstr ""
+msgstr "アンケートテンプレート"
 
 #: recruitment/models.py:110
 #: recruitment/templates/settings/skills/skills_list.html:7
@@ -23350,11 +23350,11 @@ msgstr "スキル"
 
 #: recruitment/models.py:125
 msgid "To start recruitment for multiple job positions"
-msgstr ""
+msgstr "複数の職位で募集を開始する"
 
 #: recruitment/models.py:130
 msgid "To close the recruitment, If closed then not visible on pipeline view."
-msgstr ""
+msgstr "募集を終了します。終了するとパイプラインビューに表示されません。"
 
 #: recruitment/models.py:137
 msgid ""
@@ -23364,7 +23364,7 @@ msgstr ""
 
 #: recruitment/models.py:180 recruitment/models.py:1102
 msgid "LinkedIn Account"
-msgstr ""
+msgstr "LinkedInアカウント"
 
 #: recruitment/models.py:186
 msgid ""
@@ -23374,41 +23374,41 @@ msgstr ""
 
 #: recruitment/models.py:189
 msgid "Post on LinkedIn"
-msgstr ""
+msgstr "LinkedInに投稿"
 
 #: recruitment/models.py:195
 msgid "Profile image not mandatory for candidate creation"
-msgstr ""
+msgstr "候補者作成時にプロフィール画像は必須ではありません"
 
 #: recruitment/models.py:196
 msgid "Optional Profile Image"
-msgstr ""
+msgstr "任意のプロフィール画像"
 
 #: recruitment/models.py:200
 msgid "Resume not mandatory for candidate creation"
-msgstr ""
+msgstr "候補者作成時に履歴書は必須ではありません"
 
 #: recruitment/models.py:201
 msgid "Optional Resume"
-msgstr ""
+msgstr "任意の履歴書"
 
 #: recruitment/models.py:218 recruitment/templates/pipeline/nav.html:102
 #: recruitment/templates/pipeline/pipeline_empty.html:8
 msgid "Recruitments"
-msgstr ""
+msgstr "募集"
 
 #: recruitment/models.py:246
 msgid "Vacancy must be greater than zero if the recruitment is publishing."
-msgstr ""
+msgstr "募集を公開する場合は欠員数が0より大きい必要があります。"
 
 #: recruitment/models.py:254
 msgid "End date cannot be less than start date."
-msgstr ""
+msgstr "終了日は開始日より前にできません。"
 
 #: recruitment/models.py:291 recruitment/templates/dashboard/dashboard.html:283
 #: recruitment/templates/stage/stage_group.html:77
 msgid "Initial"
-msgstr ""
+msgstr "初期"
 
 #: recruitment/models.py:292
 #: recruitment/templates/recruitment/open_recruitments.html:87
@@ -23425,7 +23425,7 @@ msgstr "採用済み"
 
 #: recruitment/models.py:360
 msgid "Not Sent"
-msgstr ""
+msgstr "未送信"
 
 #: recruitment/models.py:361
 msgid "Sent"
@@ -23433,19 +23433,19 @@ msgstr "送信済み"
 
 #: recruitment/models.py:362
 msgid "Accepted"
-msgstr ""
+msgstr "承諾済み"
 
 #: recruitment/models.py:364
 msgid "Joined"
-msgstr ""
+msgstr "入社済み"
 
 #: recruitment/models.py:367
 msgid "Application Form"
-msgstr ""
+msgstr "応募フォーム"
 
 #: recruitment/models.py:368
 msgid "Inside software"
-msgstr ""
+msgstr "ソフトウェア内"
 
 #: recruitment/models.py:426
 #: recruitment/templates/candidate/individual.html:344
@@ -23455,69 +23455,69 @@ msgstr "紹介"
 #: recruitment/models.py:456
 #: recruitment/templates/candidate/individual.html:315
 msgid "Source"
-msgstr ""
+msgstr "ソース"
 
 #: recruitment/models.py:458
 msgid "Start Onboard"
-msgstr ""
+msgstr "オンボーディング開始"
 
 #: recruitment/models.py:461
 #: recruitment/templates/candidate/candidate_card.html:60
 #: recruitment/templates/candidate/candidate_self_tracking.html:366
 #: recruitment/templates/candidate/candidate_view.html:54
 msgid "Converted"
-msgstr ""
+msgstr "変換済み"
 
 #: recruitment/models.py:479
 msgid "Offer Letter Status"
-msgstr ""
+msgstr "内定通知ステータス"
 
 #: recruitment/models.py:629
 msgid "Employee is uniques for candidate"
-msgstr ""
+msgstr "従業員は候補者に対して一意です"
 
 #: recruitment/models.py:678
 #: recruitment/templates/settings/reject_reason_lines.html:6
 #: recruitment/templates/settings/reject_reasons.html:6
 msgid "Reject Reasons"
-msgstr ""
+msgstr "却下理由"
 
 #: recruitment/models.py:707
 msgid "Rejected Candidate"
-msgstr ""
+msgstr "却下された候補者"
 
 #: recruitment/models.py:708
 msgid "Rejected Candidates"
-msgstr ""
+msgstr "却下された候補者"
 
 #: recruitment/models.py:755
 msgid "Yes/No"
-msgstr ""
+msgstr "はい/いいえ"
 
 #: recruitment/models.py:756
 msgid "Choices"
-msgstr ""
+msgstr "選択肢"
 
 #: recruitment/models.py:757
 msgid "Multiple Choice"
-msgstr ""
+msgstr "複数選択"
 
 #: recruitment/models.py:762
 msgid "Textarea"
-msgstr ""
+msgstr "テキストエリア"
 
 #: recruitment/models.py:763
 msgid "File Upload"
-msgstr ""
+msgstr "ファイルアップロード"
 
 #: recruitment/models.py:785
 msgid "Separate choices by ',  '"
-msgstr ""
+msgstr "選択肢を「,  」で区切る"
 
 #: recruitment/models.py:879 recruitment/models.py:896
 #: recruitment/sidebar.py:62
 msgid "Skill Zone"
-msgstr ""
+msgstr "スキルゾーン"
 
 #: recruitment/models.py:935
 #, python-brace-format
@@ -23540,22 +23540,22 @@ msgstr "面接時刻"
 
 #: recruitment/models.py:992
 msgid "Is Interview Completed"
-msgstr ""
+msgstr "面接完了"
 
 #: recruitment/models.py:1000
 #: recruitment/templates/candidate/candidate_interview_view.html:63
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:239
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:112
 msgid "Schedule Interview"
-msgstr ""
+msgstr "面接スケジュール"
 
 #: recruitment/models.py:1001
 msgid "Schedule Interviews"
-msgstr ""
+msgstr "面接スケジュール"
 
 #: recruitment/models.py:1093
 msgid "App Name"
-msgstr ""
+msgstr "アプリ名"
 
 #: recruitment/models.py:1095
 msgid "API Token"
@@ -23563,11 +23563,11 @@ msgstr "APIトークン"
 
 #: recruitment/models.py:1118
 msgid "Email mismatched."
-msgstr ""
+msgstr "メールアドレスが一致しません。"
 
 #: recruitment/models.py:1121
 msgid "Check the credentials"
-msgstr ""
+msgstr "認証情報を確認してください"
 
 #: recruitment/sidebar.py:27
 msgid "Recruitment Pipeline"
@@ -23575,16 +23575,16 @@ msgstr "採用パイプライン"
 
 #: recruitment/sidebar.py:32
 msgid "Recruitment Survey"
-msgstr ""
+msgstr "募集アンケート"
 
 #: recruitment/sidebar.py:52
 #: recruitment/templates/recruitment/recruitment_component.html:69
 msgid "Open Jobs"
-msgstr ""
+msgstr "公開求人"
 
 #: recruitment/templates/candidate/application_form.html:47
 msgid "Delete image"
-msgstr ""
+msgstr "画像を削除"
 
 #: recruitment/templates/candidate/application_form.html:55
 #: recruitment/templates/pipeline/form/candidate_drop_down_form.html:56
@@ -23593,20 +23593,20 @@ msgstr "プロフィール"
 
 #: recruitment/templates/candidate/application_form.html:75
 msgid "Open Recruitment"
-msgstr ""
+msgstr "公開募集"
 
 #: recruitment/templates/candidate/application_form.html:82
 msgid "Choose Open Position"
-msgstr ""
+msgstr "公開ポジションを選択"
 
 #: recruitment/templates/candidate/application_form.html:90
 msgid "Choose Job Position"
-msgstr ""
+msgstr "職位を選択"
 
 #: recruitment/templates/candidate/application_form.html:121
 #: recruitment/templates/candidate/individual.html:276
 msgid "Portfolio"
-msgstr ""
+msgstr "ポートフォリオ"
 
 #: recruitment/templates/candidate/application_form.html:130
 #: recruitment/templates/candidate/candidate_list.html:102
@@ -23630,37 +23630,37 @@ msgstr "履歴書"
 #: recruitment/templates/candidate/group_by.html:153
 #: recruitment/templates/candidate/individual.html:112
 msgid "Are you sure you want to convert this candidate into an employee?"
-msgstr ""
+msgstr "この候補者を従業員に変換してもよろしいですか？"
 
 #: recruitment/templates/candidate/candidate_card.html:119
 msgid "Convert to Employee"
-msgstr ""
+msgstr "従業員に変換"
 
 #: recruitment/templates/candidate/candidate_card.html:130
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:137
 msgid "Add to Skill Zone"
-msgstr ""
+msgstr "スキルゾーンに追加"
 
 #: recruitment/templates/candidate/candidate_card.html:152
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:174
 #: recruitment/templates/pipeline/pipeline_card.html:234
 msgid "Add to Rejected"
-msgstr ""
+msgstr "却下済みに追加"
 
 #: recruitment/templates/candidate/candidate_card.html:154
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:176
 #: recruitment/templates/pipeline/pipeline_card.html:236
 msgid "Edit Rejected Candidate"
-msgstr ""
+msgstr "却下された候補者を編集"
 
 #: recruitment/templates/candidate/candidate_card.html:167
 msgid "View candidate self tracking"
-msgstr ""
+msgstr "候補者セルフトラッキングを表示"
 
 #: recruitment/templates/candidate/candidate_card.html:182
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:151
 msgid "Request Document"
-msgstr ""
+msgstr "書類をリクエスト"
 
 #: recruitment/templates/candidate/candidate_card.html:201
 #: recruitment/templates/candidate/candidate_list.html:272
@@ -23668,83 +23668,83 @@ msgstr ""
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:207
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_card.html:68
 msgid "Do you want to archive this candidate?"
-msgstr ""
+msgstr "この候補者をアーカイブしますか？"
 
 #: recruitment/templates/candidate/candidate_card.html:210
 #: recruitment/templates/candidate/candidate_list.html:280
 #: recruitment/templates/candidate/group_by.html:241
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_card.html:72
 msgid "Do you want to un-archive this candidate?"
-msgstr ""
+msgstr "この候補者をアーカイブ解除しますか？"
 
 #: recruitment/templates/candidate/candidate_empty.html:32
 msgid "There are currently no candidates to consider."
-msgstr ""
+msgstr "現在、検討すべき候補者はいません。"
 
 #: recruitment/templates/candidate/candidate_list.html:145
 #: recruitment/templates/candidate/group_by.html:127
 msgid "Converted to employee."
-msgstr ""
+msgstr "従業員に変換されました。"
 
 #: recruitment/templates/candidate/candidate_list.html:194
 #: recruitment/templates/candidate/group_by.html:155
 msgid "To employee "
-msgstr ""
+msgstr "従業員へ "
 
 #: recruitment/templates/candidate/candidate_list.html:199
 #: recruitment/templates/candidate/group_by.html:160
 msgid "Converted "
-msgstr ""
+msgstr "変換済み "
 
 #: recruitment/templates/candidate/candidate_list.html:202
 #: recruitment/templates/candidate/group_by.html:163
 msgid "Candidate in Onboarding "
-msgstr ""
+msgstr "オンボーディング中の候補者 "
 
 #: recruitment/templates/candidate/candidate_list.html:208
 #: recruitment/templates/candidate/candidate_list.html:223
 #: recruitment/templates/candidate/group_by.html:169
 #: recruitment/templates/candidate/group_by.html:184
 msgid "Candidate is Converted "
-msgstr ""
+msgstr "候補者は変換済み "
 
 #: recruitment/templates/candidate/candidate_list.html:211
 #: recruitment/templates/candidate/group_by.html:172
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:258
 msgid "To Skill zone"
-msgstr ""
+msgstr "スキルゾーンへ"
 
 #: recruitment/templates/candidate/candidate_nav.html:167
 #: recruitment/templates/pipeline/components/stages_tab_content.html:59
 msgid "Bulk mail"
-msgstr ""
+msgstr "一括メール"
 
 #: recruitment/templates/candidate/candidate_nav.html:180
 msgid "Create document request"
-msgstr ""
+msgstr "書類リクエストを作成"
 
 #: recruitment/templates/candidate/candidate_nav.html:188
 #: recruitment/templates/pipeline/pipeline_tabs.html:61
 msgid "Resume Shortlisting"
-msgstr ""
+msgstr "履歴書スクリーニング"
 
 #: recruitment/templates/candidate/candidate_nav.html:273
 #: recruitment/templates/pipeline/nav.html:234
 msgid "Upload Resumes"
-msgstr ""
+msgstr "履歴書をアップロード"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:8
 #: recruitment/templates/recruitment/settings/settings.html:11
 msgid "Application Tracking"
-msgstr ""
+msgstr "応募追跡"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:417
 msgid "Congratulation on your selection"
-msgstr ""
+msgstr "選考通過おめでとうございます"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:422
 msgid "You not selected"
-msgstr ""
+msgstr "選考に通過しませんでした"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:427
 msgid "Application under review"
@@ -23752,32 +23752,32 @@ msgstr "審査中の申請"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:467
 msgid "Uploaded"
-msgstr ""
+msgstr "アップロード済み"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:492
 msgid "No document requests found."
-msgstr ""
+msgstr "書類リクエストが見つかりません。"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:614
 #: recruitment/templates/pipeline/footer_components.html:27
 msgid "Add Note"
-msgstr ""
+msgstr "メモを追加"
 
 #: recruitment/templates/candidate/candidate_self_tracking.html:655
 msgid "No notes have been added for this candidate."
-msgstr ""
+msgstr "この候補者にメモは追加されていません。"
 
 #: recruitment/templates/candidate/candidate_update_form.html:29
 msgid "Candidate Info"
-msgstr ""
+msgstr "候補者情報"
 
 #: recruitment/templates/candidate/candidate_view.html:46
 msgid "Not-Hired"
-msgstr ""
+msgstr "不採用"
 
 #: recruitment/templates/candidate/document.html:141
 msgid "Do you want to reject this request"
-msgstr ""
+msgstr "このリクエストを却下しますか"
 
 #: recruitment/templates/candidate/document_form.html:4
 msgid "Upload File"
@@ -23785,166 +23785,166 @@ msgstr "ファイルをアップロード"
 
 #: recruitment/templates/candidate/individual.html:81
 msgid "Next Candidate"
-msgstr ""
+msgstr "次の候補者"
 
 #: recruitment/templates/candidate/individual.html:92
 msgid "Previous Candidate"
-msgstr ""
+msgstr "前の候補者"
 
 #: recruitment/templates/candidate/individual.html:116
 msgid "Convert To Employee"
-msgstr ""
+msgstr "従業員に変換"
 
 #: recruitment/templates/candidate/individual.html:188
 #: recruitment/templates/survey/candidate-survey-form.html:17
 #: recruitment/templates/survey/candidate_survey_form.html:19
 #: recruitment/templates/survey/survey_preview.html:18
 msgid "Survey"
-msgstr ""
+msgstr "アンケート"
 
 #: recruitment/templates/candidate/individual.html:289
 msgid "Recruitment Information"
-msgstr ""
+msgstr "募集情報"
 
 #: recruitment/templates/candidate/individual.html:329
 msgid "Current Stage"
-msgstr ""
+msgstr "現在のステージ"
 
 #: recruitment/templates/candidate/individual.html:400
 msgid "This candidate does not have a resume on file."
-msgstr ""
+msgstr "この候補者の履歴書は登録されていません。"
 
 #: recruitment/templates/candidate/individual.html:458
 #: recruitment/templates/survey/survey_empty_view.html:73
 msgid "No survey templates have been established yet."
-msgstr ""
+msgstr "アンケートテンプレートはまだ設定されていません。"
 
 #: recruitment/templates/candidate/individual_view_note.html:84
 #: recruitment/templates/pipeline/pipeline_components/view_note.html:188
 msgid "No notes have been added for this candidate"
-msgstr ""
+msgstr "この候補者にメモは追加されていません"
 
 #: recruitment/templates/candidate/interview_list.html:87
 msgid "Are you sure you want to remove this interviewer?"
-msgstr ""
+msgstr "この面接官を削除してもよろしいですか？"
 
 #: recruitment/templates/candidate/interview_list.html:89
 msgid " Remove"
-msgstr ""
+msgstr " 削除"
 
 #: recruitment/templates/candidate/interview_list.html:97
 msgid "Interviewers"
-msgstr ""
+msgstr "面接官"
 
 #: recruitment/templates/candidate/interview_list.html:140
 msgid " Edit"
-msgstr ""
+msgstr " 編集"
 
 #: recruitment/templates/candidate/interview_list.html:149
 msgid " Are you sure you want to delete this interview?"
-msgstr ""
+msgstr " この面接を削除してもよろしいですか？"
 
 #: recruitment/templates/candidate/interview_list.html:213
 msgid "No Interviews Found."
-msgstr ""
+msgstr "面接が見つかりません。"
 
 #: recruitment/templates/candidate/rating_tab.html:47
 msgid " There are no ratings to display at the moment."
-msgstr ""
+msgstr " 現在、表示する評価はありません。"
 
 #: recruitment/templates/dashboard/dashboard.html:40
 msgid "Total Vacancies"
-msgstr ""
+msgstr "総欠員数"
 
 #: recruitment/templates/dashboard/dashboard.html:56
 msgid "Ongoing Recruitments"
-msgstr ""
+msgstr "進行中の募集"
 
 #: recruitment/templates/dashboard/dashboard.html:90
 msgid "Conversion Rate"
-msgstr ""
+msgstr "変換率"
 
 #: recruitment/templates/dashboard/dashboard.html:104
 msgid "Offer Acceptance Rate (OAR)"
-msgstr ""
+msgstr "内定受諾率（OAR）"
 
 #: recruitment/templates/dashboard/dashboard.html:120
 msgid "Skill Zone Status"
-msgstr ""
+msgstr "スキルゾーンステータス"
 
 #: recruitment/templates/dashboard/dashboard.html:146
 msgid "No skill zone available."
-msgstr ""
+msgstr "利用可能なスキルゾーンはありません。"
 
 #: recruitment/templates/dashboard/dashboard.html:183
 msgid "Candidate Offer Letter Status"
-msgstr ""
+msgstr "候補者内定通知ステータス"
 
 #: recruitment/templates/dashboard/dashboard.html:199
 msgid "No Candidates available."
-msgstr ""
+msgstr "利用可能な候補者はいません。"
 
 #: recruitment/templates/dashboard/dashboard.html:208
 msgid "Candidate on Onboard"
-msgstr ""
+msgstr "オンボーディング中の候補者"
 
 #: recruitment/templates/dashboard/dashboard.html:253
 msgid "Joinings Per Month"
-msgstr ""
+msgstr "月ごとの入社数"
 
 #: recruitment/templates/dashboard/dashboard.html:266
 msgid "No records were available."
-msgstr ""
+msgstr "利用可能なレコードはありませんでした。"
 
 #: recruitment/templates/dashboard/dashboard.html:276
 msgid "Current Hiring Pipeline"
-msgstr ""
+msgstr "現在の採用パイプライン"
 
 #: recruitment/templates/dashboard/dashboard.html:333
 msgid "No onboarding tasks are currently available."
-msgstr ""
+msgstr "現在、利用可能なオンボーディングタスクはありません。"
 
 #: recruitment/templates/dashboard/dashboard.html:349
 msgid "Candidates Per Stage"
-msgstr ""
+msgstr "ステージごとの候補者数"
 
 #: recruitment/templates/dashboard/dashboard.html:359
 msgid "No recruitment stages currently available."
-msgstr ""
+msgstr "現在、利用可能な募集ステージはありません。"
 
 #: recruitment/templates/dashboard/dashboard.html:369
 msgid "Ongoing Recruitments & Hiring Managers"
-msgstr ""
+msgstr "進行中の募集と採用マネージャー"
 
 #: recruitment/templates/linkedin/linkedin_action.html:5
 msgid "Check Connection"
-msgstr ""
+msgstr "接続を確認"
 
 #: recruitment/templates/linkedin/linkedin_action.html:27
 msgid "Do you want to delete the linkedin account?"
-msgstr ""
+msgstr "LinkedInアカウントを削除しますか？"
 
 #: recruitment/templates/pipeline/bulk_resume.html:5
 msgid "Resumes"
-msgstr ""
+msgstr "履歴書"
 
 #: recruitment/templates/pipeline/bulk_resume.html:64
 msgid "matching Resumes"
-msgstr ""
+msgstr "一致する履歴書"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:88
 msgid "Stage bulk update"
-msgstr ""
+msgstr "ステージ一括更新"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:134
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:93
 msgid "INTERVIEW : Today at"
-msgstr ""
+msgstr "面接：今日"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:134
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:93
 msgid "with"
-msgstr ""
+msgstr "と"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:142
 msgid "Move"
@@ -23952,68 +23952,68 @@ msgstr "移動"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:173
 msgid "Interviews Scheduled"
-msgstr ""
+msgstr "予定されている面接"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:279
 msgid " Added In Rejected Candidates"
-msgstr ""
+msgstr " 却下された候補者に追加"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:280
 msgid " Add To Rejected Candidates"
-msgstr ""
+msgstr " 却下された候補者に追加"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:286
 msgid " View Note"
-msgstr ""
+msgstr " メモを表示"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:297
 msgid " Request Document"
-msgstr ""
+msgstr " 書類をリクエスト"
 
 #: recruitment/templates/pipeline/components/candidate_stage_component.html:308
 msgid " Resume"
-msgstr ""
+msgstr " 履歴書"
 
 #: recruitment/templates/pipeline/components/stages_tab_content.html:45
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:81
 #: recruitment/templates/pipeline/kanban_components/kanban_stage_components.html:40
 msgid " Actions"
-msgstr ""
+msgstr " アクション"
 
 #: recruitment/templates/pipeline/filters.html:36
 #: report/templates/report/recruitment_report.html:129
 msgid "Is Closed"
-msgstr ""
+msgstr "終了"
 
 #: recruitment/templates/pipeline/filters.html:127
 #: report/templates/report/recruitment_report.html:65
 msgid "Is Hired"
-msgstr ""
+msgstr "採用済み"
 
 #: recruitment/templates/pipeline/filters.html:154
 #: report/templates/report/recruitment_report.html:103
 msgid "Is Canceled"
-msgstr ""
+msgstr "キャンセル済み"
 
 #: recruitment/templates/pipeline/footer_components.html:73
 msgid "Add Recruitment"
-msgstr ""
+msgstr "募集を追加"
 
 #: recruitment/templates/pipeline/form/candidate_drop_down_form.html:76
 #: recruitment/templates/pipeline/kanban_components/kanban_stage_components.html:51
 #: recruitment/templates/skill_zone/skill_zone_card.html:48
 msgid "Add Candidate"
-msgstr ""
+msgstr "候補者を追加"
 
 #: recruitment/templates/pipeline/form/stage_update.html:30
 #: recruitment/templates/stage/stage_form.html:27
 #: recruitment/templates/stage/stage_update_form.html:38
 msgid "This field is requied"
-msgstr ""
+msgstr "このフィールドは必須です"
 
 #: recruitment/templates/pipeline/kanban_components/candidate_kanban_components.html:212
 msgid "Are you sure you want to delete this candidate?"
-msgstr ""
+msgstr "この候補者を削除してもよろしいですか？"
 
 #: recruitment/templates/pipeline/matching_resumes.html:7
 msgid "Score"
@@ -24021,60 +24021,60 @@ msgstr "スコア"
 
 #: recruitment/templates/pipeline/matching_resumes.html:19
 msgid "Need verification"
-msgstr ""
+msgstr "確認が必要"
 
 #: recruitment/templates/pipeline/matching_resumes.html:26
 msgid "Candidated Added"
-msgstr ""
+msgstr "候補者が追加されました"
 
 #: recruitment/templates/pipeline/matching_resumes.html:33
 msgid "Create Candidate"
-msgstr ""
+msgstr "候補者を作成"
 
 #: recruitment/templates/pipeline/nav.html:491
 msgid "Sequence updated"
-msgstr ""
+msgstr "順序が更新されました"
 
 #: recruitment/templates/pipeline/pipeline_card.html:47
 msgid "candidates"
-msgstr ""
+msgstr "候補者"
 
 #: recruitment/templates/pipeline/pipeline_card.html:212
 msgid "Add to Sill Zone"
-msgstr ""
+msgstr "スキルゾーンに追加"
 
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:11
 msgid "Send Mail to"
-msgstr ""
+msgstr "メールを送信"
 
 #: recruitment/templates/pipeline/pipeline_components/send_mail.html:13
 msgid "Send Mail to Multiple Candidates"
-msgstr ""
+msgstr "複数の候補者にメールを送信"
 
 #: recruitment/templates/pipeline/pipeline_empty.html:15
 msgid "Switch to Ongoing Recruitments"
-msgstr ""
+msgstr "進行中の募集に切り替え"
 
 #: recruitment/templates/pipeline/pipeline_empty.html:16
 msgid "Switch to Closed Recruitments"
-msgstr ""
+msgstr "終了した募集に切り替え"
 
 #: recruitment/templates/pipeline/pipeline_empty.html:66
 msgid "At present, there is no closed recruitment."
-msgstr ""
+msgstr "現在、終了した募集はありません。"
 
 #: recruitment/templates/pipeline/pipeline_empty.html:68
 #: recruitment/templates/recruitment/recruitment_empty.html:30
 msgid "At present, there is no ongoing recruitment."
-msgstr ""
+msgstr "現在、進行中の募集はありません。"
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:49
 msgid "Are you sure you want to close this recruitment?"
-msgstr ""
+msgstr "この募集を終了してもよろしいですか？"
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:68
 msgid "Are you sure you want to reopen this recruitment?"
-msgstr ""
+msgstr "この募集を再開してもよろしいですか？"
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:69
 msgid "Reopen"
@@ -24082,15 +24082,15 @@ msgstr "再オープン"
 
 #: recruitment/templates/pipeline/pipeline_tabs.html:77
 msgid "Are you sure you want to delete this recruitment?"
-msgstr ""
+msgstr "この募集を削除してもよろしいですか？"
 
 #: recruitment/templates/recruitment/open_recruitments.html:11
 msgid " - Open Recruitments"
-msgstr ""
+msgstr " - 公開募集"
 
 #: recruitment/templates/recruitment/open_recruitments.html:52
 msgid "Open Job Listings"
-msgstr ""
+msgstr "公開求人リスト"
 
 #: recruitment/templates/recruitment/open_recruitments.html:55
 msgid ""
@@ -24101,19 +24101,19 @@ msgstr ""
 #: recruitment/templates/recruitment/open_recruitments.html:72
 #: recruitment/templates/recruitment/recruitment_details.html:13
 msgid "Apply Now"
-msgstr ""
+msgstr "今すぐ応募"
 
 #: recruitment/templates/recruitment/open_recruitments.html:87
 msgid "Capacity"
-msgstr ""
+msgstr "定員"
 
 #: recruitment/templates/recruitment/open_recruitments.html:93
 msgid "Total vacancies"
-msgstr ""
+msgstr "総欠員数"
 
 #: recruitment/templates/recruitment/recruitment_component.html:75
 msgid "Total Hires"
-msgstr ""
+msgstr "総採用数"
 
 #: recruitment/templates/recruitment/recruitment_component.html:160
 msgid "Jobs"
@@ -24121,48 +24121,48 @@ msgstr "求人"
 
 #: recruitment/templates/recruitment/recruitment_component.html:184
 msgid "Share Link"
-msgstr ""
+msgstr "リンクを共有"
 
 #: recruitment/templates/recruitment/recruitment_component.html:202
 msgid "Are you sure to delete this recruitment?"
-msgstr ""
+msgstr "この募集を削除してもよろしいですか？"
 
 #: recruitment/templates/recruitment/recruitment_component.html:298
 msgid "Duplicate Recruitment"
-msgstr ""
+msgstr "募集を複製"
 
 #: recruitment/templates/recruitment/recruitment_create.html:7
 msgid "View Recruitments"
-msgstr ""
+msgstr "募集を表示"
 
 #: recruitment/templates/recruitment/recruitment_details.html:4
 msgid "Job positions :"
-msgstr ""
+msgstr "職位："
 
 #: recruitment/templates/recruitment/recruitment_duplicate_form.html:21
 msgid "Is Event Based?"
-msgstr ""
+msgstr "イベントベース？"
 
 #: recruitment/templates/recruitment/recruitment_duplicate_form.html:32
 msgid "Is Closed?"
-msgstr ""
+msgstr "終了？"
 
 #: recruitment/templates/recruitment/recruitment_duplicate_form.html:42
 msgid "Is Active?"
-msgstr ""
+msgstr "アクティブ？"
 
 #: recruitment/templates/recruitment/settings/settings.html:6
 #: templates/settings.html:236
 msgid "Candidate Self Tracking"
-msgstr ""
+msgstr "候補者セルフトラッキング"
 
 #: recruitment/templates/recruitment/settings/settings.html:12
 msgid "By enabling the feature candidates can track their recruitment progress"
-msgstr ""
+msgstr "この機能を有効にすると、候補者が募集の進捗を追跡できます"
 
 #: recruitment/templates/recruitment/settings/settings.html:22
 msgid "Rating Visiblity"
-msgstr ""
+msgstr "評価の可視性"
 
 #: recruitment/templates/recruitment/settings/settings.html:23
 msgid ""
@@ -24171,131 +24171,131 @@ msgstr ""
 
 #: recruitment/templates/settings/reject_reason_lines.html:35
 msgid "Are you sure want to delete this reason?"
-msgstr ""
+msgstr "この理由を削除してもよろしいですか？"
 
 #: recruitment/templates/settings/reject_reasons.html:19
 msgid "There is no reject reasons at this moment."
-msgstr ""
+msgstr "現在、却下理由はありません。"
 
 #: recruitment/templates/settings/skills/skills_list.html:35
 msgid "Are you sure want to delete this skill?"
-msgstr ""
+msgstr "このスキルを削除してもよろしいですか？"
 
 #: recruitment/templates/settings/skills/skills_view.html:19
 msgid "There are no skills added at this moment."
-msgstr ""
+msgstr "現在、追加されたスキルはありません。"
 
 #: recruitment/templates/skill_zone/empty_skill_zone.html:12
 msgid "There are currently no skill zone to consider."
-msgstr ""
+msgstr "現在、検討すべきスキルゾーンはありません。"
 
 #: recruitment/templates/skill_zone/skill_zone_card.html:65
 msgid "Do you want to Archive this Skill zone?"
-msgstr ""
+msgstr "このスキルゾーンをアーカイブしますか？"
 
 #: recruitment/templates/skill_zone/skill_zone_card.html:71
 msgid "Do you want to Un-Archive this Skill zone?"
-msgstr ""
+msgstr "このスキルゾーンをアーカイブ解除しますか？"
 
 #: recruitment/templates/skill_zone/skill_zone_card.html:78
 msgid "Do you want to delete this Skill zone?"
-msgstr ""
+msgstr "このスキルゾーンを削除しますか？"
 
 #: recruitment/templates/skill_zone/skill_zone_list.html:49
 msgid "Do you want to archive this skill zone ?"
-msgstr ""
+msgstr "このスキルゾーンをアーカイブしますか？"
 
 #: recruitment/templates/skill_zone/skill_zone_list.html:64
 msgid "Do you want to un archive this skill zone?"
-msgstr ""
+msgstr "このスキルゾーンをアーカイブ解除しますか？"
 
 #: recruitment/templates/skill_zone/skill_zone_list.html:80
 msgid "Are you sure want to delete this skill zone?"
-msgstr ""
+msgstr "このスキルゾーンを削除してもよろしいですか？"
 
 #: recruitment/templates/skill_zone/skill_zone_list.html:104
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_list.html:12
 msgid "Added on"
-msgstr ""
+msgstr "追加日"
 
 #: recruitment/templates/skill_zone/skill_zone_list.html:175
 msgid "Do you want to remove this candidate"
-msgstr ""
+msgstr "この候補者を削除しますか"
 
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_list.html:11
 msgid "Reasom"
-msgstr ""
+msgstr "理由"
 
 #: recruitment/templates/skill_zone_cand/skill_zone_cand_view.html:20
 msgid "You have no Candidate."
-msgstr ""
+msgstr "候補者がいません。"
 
 #: recruitment/templates/stage/stage_component.html:119
 msgid "Are sure want to remove this manager?"
-msgstr ""
+msgstr "このマネージャーを削除してもよろしいですか？"
 
 #: recruitment/templates/stage/stage_create.html:8
 msgid "View Stages"
-msgstr ""
+msgstr "ステージを表示"
 
 #: recruitment/templates/stage/stage_empty.html:28
 msgid "No recruitment stages are currently available."
-msgstr ""
+msgstr "現在、利用可能な募集ステージはありません。"
 
 #: recruitment/templates/stage/stage_group.html:55
 msgid "interview"
-msgstr ""
+msgstr "面接"
 
 #: recruitment/templates/survey/add_more_options.html:27
 msgid "Add more option.."
-msgstr ""
+msgstr "オプションを追加.."
 
 #: recruitment/templates/survey/filter.html:5
 msgid "Survey Filter"
-msgstr ""
+msgstr "アンケートフィルター"
 
 #: recruitment/templates/survey/question_template_organized_form.html:64
 msgid "Add more options.."
-msgstr ""
+msgstr "オプションを追加.."
 
 #: recruitment/templates/survey/survey_card.html:55
 msgid "Are you sure want to delete?"
-msgstr ""
+msgstr "削除してもよろしいですか？"
 
 #: recruitment/templates/survey/survey_card.html:118
 msgid "No questions have been established yet."
-msgstr ""
+msgstr "質問はまだ設定されていません。"
 
 #: recruitment/templates/survey/survey_empty_view.html:22
 #: recruitment/templates/survey/view_question_templates.html:20
 msgid "Create Survey Template"
-msgstr ""
+msgstr "アンケートテンプレートを作成"
 
 #: recruitment/templates/survey/template_accordion.html:12
 #: recruitment/templates/survey/view_question_templates.html:111
 msgid "Questions"
-msgstr ""
+msgstr "質問"
 
 #: recruitment/templates/survey/template_accordion.html:39
 #: recruitment/templates/survey/templates.html:38
 msgid "Add Questions"
-msgstr ""
+msgstr "質問を追加"
 
 #: recruitment/templates/survey/template_accordion.html:55
 msgid "Do you want to delete this template"
-msgstr ""
+msgstr "このテンプレートを削除しますか"
 
 #: recruitment/templates/survey/template_accordion.html:227
 msgid "No template groups have been established yet."
-msgstr ""
+msgstr "テンプレートグループはまだ設定されていません。"
 
 #: recruitment/templates/survey/templates.html:140
 msgid "No template have been established yet."
-msgstr ""
+msgstr "テンプレートはまだ設定されていません。"
 
 #: recruitment/templates/survey/view_question_templates.html:51
 msgid "Duplicate Survey Template"
-msgstr ""
+msgstr "アンケートテンプレートを複製"
 
 #: recruitment/templates/survey/view_question_templates.html:95
 msgid "Templates"
@@ -24303,16 +24303,16 @@ msgstr "テンプレート"
 
 #: recruitment/templates/survey/view_question_templates.html:105
 msgid " Create template group"
-msgstr ""
+msgstr " テンプレートグループを作成"
 
 #: recruitment/templates/survey/view_question_templates.html:121
 msgid "Create survey questions"
-msgstr ""
+msgstr "アンケート質問を作成"
 
 #: recruitment/templates/survey/view_single_template.html:72
 #: recruitment/templates/survey/view_single_template.html:91
 msgid " Are you sure want to delete?"
-msgstr ""
+msgstr " 削除してもよろしいですか？"
 
 #: recruitment/templates/survey_form.html:18
 #: recruitment/templates/survey_form.html:33
@@ -24333,321 +24333,321 @@ msgstr ""
 #: recruitment/templates/survey_preview_form.html:194
 #: recruitment/templates/survey_preview_form.html:223
 msgid "Mandatory Question"
-msgstr ""
+msgstr "必須質問"
 
 #: recruitment/views.py:130 recruitment/views.py:340
 #: recruitment/views/views.py:265
 msgid "Recruitment added."
-msgstr ""
+msgstr "募集が追加されました。"
 
 #: recruitment/views.py:172 recruitment/views/actions.py:384
 msgid "Recruitment manager removed successfully."
-msgstr ""
+msgstr "募集マネージャーが正常に削除されました。"
 
 #: recruitment/views.py:253 recruitment/views/views.py:371
 msgid "Recruitment Updated."
-msgstr ""
+msgstr "募集が更新されました。"
 
 #: recruitment/views.py:310 recruitment/views/actions.py:71
 msgid "Recruitment deleted successfully."
-msgstr ""
+msgstr "募集が正常に削除されました。"
 
 #: recruitment/views.py:313
 msgid "You cannot delete this recruitment"
-msgstr ""
+msgstr "この募集は削除できません"
 
 #: recruitment/views.py:386 recruitment/views.py:949
 #: recruitment/views/views.py:1348
 msgid "Candidate added."
-msgstr ""
+msgstr "候補者が追加されました。"
 
 #: recruitment/views.py:396 recruitment/views.py:761
 #: recruitment/views/views.py:1183
 msgid "Stage added."
-msgstr ""
+msgstr "ステージが追加されました。"
 
 #: recruitment/views.py:415
 msgid "You dont have access"
-msgstr ""
+msgstr "アクセス権がありません"
 
 #: recruitment/views.py:458 recruitment/views.py:871
 #: recruitment/views/views.py:765 recruitment/views/views.py:1274
 msgid "Stage updated."
-msgstr ""
+msgstr "ステージが更新されました。"
 
 #: recruitment/views.py:496 recruitment/views/views.py:804
 msgid "Recruitment updated."
-msgstr ""
+msgstr "募集が更新されました。"
 
 #: recruitment/views.py:539 recruitment/views/actions.py:111
 msgid "Recruitment deleted."
-msgstr ""
+msgstr "募集が削除されました。"
 
 #: recruitment/views.py:542
 msgid "Recruitment already in use."
-msgstr ""
+msgstr "募集は既に使用中です。"
 
 #: recruitment/views.py:561
 msgid "Sequence updated."
-msgstr ""
+msgstr "順序が更新されました。"
 
 #: recruitment/views.py:601 recruitment/views/views.py:679
 #: recruitment/views/views.py:697 recruitment/views/views.py:710
 #: recruitment/views/views.py:918
 msgid "Candidate stage updated"
-msgstr ""
+msgstr "候補者ステージが更新されました"
 
 #: recruitment/views.py:604 recruitment/views/views.py:921
 msgid "Something went wrong, Try agian."
-msgstr ""
+msgstr "問題が発生しました。再試行してください。"
 
 #: recruitment/views.py:692 recruitment/views.py:714
 #: recruitment/views/actions.py:136
 msgid "Note deleted"
-msgstr ""
+msgstr "メモが削除されました"
 
 #: recruitment/views.py:695 recruitment/views.py:717
 #: recruitment/views/actions.py:142
 msgid "You cannot delete this note."
-msgstr ""
+msgstr "このメモは削除できません。"
 
 #: recruitment/views.py:844 recruitment/views/actions.py:344
 msgid "Stage manager removed successfully."
-msgstr ""
+msgstr "ステージマネージャーが正常に削除されました。"
 
 #: recruitment/views.py:919 recruitment/views/actions.py:194
 msgid "Stage deleted successfully."
-msgstr ""
+msgstr "ステージが正常に削除されました。"
 
 #: recruitment/views.py:922
 msgid "You cannot delete this stage"
-msgstr ""
+msgstr "このステージは削除できません"
 
 #: recruitment/views.py:1120 recruitment/views/views.py:1683
 msgid "Candidate Updated Successfully."
-msgstr ""
+msgstr "候補者が正常に更新されました。"
 
 #: recruitment/views.py:1136 recruitment/views/actions.py:229
 msgid "Candidate deleted successfully."
-msgstr ""
+msgstr "候補者が正常に削除されました。"
 
 #: recruitment/views.py:1139
 msgid "You cannot delete this candidate"
-msgstr ""
+msgstr "この候補者は削除できません"
 
 #: recruitment/views.py:1169
 #, python-format
 msgid "%(candidate_obj)s deleted."
-msgstr ""
+msgstr "%(candidate_obj)sが削除されました。"
 
 #: recruitment/views.py:1174
 #, python-format
 msgid "You cannot delete %(candidate_obj)s"
-msgstr ""
+msgstr "%(candidate_obj)sは削除できません"
 
 #: recruitment/views.py:1235 recruitment/views/surveys.py:379
 msgid "Application saved."
-msgstr ""
+msgstr "応募が保存されました。"
 
 #: recruitment/views/actions.py:49 recruitment/views/actions.py:113
 msgid "Recruitment not found."
-msgstr ""
+msgstr "募集が見つかりません。"
 
 #: recruitment/views/actions.py:74
-msgid "Couldn’t delete the recruitment post from LinkedIn."
-msgstr ""
+msgid "Couldn't delete the recruitment post from LinkedIn."
+msgstr "LinkedInから募集投稿を削除できませんでした。"
 
 #: recruitment/views/actions.py:86
 msgid "You cannot delete this recruitment as it is using in {}"
-msgstr ""
+msgstr "この募集は{}で使用中のため削除できません"
 
 #: recruitment/views/actions.py:93 recruitment/views/views.py:748
 #: recruitment/views/views.py:846
 msgid "Recruitment Does not exists.."
-msgstr ""
+msgstr "募集は存在しません.."
 
 #: recruitment/views/actions.py:121
 msgid "Recruitment already in use for {}."
-msgstr ""
+msgstr "募集は既に{}で使用中です。"
 
 #: recruitment/views/actions.py:158
 msgid "Note deleted."
-msgstr ""
+msgstr "メモが削除されました。"
 
 #: recruitment/views/actions.py:203
 msgid "You cannot delete this stage while it's in use for {}"
-msgstr ""
+msgstr "このステージは{}で使用中のため削除できません"
 
 #: recruitment/views/actions.py:209
 msgid "Stage Does not exists.."
-msgstr ""
+msgstr "ステージは存在しません.."
 
 #: recruitment/views/actions.py:240
 msgid "You cannot delete this candidate because the candidate is in {}."
-msgstr ""
+msgstr "候補者は{}にいるため削除できません。"
 
 #: recruitment/views/actions.py:246 recruitment/views/actions.py:289
 msgid "Candidate Does not exists."
-msgstr ""
+msgstr "候補者は存在しません。"
 
 #: recruitment/views/actions.py:264
 #, python-format
 msgid "%(candidate)s deleted."
-msgstr ""
+msgstr "%(candidate)sが削除されました。"
 
 #: recruitment/views/actions.py:271
 #, python-format
 msgid "You cannot delete %(candidate)s"
-msgstr ""
+msgstr "%(candidate)sは削除できません"
 
 #: recruitment/views/actions.py:287
 #, python-format
 msgid "Candidate is %(message)s"
-msgstr ""
+msgstr "候補者は%(message)s"
 
 #: recruitment/views/actions.py:313
 #, python-brace-format
 msgid "{candidate} is {message}"
-msgstr ""
+msgstr "{candidate}は{message}"
 
 #: recruitment/views/dashboard.py:249
 #, python-format
 msgid "Employees joined in %(year)s"
-msgstr ""
+msgstr "%(year)s年に入社した従業員"
 
 #: recruitment/views/dashboard.py:268
 msgid "Openings"
-msgstr ""
+msgstr "求人"
 
 #: recruitment/views/linkedin.py:37
 msgid "LinkedIn Account activated successfully."
-msgstr ""
+msgstr "LinkedInアカウントが正常に有効化されました。"
 
 #: recruitment/views/linkedin.py:40
 msgid "LinkedIn Account deactivated successfully."
-msgstr ""
+msgstr "LinkedInアカウントが正常に無効化されました。"
 
 #: recruitment/views/linkedin.py:87
 msgid "LinkedIn connection success."
-msgstr ""
+msgstr "LinkedIn接続が成功しました。"
 
 #: recruitment/views/linkedin.py:89
 msgid "LinkedIn connection failed."
-msgstr ""
+msgstr "LinkedIn接続が失敗しました。"
 
 #: recruitment/views/surveys.py:168
 msgid "File size exceeds the limit. Maximum size is 5 MB"
-msgstr ""
+msgstr "ファイルサイズが制限を超えています。最大サイズは5MBです"
 
 #: recruitment/views/surveys.py:186
 msgid "Your answers are submitted."
-msgstr ""
+msgstr "回答が送信されました。"
 
 #: recruitment/views/surveys.py:285
 msgid "New survey question updated."
-msgstr ""
+msgstr "新しいアンケート質問が更新されました。"
 
 #: recruitment/views/surveys.py:311
 msgid "New survey question created."
-msgstr ""
+msgstr "新しいアンケート質問が作成されました。"
 
 #: recruitment/views/surveys.py:329
 msgid "Question was deleted successfully"
-msgstr ""
+msgstr "質問が正常に削除されました"
 
 #: recruitment/views/surveys.py:333
 msgid "You cannot delete this question"
-msgstr ""
+msgstr "この質問は削除できません"
 
 #: recruitment/views/surveys.py:347
 msgid "Recruitment ID is missing"
-msgstr ""
+msgstr "募集IDが不足しています"
 
 #: recruitment/views/surveys.py:355
 msgid "Recruitment not found"
-msgstr ""
+msgstr "募集が見つかりません"
 
 #: recruitment/views/surveys.py:358
 msgid "Invalid Recruitment ID"
-msgstr ""
+msgstr "無効な募集ID"
 
 #: recruitment/views/views.py:339
 msgid "The recruitment entry you are trying to edit does not exist."
-msgstr ""
+msgstr "編集しようとしている募集エントリは存在しません。"
 
 #: recruitment/views/views.py:575 recruitment/views/views.py:677
 #: recruitment/views/views.py:693 recruitment/views/views.py:3023
 msgid "Vaccancy is filled"
-msgstr ""
+msgstr "欠員は埋まりました"
 
 #: recruitment/views/views.py:878
 msgid "No change detected."
-msgstr ""
+msgstr "変更が検出されませんでした。"
 
 #: recruitment/views/views.py:1096
 msgid "Files uploaded successfully"
-msgstr ""
+msgstr "ファイルが正常にアップロードされました"
 
 #: recruitment/views/views.py:1137
 msgid "Candidate view status updated"
-msgstr ""
+msgstr "候補者表示ステータスが更新されました"
 
 #: recruitment/views/views.py:1687
 msgid "Candidate Does not exists.."
-msgstr ""
+msgstr "候補者は存在しません.."
 
 #: recruitment/views/views.py:1746
 msgid "Candidate has been successfully converted into an employee."
-msgstr ""
+msgstr "候補者が正常に従業員に変換されました。"
 
 #: recruitment/views/views.py:1923
 msgid "Interview deleted successfully."
-msgstr ""
+msgstr "面接が正常に削除されました。"
 
 #: recruitment/views/views.py:1925
 msgid "Scheduled Interview not found"
-msgstr ""
+msgstr "予定されている面接が見つかりません"
 
 #: recruitment/views/views.py:2234
 msgid "Skill Zone created successfully."
-msgstr ""
+msgstr "スキルゾーンが正常に作成されました。"
 
 #: recruitment/views/views.py:2257
 msgid "Skill Zone updated successfully."
-msgstr ""
+msgstr "スキルゾーンが正常に更新されました。"
 
 #: recruitment/views/views.py:2282 recruitment/views/views.py:2486
 msgid "Skill zone deleted successfully.."
-msgstr ""
+msgstr "スキルゾーンが正常に削除されました.."
 
 #: recruitment/views/views.py:2284 recruitment/views/views.py:2328
 #: recruitment/views/views.py:2488
 msgid "Skill zone not found."
-msgstr ""
+msgstr "スキルゾーンが見つかりません。"
 
 #: recruitment/views/views.py:2316
 msgid "Skill zone archived successfully.."
-msgstr ""
+msgstr "スキルゾーンが正常にアーカイブされました.."
 
 #: recruitment/views/views.py:2325
 msgid "Skill zone unarchived successfully.."
-msgstr ""
+msgstr "スキルゾーンが正常にアーカイブ解除されました.."
 
 #: recruitment/views/views.py:2438
 msgid "Candidate added successfully."
-msgstr ""
+msgstr "候補者が正常に追加されました。"
 
 #: recruitment/views/views.py:2465
 msgid "Candidate edited successfully."
-msgstr ""
+msgstr "候補者が正常に編集されました。"
 
 #: recruitment/views/views.py:2540
 msgid "Candidate archived successfully.."
-msgstr ""
+msgstr "候補者が正常にアーカイブされました.."
 
 #: recruitment/views/views.py:2544
 msgid "Candidate unarchived successfully.."
-msgstr ""
+msgstr "候補者が正常にアーカイブ解除されました.."
 
 #: recruitment/views/views.py:3396
 msgid ""
@@ -24657,7 +24657,7 @@ msgstr ""
 
 #: report/templates/report/asset_report.html:14
 msgid "Asset Reports"
-msgstr ""
+msgstr "資産レポート"
 
 #: report/templates/report/asset_report.html:109
 #: report/templates/report/attendance_report.html:168
@@ -24667,43 +24667,43 @@ msgstr ""
 #: report/templates/report/pms_report.html:187
 #: report/templates/report/recruitment_report.html:237
 msgid "Export Table"
-msgstr ""
+msgstr "テーブルをエクスポート"
 
 #: report/templates/report/attendance_report.html:12
 msgid "Attendance Reports"
-msgstr ""
+msgstr "勤怠レポート"
 
 #: report/templates/report/employee_report.html:11
 msgid "Employee Reports"
-msgstr ""
+msgstr "従業員レポート"
 
 #: report/templates/report/leave_report.html:12
 msgid "Leave Reports"
-msgstr ""
+msgstr "休暇レポート"
 
 #: report/templates/report/leave_report.html:130
 msgid "Available Leave"
-msgstr ""
+msgstr "利用可能な休暇"
 
 #: report/templates/report/payroll_report.html:11
 msgid "Payroll Reports"
-msgstr ""
+msgstr "給与レポート"
 
 #: report/templates/report/payroll_report.html:158
 msgid "Allowance Greater than"
-msgstr ""
+msgstr "手当が次より大きい"
 
 #: report/templates/report/payroll_report.html:164
 msgid "Allowance Less than"
-msgstr ""
+msgstr "手当が次より小さい"
 
 #: report/templates/report/payroll_report.html:172
 msgid "Deduction Greater than"
-msgstr ""
+msgstr "控除が次より大きい"
 
 #: report/templates/report/payroll_report.html:178
 msgid "Deduction Less than"
-msgstr ""
+msgstr "控除が次より小さい"
 
 #: report/templates/report/pms_report.html:11
 msgid "Performance Reports"
@@ -24711,11 +24711,11 @@ msgstr "パフォーマンスレポート"
 
 #: report/templates/report/pms_report.html:69
 msgid "Employee Objective"
-msgstr ""
+msgstr "従業員目標"
 
 #: report/templates/report/recruitment_report.html:11
 msgid "Candidate Reports"
-msgstr ""
+msgstr "候補者レポート"
 
 #: report/templates/report/recruitment_report.html:131
 msgid "Unknown"
@@ -24723,63 +24723,63 @@ msgstr "不明"
 
 #: report/templates/report/recruitment_report.html:205
 msgid "Stage Manager"
-msgstr ""
+msgstr "ステージマネージャー"
 
 #: report/templates/report/recruitment_report.html:243
 msgid "Choose Report"
-msgstr ""
+msgstr "レポートを選択"
 
 #: templates/animation.html:201
 msgid "Trying to connect..."
-msgstr ""
+msgstr "接続中..."
 
 #: templates/announcement_single_view.html:27
 msgid "Add Comment."
-msgstr ""
+msgstr "コメントを追加。"
 
 #: templates/announcement_single_view.html:60
 msgid "Comments."
-msgstr ""
+msgstr "コメント。"
 
 #: templates/compensatory_settings.html:9 templates/settings.html:497
 msgid "Compensatory Leave"
-msgstr ""
+msgstr "代休"
 
 #: templates/compensatory_settings.html:14
 msgid "By enabling this compensatory leave feature will avilable on Leave."
-msgstr ""
+msgstr "この代休機能を有効にすると、休暇で利用できるようになります。"
 
 #: templates/dashboard.html:135
 msgid "New Joining Today"
-msgstr ""
+msgstr "本日の新入社員"
 
 #: templates/dashboard.html:152
 msgid "New Joining This Week"
-msgstr ""
+msgstr "今週の新入社員"
 
 #: templates/dashboard.html:169
 msgid "Total Strength"
-msgstr ""
+msgstr "総従業員数"
 
 #: templates/dashboard.html:206
 msgid "Create Announcement"
-msgstr ""
+msgstr "お知らせを作成"
 
 #: templates/dashboard.html:236
 msgid "Employee Work Information"
-msgstr ""
+msgstr "従業員勤務情報"
 
 #: templates/dashboard_chart_form.html:4
 msgid "Dashboard Chart Select"
-msgstr ""
+msgstr "ダッシュボードチャート選択"
 
 #: templates/dashboard_chart_form.html:15
 msgid "Select All Rows"
-msgstr ""
+msgstr "すべての行を選択"
 
 #: templates/dashboard_chart_form.html:16
 msgid "Unselect All Rows"
-msgstr ""
+msgstr "すべての行を選択解除"
 
 #: templates/dashboard_chart_form.html:27
 msgid "Charts"
@@ -24787,7 +24787,7 @@ msgstr "チャート"
 
 #: templates/dashboard_tile_container.html:50
 msgid "Overall Leave"
-msgstr ""
+msgstr "全体の休暇"
 
 #: templates/dashboard_tile_container.html:60
 msgid "This Year"
@@ -24795,88 +24795,88 @@ msgstr "今年"
 
 #: templates/dashboard_tile_container.html:92
 msgid "Candidates Started Onboarding"
-msgstr ""
+msgstr "オンボーディングを開始した候補者"
 
 #: templates/dashboard_tile_container.html:131
 msgid "Attendance Analytics"
-msgstr ""
+msgstr "勤怠分析"
 
 #: templates/dashboard_tile_container.html:304
 msgid "Shift Requests To Approve"
-msgstr ""
+msgstr "承認待ちのシフトリクエスト"
 
 #: templates/dashboard_tile_container.html:325
 msgid "Work Type Requests To Approve"
-msgstr ""
+msgstr "承認待ちの勤務タイプリクエスト"
 
 #: templates/dashboard_tile_container.html:393
 msgid "Leave Requests To Approve"
-msgstr ""
+msgstr "承認待ちの休暇リクエスト"
 
 #: templates/dashboard_tile_container.html:414
 msgid "Leave Allocation Request To Approve"
-msgstr ""
+msgstr "承認待ちの休暇割り当てリクエスト"
 
 #: templates/dashboard_tile_container.html:433
 msgid "Feedback To Answers"
-msgstr ""
+msgstr "回答すべきフィードバック"
 
 #: templates/decorator_404.html:4
 msgid "You Dont Have Permission"
-msgstr ""
+msgstr "権限がありません"
 
 #: templates/decorator_404.html:5
 msgid "You dont have permission to the feature"
-msgstr ""
+msgstr "この機能の権限がありません"
 
 #: templates/demo_database/auth_load_data.html:10
 #: templates/initialize_database/horilla_user.html:78
 msgid "Database Authentication"
-msgstr ""
+msgstr "データベース認証"
 
 #: templates/demo_database/auth_load_data.html:13
 msgid "Authenticate with your password to load demo database"
-msgstr ""
+msgstr "デモデータベースを読み込むにはパスワードで認証してください"
 
 #: templates/forgot_password.html:25
 msgid "Forgot Password"
-msgstr ""
+msgstr "パスワードを忘れた"
 
 #: templates/forgot_password.html:26
 msgid "Type in your email to reset the password"
-msgstr ""
+msgstr "パスワードをリセットするにはメールアドレスを入力してください"
 
 #: templates/forgot_password.html:39
 msgid "Send Link"
-msgstr ""
+msgstr "リンクを送信"
 
 #: templates/import_popup.html:11
 msgid " Import Warning"
-msgstr ""
+msgstr " インポート警告"
 
 #: templates/import_popup.html:23
 msgid " Import Successful"
-msgstr ""
+msgstr " インポート成功"
 
 #: templates/import_popup.html:39
 msgid "Download Error File"
-msgstr ""
+msgstr "エラーファイルをダウンロード"
 
 #: templates/index.html:117
 msgid "All Notifications"
-msgstr ""
+msgstr "すべての通知"
 
 #: templates/index.html:119
 msgid "Clear all"
-msgstr ""
+msgstr "すべてクリア"
 
 #: templates/initialize_database/horilla_company.html:78
 msgid "Hq"
-msgstr ""
+msgstr "本社"
 
 #: templates/initialize_database/horilla_job_position_form.html:63
 msgid "Go To Home"
-msgstr ""
+msgstr "ホームへ移動"
 
 #: templates/initialize_database/horilla_user.html:81
 msgid ""
@@ -24885,50 +24885,50 @@ msgstr ""
 
 #: templates/initialize_database/horilla_user_signup.html:28
 msgid "Sign Up"
-msgstr ""
+msgstr "サインアップ"
 
 #: templates/initialize_database/horilla_user_signup.html:31
 msgid "Please sign up to access the Horilla HRMS."
-msgstr ""
+msgstr "Horilla HRMSにアクセスするにはサインアップしてください。"
 
 #: templates/initialize_database/horilla_user_signup.html:118
 msgid "Secure Sign-up"
-msgstr ""
+msgstr "セキュアサインアップ"
 
 #: templates/login.html:32
 msgid "Sign In"
-msgstr ""
+msgstr "サインイン"
 
 #: templates/login.html:35
 msgid "Please login to access the dashboard."
-msgstr ""
+msgstr "ダッシュボードにアクセスするにはログインしてください。"
 
 #: templates/login.html:61
 msgid "Secure Sign-in"
-msgstr ""
+msgstr "セキュアサインイン"
 
 #: templates/login.html:80
 msgid "Initialize Database"
-msgstr ""
+msgstr "データベースを初期化"
 
 #: templates/login.html:87
 msgid "Load Demo Data"
-msgstr ""
+msgstr "デモデータを読み込む"
 
 #: templates/notification/all_notifications.html:41
 #: templates/notification/notification_items.html:69
 msgid "ago by"
-msgstr ""
+msgstr "前 by"
 
 #: templates/notification/notification.html:46
 #: templates/notification/notification_items.html:102
 msgid "All caught up!"
-msgstr ""
+msgstr "すべて確認済み！"
 
 #: templates/notification/notification.html:49
 #: templates/notification/notification_items.html:103
 msgid "You have no new notifications at the moment."
-msgstr ""
+msgstr "現在、新しい通知はありません。"
 
 #: templates/notification/notification_items.html:13
 msgid "Notifications"
@@ -24936,7 +24936,7 @@ msgstr "通知"
 
 #: templates/notification/notification_items.html:18
 msgid "Mark as read"
-msgstr ""
+msgstr "既読にする"
 
 #: templates/notification/notification_items.html:22
 msgid "Clear"
@@ -24948,27 +24948,27 @@ msgstr "匿名"
 
 #: templates/notification/notification_items.html:114
 msgid "View all notifications"
-msgstr ""
+msgstr "すべての通知を表示"
 
 #: templates/notification/notification_items.html:116
 msgid "Notification Sound"
-msgstr ""
+msgstr "通知音"
 
 #: templates/reset_password.html:33
 msgid "Reset Password"
-msgstr ""
+msgstr "パスワードをリセット"
 
 #: templates/reset_password.html:34
 msgid "Enter your new password to reset"
-msgstr ""
+msgstr "リセットする新しいパスワードを入力してください"
 
 #: templates/reset_password.html:61
 msgid "Confirm New Password"
-msgstr ""
+msgstr "新しいパスワードを確認"
 
 #: templates/reset_password.html:88
 msgid "Reset my password"
-msgstr ""
+msgstr "パスワードをリセット"
 
 #: templates/settings.html:24
 msgid "Settings"
@@ -24976,7 +24976,7 @@ msgstr "設定"
 
 #: templates/settings.html:38
 msgid "All\tSettings"
-msgstr ""
+msgstr "すべての設定"
 
 #: templates/settings.html:60
 msgid "General Settings"
@@ -24984,11 +24984,11 @@ msgstr "一般設定"
 
 #: templates/settings.html:69
 msgid "Employee Permission"
-msgstr ""
+msgstr "従業員権限"
 
 #: templates/settings.html:79
 msgid "Accessibility Restriction"
-msgstr ""
+msgstr "アクセシビリティ制限"
 
 #: templates/settings.html:89
 msgid "User Group"
@@ -24996,63 +24996,63 @@ msgstr "ユーザーグループ"
 
 #: templates/settings.html:99
 msgid "Date & Time Format"
-msgstr ""
+msgstr "日付と時刻の形式"
 
 #: templates/settings.html:130
 msgid "Outlook Mail"
-msgstr ""
+msgstr "Outlookメール"
 
 #: templates/settings.html:141
 msgid "Gdrive Backup"
-msgstr ""
+msgstr "Googleドライブバックアップ"
 
 #: templates/settings.html:168
 msgid "Base"
-msgstr ""
+msgstr "ベース"
 
 #: templates/settings.html:245
 msgid "Candidate Reject Reason"
-msgstr ""
+msgstr "候補者却下理由"
 
 #: templates/settings.html:266
 msgid "Linkedin Integration"
-msgstr ""
+msgstr "LinkedIn統合"
 
 #: templates/settings.html:355
 msgid "Disciplinary Action Type"
-msgstr ""
+msgstr "懲戒処分タイプ"
 
 #: templates/settings.html:392
 msgid "Track Late Come & Early Out"
-msgstr ""
+msgstr "遅刻・早退を追跡"
 
 #: templates/settings.html:402
 msgid "Attendance Break Point"
-msgstr ""
+msgstr "勤怠ブレークポイント"
 
 #: templates/settings.html:412
 msgid "Check In/Check Out"
-msgstr ""
+msgstr "チェックイン/チェックアウト"
 
 #: templates/settings.html:456
 msgid "Geo & Face Config"
-msgstr ""
+msgstr "位置情報と顔認証設定"
 
 #: templates/settings.html:484
 msgid "Restrictions"
-msgstr ""
+msgstr "制限"
 
 #: templates/settings.html:525
 msgid "Payslip Auto Generation"
-msgstr ""
+msgstr "給与明細自動生成"
 
 #: templates/settings.html:568
 msgid "Help Desk"
-msgstr ""
+msgstr "ヘルプデスク"
 
 #: templates/sidebar.html:111
 msgid "My Company"
-msgstr ""
+msgstr "マイカンパニー"
 
 #: templates/sidebar.html:237
 msgid "Configuration"
@@ -25060,15 +25060,15 @@ msgstr "設定"
 
 #: templates/sidebar.html:272
 msgid "Mail Automations"
-msgstr ""
+msgstr "メール自動化"
 
 #: templates/sidebar.html:475
 msgid "Invalid File"
-msgstr ""
+msgstr "無効なファイル"
 
 #: templates/sidebar.html:476
 msgid "Please upload a valid XLSX file."
-msgstr ""
+msgstr "有効なXLSXファイルをアップロードしてください。"
 
 #: templates/work_info_complete.html:10
 msgid "Progress"
